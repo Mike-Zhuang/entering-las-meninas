@@ -1,0 +1,23 @@
+{
+  "source_cnn_json": "outputs/cnn-analysis/cnn-analysis.json",
+  "source_geometry_root": "outputs/geometry-analysis",
+  "comparison_count": 21,
+  "trajectory_row_counts": {
+    "geometry": 5,
+    "non-neural-style-baseline": 5,
+    "neural-style": 4,
+    "geometry-detection": 5
+  },
+  "outputs": [
+    "outputs/tables/cnn-feature-space.csv",
+    "outputs/tables/geometry-cnn-metrics.csv",
+    "outputs/tables/non-neural-style-cnn-metrics.csv",
+    "outputs/tables/neural-style-cnn-metrics.csv",
+    "outputs/tables/geometry-detection-metrics.csv"
+  ],
+  "aggregation": {
+    "style_distance": "unweighted mean of per-layer relative Frobenius Gram distances",
+    "spatial_distance": "unweighted mean of per-layer mean cosine distances",
+    "spatial_rms": "unweighted mean of per-layer relative RMS distances"
+  }
+}

@@ -1,0 +1,2423 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mwwqgj",
+    "id": "mwwqgj",
+    "slide": 15,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Georgia",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kvyhore",
+      "id": "1",
+      "name": "kicker-15",
+      "bbox": [
+        44,
+        30,
+        530,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "PICASSO STRESS TEST · TEXT ONLY",
+      "textPreview": "PICASSO STRESS TEST · TEXT ONLY",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PICASSO STRESS TEST · TEXT ONLY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PICASSO STRESS TEST · TEXT ONLY",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PICASSO STRESS TEST · TEXT ONLY",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehkf69sn",
+      "id": "2",
+      "name": "slide-title-15",
+      "bbox": [
+        44,
+        58,
+        1192,
+        52
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "Historical relation survives large VGG distance",
+      "textPreview": "Historical relation survives large VGG distance",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Historical relation survives large VGG distance"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Historical relation survives large VGG distance",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Historical relation survives large VGG distance",
+              "anchor": 1,
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fitgfe98",
+      "id": "3",
+      "name": "picasso-year",
+      "bbox": [
+        44,
+        150,
+        280,
+        94
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "text": "1957",
+      "textPreview": "1957",
+      "resolvedFontSize": 78.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 82,
+        "typeface": "Georgia",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1957"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1957",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 82,
+            "typeface": "Georgia",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1957",
+              "anchor": 1,
+              "fontSize": 82,
+              "typeface": "Georgia",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sf2x4zah",
+      "id": "4",
+      "name": "picasso-metadata",
+      "bbox": [
+        44,
+        270,
+        420,
+        110
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "Pablo Picasso's Las Meninas\nMuseu Picasso Barcelona · MPB 70.433\nLandscape format; figures and space reorganized",
+      "textPreview": "Pablo Picasso's Las Meninas | Museu Picasso Barcelona · MPB 70.433 | Landscape format; figures and space reorganized",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pablo Picasso's Las Meninas"
+          },
+          {
+            "index": 2,
+            "text": "Museu Picasso Barcelona · MPB 70.433"
+          },
+          {
+            "index": 3,
+            "text": "Landscape format; figures and space"
+          },
+          {
+            "index": 4,
+            "text": "reorganized"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pablo Picasso's Las Meninas\nMuseu Picasso Barcelona · MPB 70.433\nLandscape format; figures and space reorganized",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pablo Picasso's Las Meninas\nMuseu Picasso Barcelona · MPB 70.433\nLandscape format; figures and space reorganized",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgbyd4r2",
+      "id": "5",
+      "name": "picasso-divider",
+      "bbox": [
+        500,
+        152,
+        0.03,
+        386
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#B8AEA0",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dkf29sr",
+      "id": "6",
+      "name": "picasso-style-label",
+      "bbox": [
+        548,
+        164,
+        300,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "VGG GRAM STYLE DISTANCE",
+      "textPreview": "VGG GRAM STYLE DISTANCE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VGG GRAM STYLE DISTANCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VGG GRAM STYLE DISTANCE",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VGG GRAM STYLE DISTANCE",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/retgbe9w",
+      "id": "7",
+      "name": "picasso-style-value",
+      "bbox": [
+        548,
+        205,
+        340,
+        92
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "1.4196",
+      "textPreview": "1.4196",
+      "resolvedFontSize": 72,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 72,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1.4196"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1.4196",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 72,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1.4196",
+              "anchor": 1,
+              "fontSize": 72,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb6hg3q1",
+      "id": "8",
+      "name": "picasso-spatial-label",
+      "bbox": [
+        548,
+        338,
+        340,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "VGG SPATIAL COSINE DISTANCE",
+      "textPreview": "VGG SPATIAL COSINE DISTANCE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VGG SPATIAL COSINE DISTANCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VGG SPATIAL COSINE DISTANCE",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VGG SPATIAL COSINE DISTANCE",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcfyp8rm",
+      "id": "9",
+      "name": "picasso-spatial-value",
+      "bbox": [
+        548,
+        379,
+        340,
+        92
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "0.7139",
+      "textPreview": "0.7139",
+      "resolvedFontSize": 72,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 72,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.7139"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.7139",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 72,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.7139",
+              "anchor": 1,
+              "fontSize": 72,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t87ixo3y",
+      "id": "10",
+      "name": "picasso-meaning",
+      "bbox": [
+        930,
+        160,
+        306,
+        350
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "fillColor": "#0D1011",
+      "lineColor": "#0D1011",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s7yh4j2d",
+      "id": "11",
+      "name": "picasso-meaning-title",
+      "bbox": [
+        958,
+        190,
+        250,
+        56
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "What the numbers can say",
+      "textPreview": "What the numbers can say",
+      "resolvedFontSize": 23.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What the numbers"
+          },
+          {
+            "index": 2,
+            "text": "can say"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What the numbers can say",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What the numbers can say",
+              "anchor": 1,
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76p0vels",
+      "id": "12",
+      "name": "picasso-meaning-copy",
+      "bbox": [
+        958,
+        270,
+        250,
+        164
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "This local reproduction is the most distant comparison in the set.\n\nThe museum's historical interpretation—not VGG—establishes its relationship to Velázquez.",
+      "textPreview": "This local reproduction is the most distant comparison in the set. |  | The museum's historical interpretation—not VGG—establishes its re...",
+      "resolvedFontSize": 17.08,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "This local reproduction is the"
+          },
+          {
+            "index": 2,
+            "text": "most distant comparison in the"
+          },
+          {
+            "index": 3,
+            "text": "set."
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "The museum's historical"
+          },
+          {
+            "index": 6,
+            "text": "interpretation—not"
+          },
+          {
+            "index": 7,
+            "text": "VGG—establishes its"
+          },
+          {
+            "index": 8,
+            "text": "relationship to Velázquez."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "This local reproduction is the most distant comparison in the set.\n\nThe museum's historical interpretation—not VGG—establishes its relationship to Velázquez.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "This local reproduction is the most distant comparison in the set.\n\nThe museum's historical interpretation—not VGG—establishes its relationship to Velázquez.",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65gz29kn",
+      "id": "13",
+      "name": "picasso-rights",
+      "bbox": [
+        958,
+        450,
+        250,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.12"
+      },
+      "geometry": "rect",
+      "text": "NO IMAGE REDISTRIBUTED\nRights status is not treated as public domain.",
+      "textPreview": "NO IMAGE REDISTRIBUTED | Rights status is not treated as public domain.",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Helvetica Neue",
+        "color": "#D86E5B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NO IMAGE REDISTRIBUTED"
+          },
+          {
+            "index": 2,
+            "text": "Rights status is not treated as public"
+          },
+          {
+            "index": 3,
+            "text": "domain."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NO IMAGE REDISTRIBUTED\nRights status is not treated as public domain.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 14,
+            "typeface": "Helvetica Neue",
+            "color": "#D86E5B",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NO IMAGE REDISTRIBUTED\nRights status is not treated as public domain.",
+              "anchor": 1,
+              "fontSize": 14,
+              "typeface": "Helvetica Neue",
+              "color": "#D86E5B",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54nit432",
+      "id": "14",
+      "name": "picasso-limit",
+      "bbox": [
+        44,
+        574,
+        1120,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.13"
+      },
+      "geometry": "rect",
+      "text": "No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.",
+      "textPreview": "No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN"
+          },
+          {
+            "index": 2,
+            "text": "disagreement."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjeh0z2h",
+      "id": "15",
+      "name": "footer-rule-15",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.14"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#CDC3B4",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji50rulw",
+      "id": "16",
+      "name": "footer-source-15",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.15"
+      },
+      "geometry": "rect",
+      "text": "Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck",
+      "textPreview": "Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ihwzy9kb",
+      "id": "17",
+      "name": "footer-page-15",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.16"
+      },
+      "geometry": "rect",
+      "text": "15",
+      "textPreview": "15",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "15",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "15",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "15-picasso-generalization",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1236,
+          "height": 704
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "kicker-15",
+            "position": {
+              "left": 44,
+              "top": 30
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 530
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 530,
+              "height": 22
+            },
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "children": [],
+            "text": "PICASSO STRESS TEST · TEXT ONLY",
+            "transform": "none",
+            "element": {
+              "aid": "sh/1kvyhore",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "slide-title-15",
+            "position": {
+              "left": 44,
+              "top": 58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 52
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 52
+            },
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "children": [],
+            "text": "Historical relation survives large VGG distance",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ehkf69sn",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "picasso-year",
+            "position": {
+              "left": 44,
+              "top": 150
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 280
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 94
+              }
+            },
+            "intrinsicSize": {
+              "width": 280,
+              "height": 94
+            },
+            "frame": {
+              "left": 44,
+              "top": 150,
+              "width": 280,
+              "height": 94
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 150,
+              "width": 280,
+              "height": 94
+            },
+            "children": [],
+            "text": "1957",
+            "transform": "none",
+            "element": {
+              "aid": "sh/fitgfe98",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "picasso-metadata",
+            "position": {
+              "left": 44,
+              "top": 270
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 420
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 110
+              }
+            },
+            "intrinsicSize": {
+              "width": 420,
+              "height": 110
+            },
+            "frame": {
+              "left": 44,
+              "top": 270,
+              "width": 420,
+              "height": 110
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 270,
+              "width": 420,
+              "height": 110
+            },
+            "children": [],
+            "text": "Pablo Picasso's Las Meninas\nMuseu Picasso Barcelona · MPB 70.433\nLandscape format; figures and space reorganized",
+            "transform": "none",
+            "element": {
+              "aid": "sh/sf2x4zah",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "shape",
+            "name": "picasso-divider",
+            "position": {
+              "left": 500,
+              "top": 152
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 0.03
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 386
+              }
+            },
+            "intrinsicSize": {
+              "width": 0.03,
+              "height": 386
+            },
+            "frame": {
+              "left": 500,
+              "top": 152,
+              "width": 0.03,
+              "height": 386
+            },
+            "snappedFrame": {
+              "left": 500,
+              "top": 152,
+              "width": 0.03,
+              "height": 386
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/tgbyd4r2",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "picasso-style-label",
+            "position": {
+              "left": 548,
+              "top": 164
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 22
+            },
+            "frame": {
+              "left": 548,
+              "top": 164,
+              "width": 300,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 548,
+              "top": 164,
+              "width": 300,
+              "height": 22
+            },
+            "children": [],
+            "text": "VGG GRAM STYLE DISTANCE",
+            "transform": "none",
+            "element": {
+              "aid": "sh/6dkf29sr",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "picasso-style-value",
+            "position": {
+              "left": 548,
+              "top": 205
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 340
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 92
+              }
+            },
+            "intrinsicSize": {
+              "width": 340,
+              "height": 92
+            },
+            "frame": {
+              "left": 548,
+              "top": 205,
+              "width": 340,
+              "height": 92
+            },
+            "snappedFrame": {
+              "left": 548,
+              "top": 205,
+              "width": 340,
+              "height": 92
+            },
+            "children": [],
+            "text": "1.4196",
+            "transform": "none",
+            "element": {
+              "aid": "sh/retgbe9w",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "picasso-spatial-label",
+            "position": {
+              "left": 548,
+              "top": 338
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 340
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 340,
+              "height": 22
+            },
+            "frame": {
+              "left": 548,
+              "top": 338,
+              "width": 340,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 548,
+              "top": 338,
+              "width": 340,
+              "height": 22
+            },
+            "children": [],
+            "text": "VGG SPATIAL COSINE DISTANCE",
+            "transform": "none",
+            "element": {
+              "aid": "sh/cb6hg3q1",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "picasso-spatial-value",
+            "position": {
+              "left": 548,
+              "top": 379
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 340
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 92
+              }
+            },
+            "intrinsicSize": {
+              "width": 340,
+              "height": 92
+            },
+            "frame": {
+              "left": 548,
+              "top": 379,
+              "width": 340,
+              "height": 92
+            },
+            "snappedFrame": {
+              "left": 548,
+              "top": 379,
+              "width": 340,
+              "height": 92
+            },
+            "children": [],
+            "text": "0.7139",
+            "transform": "none",
+            "element": {
+              "aid": "sh/xcfyp8rm",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "shape",
+            "name": "picasso-meaning",
+            "position": {
+              "left": 930,
+              "top": 160
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 306
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 350
+              }
+            },
+            "intrinsicSize": {
+              "width": 306,
+              "height": 350
+            },
+            "frame": {
+              "left": 930,
+              "top": 160,
+              "width": 306,
+              "height": 350
+            },
+            "snappedFrame": {
+              "left": 930,
+              "top": 160,
+              "width": 306,
+              "height": 350
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/t87ixo3y",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "picasso-meaning-title",
+            "position": {
+              "left": 958,
+              "top": 190
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 250
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 56
+              }
+            },
+            "intrinsicSize": {
+              "width": 250,
+              "height": 56
+            },
+            "frame": {
+              "left": 958,
+              "top": 190,
+              "width": 250,
+              "height": 56
+            },
+            "snappedFrame": {
+              "left": 958,
+              "top": 190,
+              "width": 250,
+              "height": 56
+            },
+            "children": [],
+            "text": "What the numbers can say",
+            "transform": "none",
+            "element": {
+              "aid": "sh/s7yh4j2d",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "picasso-meaning-copy",
+            "position": {
+              "left": 958,
+              "top": 270
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 250
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 164
+              }
+            },
+            "intrinsicSize": {
+              "width": 250,
+              "height": 164
+            },
+            "frame": {
+              "left": 958,
+              "top": 270,
+              "width": 250,
+              "height": 164
+            },
+            "snappedFrame": {
+              "left": 958,
+              "top": 270,
+              "width": 250,
+              "height": 164
+            },
+            "children": [],
+            "text": "This local reproduction is the most distant comparison in the set.\n\nThe museum's historical interpretation—not VGG—establishes its relationship to Velázquez.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/76p0vels",
+              "id": "12",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.12",
+            "kind": "text",
+            "name": "picasso-rights",
+            "position": {
+              "left": 958,
+              "top": 450
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 250
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 48
+              }
+            },
+            "intrinsicSize": {
+              "width": 250,
+              "height": 48
+            },
+            "frame": {
+              "left": 958,
+              "top": 450,
+              "width": 250,
+              "height": 48
+            },
+            "snappedFrame": {
+              "left": 958,
+              "top": 450,
+              "width": 250,
+              "height": 48
+            },
+            "children": [],
+            "text": "NO IMAGE REDISTRIBUTED\nRights status is not treated as public domain.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/65gz29kn",
+              "id": "13",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.13",
+            "kind": "text",
+            "name": "picasso-limit",
+            "position": {
+              "left": 44,
+              "top": 574
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 54
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 54
+            },
+            "frame": {
+              "left": 44,
+              "top": 574,
+              "width": 1120,
+              "height": 54
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 574,
+              "width": 1120,
+              "height": 54
+            },
+            "children": [],
+            "text": "No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/54nit432",
+              "id": "14",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.14",
+            "kind": "shape",
+            "name": "footer-rule-15",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/kjeh0z2h",
+              "id": "15",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.15",
+            "kind": "text",
+            "name": "footer-source-15",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ji50rulw",
+              "id": "16",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.16",
+            "kind": "text",
+            "name": "footer-page-15",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "15",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ihwzy9kb",
+              "id": "17",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 44,
+              "top": 150,
+              "width": 280,
+              "height": 94
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 44,
+              "top": 270,
+              "width": 420,
+              "height": 110
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 500,
+              "top": 152,
+              "width": 0.03,
+              "height": 386
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 548,
+              "top": 164,
+              "width": 300,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 548,
+              "top": 205,
+              "width": 340,
+              "height": 92
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 548,
+              "top": 338,
+              "width": 340,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 548,
+              "top": 379,
+              "width": 340,
+              "height": 92
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 930,
+              "top": 160,
+              "width": 306,
+              "height": 350
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 958,
+              "top": 190,
+              "width": 250,
+              "height": 56
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 958,
+              "top": 270,
+              "width": 250,
+              "height": 164
+            }
+          },
+          {
+            "path": "0.12",
+            "frame": {
+              "left": 958,
+              "top": 450,
+              "width": 250,
+              "height": 48
+            }
+          },
+          {
+            "path": "0.13",
+            "frame": {
+              "left": 44,
+              "top": 574,
+              "width": 1120,
+              "height": 54
+            }
+          },
+          {
+            "path": "0.14",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.15",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.16",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

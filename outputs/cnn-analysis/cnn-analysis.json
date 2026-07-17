@@ -1,0 +1,1487 @@
+{
+  "analysis": "VGG19 multi-layer style and spatial-content comparison",
+  "comparisons": [
+    {
+      "candidate_image_id": "geometry-000-d3bb192d6f",
+      "candidate_path": "outputs/transformations/geometry/geometry-000.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": -1.3480247011236438e-17,
+          "relative_rms": 0.0
+        },
+        "relu3_1": {
+          "mean_cosine_distance": -6.505213034913027e-19,
+          "relative_rms": 0.0
+        },
+        "relu4_2": {
+          "mean_cosine_distance": -2.190088388420719e-17,
+          "relative_rms": 0.0
+        },
+        "relu5_1": {
+          "mean_cosine_distance": -1.7889335846010823e-17,
+          "relative_rms": 0.0
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        }
+      }
+    },
+    {
+      "candidate_image_id": "geometry-025-60ce003390",
+      "candidate_path": "outputs/transformations/geometry/geometry-025.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.09709733112441676,
+          "relative_rms": 0.4699324833180391
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.05939110870355134,
+          "relative_rms": 0.4001201932746347
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.12048305140571411,
+          "relative_rms": 0.5182405778937282
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.11141783326398488,
+          "relative_rms": 0.4914366787857543
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.10869193840666477,
+          "relative_frobenius": 0.08854303060038991
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0013063933982004892,
+          "relative_frobenius": 0.008745745106060248
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.021354093282038373,
+          "relative_frobenius": 0.0401337579914171
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.13605739104379055,
+          "relative_frobenius": 0.07593699486431629
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.27262749965975075,
+          "relative_frobenius": 0.12596790885794593
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.11211431464954374,
+          "relative_frobenius": 0.19193074618221
+        }
+      }
+    },
+    {
+      "candidate_image_id": "geometry-050-76769f29ab",
+      "candidate_path": "outputs/transformations/geometry/geometry-050.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.20019192603213895,
+          "relative_rms": 0.6863037692536622
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.1283082845417402,
+          "relative_rms": 0.5904854775015771
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.25587849626866943,
+          "relative_rms": 0.7655215693853729
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.2163889972860072,
+          "relative_rms": 0.7029042608740367
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.13105182664103027,
+          "relative_frobenius": 0.10427830291528277
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0015851596369886073,
+          "relative_frobenius": 0.010611965857002722
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.02501890949099156,
+          "relative_frobenius": 0.04702156375635988
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.1581759178204912,
+          "relative_frobenius": 0.08828189168589337
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.3439934126948157,
+          "relative_frobenius": 0.15894262652210225
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.12648573356186432,
+          "relative_frobenius": 0.21653346675505558
+        }
+      }
+    },
+    {
+      "candidate_image_id": "geometry-075-25f54286a0",
+      "candidate_path": "outputs/transformations/geometry/geometry-075.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.2864994640303597,
+          "relative_rms": 0.8289016115130962
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.1827643448773179,
+          "relative_rms": 0.6964628452147229
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.36671685795072284,
+          "relative_rms": 0.9233991839937108
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.31001718926303845,
+          "relative_rms": 0.8668428053308547
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.1438085836235372,
+          "relative_frobenius": 0.11845287332806524
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0020259897818182618,
+          "relative_frobenius": 0.01356313515030935
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.025506519593499387,
+          "relative_frobenius": 0.04793799816496481
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.16870024588295227,
+          "relative_frobenius": 0.09415577946147378
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.36675992981643135,
+          "relative_frobenius": 0.16946192687649692
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.15605023304298477,
+          "relative_frobenius": 0.26714552698708144
+        }
+      }
+    },
+    {
+      "candidate_image_id": "geometry-100-a19aaa76aa",
+      "candidate_path": "outputs/transformations/geometry/geometry-100.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.35254596110779196,
+          "relative_rms": 0.9188680604193241
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.21801997244900323,
+          "relative_rms": 0.7592966150105346
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.4450167398843068,
+          "relative_rms": 1.0145915588772645
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.39460117099006575,
+          "relative_rms": 0.9827160073701735
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.1600163208865295,
+          "relative_frobenius": 0.12666356472188006
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0024807341364804026,
+          "relative_frobenius": 0.01660745412786483
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.026808980383632112,
+          "relative_frobenius": 0.050385896347954616
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.19205254391362409,
+          "relative_frobenius": 0.10718927453308195
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.42534092010340313,
+          "relative_frobenius": 0.19652935350985984
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.15339842589550773,
+          "relative_frobenius": 0.262605845090639
+        }
+      }
+    },
+    {
+      "candidate_image_id": "style-baseline-000-d3bb192d6f",
+      "candidate_path": "outputs/transformations/style/style-baseline-000.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": -1.3480247011236438e-17,
+          "relative_rms": 0.0
+        },
+        "relu3_1": {
+          "mean_cosine_distance": -6.505213034913027e-19,
+          "relative_rms": 0.0
+        },
+        "relu4_2": {
+          "mean_cosine_distance": -2.190088388420719e-17,
+          "relative_rms": 0.0
+        },
+        "relu5_1": {
+          "mean_cosine_distance": -1.7889335846010823e-17,
+          "relative_rms": 0.0
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        }
+      }
+    },
+    {
+      "candidate_image_id": "style-baseline-025-b09b9f6f4d",
+      "candidate_path": "outputs/transformations/style/style-baseline-025.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.005927042891992217,
+          "relative_rms": 0.09061713083389594
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.0034003656616928835,
+          "relative_rms": 0.07825047480507694
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.006879629319550013,
+          "relative_rms": 0.0915921880434338
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.0075011336947337515,
+          "relative_rms": 0.10200872965317709
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.08676053781917319,
+          "relative_frobenius": 0.07952104914980748
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.010059683270003283,
+          "relative_frobenius": 0.06734527734780038
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.039351816078304645,
+          "relative_frobenius": 0.07395941574994741
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.16928455412034293,
+          "relative_frobenius": 0.09448189633966404
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.16515871646694186,
+          "relative_frobenius": 0.07631181069029391
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.04994791916027322,
+          "relative_frobenius": 0.08550684562133169
+        }
+      }
+    },
+    {
+      "candidate_image_id": "style-baseline-050-cf0f55cb68",
+      "candidate_path": "outputs/transformations/style/style-baseline-050.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.013245809858752358,
+          "relative_rms": 0.15538923741524294
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.00895021709599819,
+          "relative_rms": 0.1438007192063864
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.01435225977180638,
+          "relative_rms": 0.15147118424787362
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.016434952708452508,
+          "relative_rms": 0.17089580879146885
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.1734384445799068,
+          "relative_frobenius": 0.15688472619412558
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.01967536202847107,
+          "relative_frobenius": 0.13171813437475474
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.0782112789038791,
+          "relative_frobenius": 0.14699348262039072
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.351588035446372,
+          "relative_frobenius": 0.19622997793227703
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.3245277004522314,
+          "relative_frobenius": 0.14994846757376024
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.09318984606858033,
+          "relative_frobenius": 0.15953356846944522
+        }
+      }
+    },
+    {
+      "candidate_image_id": "style-baseline-075-d6ba608a2a",
+      "candidate_path": "outputs/transformations/style/style-baseline-075.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.022908580254207125,
+          "relative_rms": 0.21447266859025796
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.016321054971225324,
+          "relative_rms": 0.2057323517260056
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.024200332425338606,
+          "relative_rms": 0.20582373439137464
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.028204353366057453,
+          "relative_rms": 0.23186191965339367
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.2555899224818484,
+          "relative_frobenius": 0.22998748957510565
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.029028257307142716,
+          "relative_frobenius": 0.19433176838699825
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.11656128801927901,
+          "relative_frobenius": 0.21907006131084308
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.5350574982854204,
+          "relative_frobenius": 0.2986288226439442
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.467751100017212,
+          "relative_frobenius": 0.21612503510727454
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.12955146878018806,
+          "relative_frobenius": 0.22178176042646813
+        }
+      }
+    },
+    {
+      "candidate_image_id": "style-baseline-100-65957c81fc",
+      "candidate_path": "outputs/transformations/style/style-baseline-100.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.033344877534971784,
+          "relative_rms": 0.26925414594201125
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.024591899944330635,
+          "relative_rms": 0.2647521896822064
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.03456577356670587,
+          "relative_rms": 0.25579770850866296
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.04087695909387885,
+          "relative_rms": 0.2872125396351644
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.3374112690410147,
+          "relative_frobenius": 0.30250781113531083
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.03812081603640768,
+          "relative_frobenius": 0.2552025605370291
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.15544690536652356,
+          "relative_frobenius": 0.2921532840611088
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.7218767018994319,
+          "relative_frobenius": 0.40289724052671017
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.6069853289909033,
+          "relative_frobenius": 0.28045840091649665
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.1646265929118071,
+          "relative_frobenius": 0.28182756963520933
+        }
+      }
+    },
+    {
+      "candidate_image_id": "topology-original-d3bb192d6f",
+      "candidate_path": "outputs/transformations/topology/topology-original.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": -1.3480247011236438e-17,
+          "relative_rms": 0.0
+        },
+        "relu3_1": {
+          "mean_cosine_distance": -6.505213034913027e-19,
+          "relative_rms": 0.0
+        },
+        "relu4_2": {
+          "mean_cosine_distance": -2.190088388420719e-17,
+          "relative_rms": 0.0
+        },
+        "relu5_1": {
+          "mean_cosine_distance": -1.7889335846010823e-17,
+          "relative_rms": 0.0
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.0,
+          "relative_frobenius": 0.0
+        }
+      }
+    },
+    {
+      "candidate_image_id": "topology-mirror-deletion-35ba0b3128",
+      "candidate_path": "outputs/transformations/topology/topology-mirror-deletion.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.002515085244347844,
+          "relative_rms": 0.09276891071491822
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.001376054252414422,
+          "relative_rms": 0.06123255270629777
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.0030604629038636726,
+          "relative_rms": 0.09408241059908434
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.003108738576765437,
+          "relative_rms": 0.12299176883937256
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.02113314189923044,
+          "relative_frobenius": 0.021896527294493113
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.00018439300719143309,
+          "relative_frobenius": 0.0012344323252533138
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.0024402065810232728,
+          "relative_frobenius": 0.004586224246488022
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.015174976489358727,
+          "relative_frobenius": 0.008469529680807041
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.04418651913178422,
+          "relative_frobenius": 0.02041644156106467
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.043679614286794545,
+          "relative_frobenius": 0.0747760086588525
+        }
+      }
+    },
+    {
+      "candidate_image_id": "topology-matched-control-4dd39543b0",
+      "candidate_path": "outputs/transformations/topology/topology-matched-control.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.0015112625597142673,
+          "relative_rms": 0.08429480155559115
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.0010958003983216934,
+          "relative_rms": 0.06534397922330483
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.0015717566460047246,
+          "relative_rms": 0.08081014688767472
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.0018662306348163835,
+          "relative_rms": 0.10673027855579384
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.023514157354620677,
+          "relative_frobenius": 0.024935655236508293
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.0013282968668225507,
+          "relative_frobenius": 0.008892379461202434
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.005599437220839136,
+          "relative_frobenius": 0.010523811774219221
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.025251617021519315,
+          "relative_frobenius": 0.014093551973678738
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.04401644724919401,
+          "relative_frobenius": 0.02033785961525157
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.04137498841472838,
+          "relative_frobenius": 0.07083067335818949
+        }
+      }
+    },
+    {
+      "candidate_image_id": "topology-sham-warp-f858a1db09",
+      "candidate_path": "outputs/transformations/topology/topology-sham-warp.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.00361593112175109,
+          "relative_rms": 0.058172772102764565
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.0016794879704163266,
+          "relative_rms": 0.044528837420190225
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.00477597531866947,
+          "relative_rms": 0.06418977963301693
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.004392330076167473,
+          "relative_rms": 0.06579969925508655
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.04433236035664495,
+          "relative_frobenius": 0.03650524076048721
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.001275017039221816,
+          "relative_frobenius": 0.008535693801176351
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.02051668289814151,
+          "relative_frobenius": 0.038559894599376685
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.0777948602132311,
+          "relative_frobenius": 0.04341923547968799
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.093587171345972,
+          "relative_frobenius": 0.04324208043977756
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.02848807028665834,
+          "relative_frobenius": 0.04876929948241745
+        }
+      }
+    },
+    {
+      "candidate_image_id": "combined-geometry-style-100-27ede2c6e0",
+      "candidate_path": "outputs/transformations/combined-geometry-style-100.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.3631478950643798,
+          "relative_rms": 0.9806722270926779
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.23039457124339247,
+          "relative_rms": 0.8395229546756309
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.45351596181416753,
+          "relative_rms": 1.0621835168121703
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.40553315213557917,
+          "relative_rms": 1.0403102097902328
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.35246381827967416,
+          "relative_frobenius": 0.32099155014780933
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.03742227128604293,
+          "relative_frobenius": 0.25052610217442417
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.15212463212619806,
+          "relative_frobenius": 0.2859092675885978
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.687270546318767,
+          "relative_frobenius": 0.3835826892300674
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.6648445073626877,
+          "relative_frobenius": 0.30719231336784064
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.2206571343046751,
+          "relative_frobenius": 0.37774737837811656
+        }
+      }
+    },
+    {
+      "candidate_image_id": "neural-style-strength-0p25-c158f8ad52",
+      "candidate_path": "outputs/neural-style-transfer/neural-style-strength-0p25.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.10448547508316226,
+          "relative_rms": 0.4287778636659952
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.14480899786170895,
+          "relative_rms": 0.5506496012319008
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.07921848338015113,
+          "relative_rms": 0.36623376523051376
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.08942894400762672,
+          "relative_rms": 0.36945022453557097
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.5049971186824144,
+          "relative_frobenius": 0.5029598328813889
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.05906135405589292,
+          "relative_frobenius": 0.39539050710385293
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.4440395387921465,
+          "relative_frobenius": 0.8345461056636987
+        },
+        "relu3_1": {
+          "absolute_frobenius": 1.0379958019059004,
+          "relative_frobenius": 0.5793311283849402
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.7831284421883811,
+          "relative_frobenius": 0.36184556713012755
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.20076045646975102,
+          "relative_frobenius": 0.34368585612432506
+        }
+      }
+    },
+    {
+      "candidate_image_id": "neural-style-strength-0p5-c4a4c516d7",
+      "candidate_path": "outputs/neural-style-transfer/neural-style-strength-0p5.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.11481807601281115,
+          "relative_rms": 0.45336331955234127
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.14813532049244865,
+          "relative_rms": 0.5639872196651908
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.09266717079499151,
+          "relative_rms": 0.38982361904705404
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.10365173675099329,
+          "relative_rms": 0.40627911994477894
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.5367032740256147,
+          "relative_frobenius": 0.5303100792936479
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.06283827516312647,
+          "relative_frobenius": 0.42067537867091986
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.43757829182493224,
+          "relative_frobenius": 0.822402573335727
+        },
+        "relu3_1": {
+          "absolute_frobenius": 1.0449444076935257,
+          "relative_frobenius": 0.5832093171254492
+        },
+        "relu4_1": {
+          "absolute_frobenius": 0.8986287405886428,
+          "relative_frobenius": 0.41521263787723794
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.23952665485784647,
+          "relative_frobenius": 0.4100504894589055
+        }
+      }
+    },
+    {
+      "candidate_image_id": "neural-style-strength-1-4c716da10d",
+      "candidate_path": "outputs/neural-style-transfer/neural-style-strength-1.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.1297876481872588,
+          "relative_rms": 0.4821979120627928
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.15371606467492088,
+          "relative_rms": 0.5831683814632362
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.11028138761366496,
+          "relative_rms": 0.42080733974208034
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.12536549227319055,
+          "relative_rms": 0.44261801498306164
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.5688385022334664,
+          "relative_frobenius": 0.5549039397188248
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.06472255732267738,
+          "relative_frobenius": 0.43328984189312303
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.43437397296204877,
+          "relative_frobenius": 0.8163802451538759
+        },
+        "relu3_1": {
+          "absolute_frobenius": 1.0498317897911331,
+          "relative_frobenius": 0.5859370859471115
+        },
+        "relu4_1": {
+          "absolute_frobenius": 1.0228884344402935,
+          "relative_frobenius": 0.4726269992654185
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.27237575665117947,
+          "relative_frobenius": 0.4662855263345952
+        }
+      }
+    },
+    {
+      "candidate_image_id": "neural-style-strength-1-e731e19ea5",
+      "candidate_path": "outputs/neural-style-transfer-combined/neural-style-strength-1.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.400364594809078,
+          "relative_rms": 0.9083451572053135
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.2928708180667787,
+          "relative_rms": 0.8403548451917734
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.4733987083557736,
+          "relative_rms": 0.9619856929186077
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.4348242580046816,
+          "relative_rms": 0.9226949335055594
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.5818103532882867,
+          "relative_frobenius": 0.5675841353057072
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.06444813857519746,
+          "relative_frobenius": 0.4314527257372318
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.43218897441392046,
+          "relative_frobenius": 0.8122736693426734
+        },
+        "relu3_1": {
+          "absolute_frobenius": 1.041376729069523,
+          "relative_frobenius": 0.5812181074508405
+        },
+        "relu4_1": {
+          "absolute_frobenius": 1.0674170529142568,
+          "relative_frobenius": 0.49320150829513454
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.30362087146853567,
+          "relative_frobenius": 0.5197746657026554
+        }
+      }
+    },
+    {
+      "candidate_image_id": "entering-las-meninas-final-6b697a5de5",
+      "candidate_path": "outputs/artwork/entering-las-meninas-final.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.3637661388430959,
+          "relative_rms": 0.8090895469068382
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.22470841140875442,
+          "relative_rms": 0.6924300863120897
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.44291975037268727,
+          "relative_rms": 0.8742293551212915
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.4236702547478458,
+          "relative_rms": 0.8606091992871332
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 0.4839894348028217,
+          "relative_frobenius": 0.46142832037366854
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.06262654972875659,
+          "relative_frobenius": 0.41925796743474897
+        },
+        "relu2_1": {
+          "absolute_frobenius": 0.21864762294999307,
+          "relative_frobenius": 0.4109353026126707
+        },
+        "relu3_1": {
+          "absolute_frobenius": 0.6945211852337119,
+          "relative_frobenius": 0.3876294501287088
+        },
+        "relu4_1": {
+          "absolute_frobenius": 1.1064791008353891,
+          "relative_frobenius": 0.5112501809289479
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.33767271526625786,
+          "relative_frobenius": 0.5780687007632664
+        }
+      }
+    },
+    {
+      "candidate_image_id": "picasso-fd3932138d",
+      "candidate_path": "pics/picasso.png",
+      "spatial": {
+        "aggregate": {
+          "mean_cosine_distance": 0.7139354333703495,
+          "relative_rms": 1.3785915687017474
+        },
+        "relu3_1": {
+          "mean_cosine_distance": 0.5192547991693997,
+          "relative_rms": 1.3694571488554705
+        },
+        "relu4_2": {
+          "mean_cosine_distance": 0.7985241125849702,
+          "relative_rms": 1.4133197022873947
+        },
+        "relu5_1": {
+          "mean_cosine_distance": 0.8240273883566783,
+          "relative_rms": 1.3529978549623773
+        }
+      },
+      "style": {
+        "aggregate": {
+          "absolute_frobenius": 1.3650927587146575,
+          "relative_frobenius": 1.4196071280384739
+        },
+        "relu1_1": {
+          "absolute_frobenius": 0.22719480246261953,
+          "relative_frobenius": 1.5209720398899638
+        },
+        "relu2_1": {
+          "absolute_frobenius": 1.0901305008545714,
+          "relative_frobenius": 2.04883593616031
+        },
+        "relu3_1": {
+          "absolute_frobenius": 2.627162892583707,
+          "relative_frobenius": 1.4662845844048404
+        },
+        "relu4_1": {
+          "absolute_frobenius": 2.2962866931763144,
+          "relative_frobenius": 1.0610024052553513
+        },
+        "relu5_1": {
+          "absolute_frobenius": 0.5846889044960759,
+          "relative_frobenius": 1.0009406744819045
+        }
+      }
+    }
+  ],
+  "config": {
+    "activation_layers": [
+      "relu1_1",
+      "relu2_1",
+      "relu3_1",
+      "relu4_1",
+      "relu4_2",
+      "relu5_1"
+    ],
+    "format_version": 1,
+    "image_size": 512,
+    "model_name": "torchvision-vgg19",
+    "normalization_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalization_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "preprocessing": "bounded-jpeg-draft_then_aspect-letterbox",
+    "spatial_layers": [
+      "relu3_1",
+      "relu4_2",
+      "relu5_1"
+    ],
+    "spatial_size": 32,
+    "style_layers": [
+      "relu1_1",
+      "relu2_1",
+      "relu3_1",
+      "relu4_1",
+      "relu5_1"
+    ],
+    "weights": "default"
+  },
+  "device": "mps",
+  "format_version": 1,
+  "images": [
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a776ce8ecb23517efef34644c7d9b0e05003c710de4c419533e41b6e94f56c13.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "working-proxy-d3bb192d6f",
+      "image_path": "outputs/transformations/working-proxy.png",
+      "image_sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a776ce8ecb23517efef34644c7d9b0e05003c710de4c419533e41b6e94f56c13.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "geometry-000-d3bb192d6f",
+      "image_path": "outputs/transformations/geometry/geometry-000.png",
+      "image_sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/8097ab188587ab24bf58e98d2e75962944c6d7e7ca24107d74f8fa3cbb332aed.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "geometry-025-60ce003390",
+      "image_path": "outputs/transformations/geometry/geometry-025.png",
+      "image_sha256": "60ce003390d05a2660706a491caa758189d5db1a3bc83a791645891926c8f8ce",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/1320b8bc60f97fcb7bcdd88d63abd0d8fd93f9bda705a359fe85a305964750a6.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "geometry-050-76769f29ab",
+      "image_path": "outputs/transformations/geometry/geometry-050.png",
+      "image_sha256": "76769f29ab57c130ce52e40fb91559220464575257fe0b47d8112bb2c0f4c102",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a2e722d673cc756d053a35c575845e15cdf10679a1b3a494237801151be2f8c3.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "geometry-075-25f54286a0",
+      "image_path": "outputs/transformations/geometry/geometry-075.png",
+      "image_sha256": "25f54286a0c3495962b2af5cb2b20c07b38b2fdd06f534dd6b1bc99712de32d7",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/967f6631e41b601cc2ec21f482af0b5ffacaca2ddbf79e8197436fbef279de18.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "geometry-100-a19aaa76aa",
+      "image_path": "outputs/transformations/geometry/geometry-100.png",
+      "image_sha256": "a19aaa76aa74f173a8375ab16eb7486d74cb58c7bd276f55d0260e63b6af848d",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a776ce8ecb23517efef34644c7d9b0e05003c710de4c419533e41b6e94f56c13.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "style-baseline-000-d3bb192d6f",
+      "image_path": "outputs/transformations/style/style-baseline-000.png",
+      "image_sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a97ad76dc369623602ed0718deaf232d37c72fa6d5fbe7dba23f089e9a2d8405.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "style-baseline-025-b09b9f6f4d",
+      "image_path": "outputs/transformations/style/style-baseline-025.png",
+      "image_sha256": "b09b9f6f4de29575411239638feac9f590c2e5798ea303cf95213a8811386795",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/978fff0aae71474dddecc75002c6d62cd6e2065d9bcf4c38cd83749f79d684a6.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "style-baseline-050-cf0f55cb68",
+      "image_path": "outputs/transformations/style/style-baseline-050.png",
+      "image_sha256": "cf0f55cb68490a78d53abaebfbceb14357607e518edf6dbc3ecfa64e56417465",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a91273aed84a1418dc04bc3cc78848ee29f8abaa486599b72d126a7e9c972afb.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "style-baseline-075-d6ba608a2a",
+      "image_path": "outputs/transformations/style/style-baseline-075.png",
+      "image_sha256": "d6ba608a2ab54cb8c754499c61e0536b8cf1397f41c8c93902ec90afa7aa7da6",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/d9ea40448059edaaa79c50dfbdb9ef1292696a2519e456b5e1479f5aed5f0316.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "style-baseline-100-65957c81fc",
+      "image_path": "outputs/transformations/style/style-baseline-100.png",
+      "image_sha256": "65957c81fc4ecf9b59eae259649d19edcb9b48ce2efce870a28c790fa71a604c",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a776ce8ecb23517efef34644c7d9b0e05003c710de4c419533e41b6e94f56c13.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "topology-original-d3bb192d6f",
+      "image_path": "outputs/transformations/topology/topology-original.png",
+      "image_sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/e2da610248358b64700583a58a33706c15830d54ff1d763cefc922d1ee30efc6.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "topology-mirror-deletion-35ba0b3128",
+      "image_path": "outputs/transformations/topology/topology-mirror-deletion.png",
+      "image_sha256": "35ba0b3128918cb281964834f05a01c381ecd4c282f571fb28464ab6eafb90e2",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/0ad8c4e9a55d0fe35f551a8d3e7f91dd9b715d8bc7d876080072de742f4ab12c.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "topology-matched-control-4dd39543b0",
+      "image_path": "outputs/transformations/topology/topology-matched-control.png",
+      "image_sha256": "4dd39543b07aaac3130e9536c7cc75d2c455a8fbaebe5130da84d49fcc74a94b",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/83a2f9a7d2dfed6023e87316a77d678e0b78911204bbad9d33fed0748512ef7f.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "topology-sham-warp-f858a1db09",
+      "image_path": "outputs/transformations/topology/topology-sham-warp.png",
+      "image_sha256": "f858a1db097954c65297d9ac51e6ac4a163e561a84ade307ec093384354f0a27",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": false,
+      "cache_path": ".cache/cnn-analysis/6a05f0137a379e786ee72f6abeca2f25e29b6bf63c72d7c26e1c0fdf06502e99.npz",
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "image_id": "combined-geometry-style-100-27ede2c6e0",
+      "image_path": "outputs/transformations/combined-geometry-style-100.png",
+      "image_sha256": "27ede2c6e0bc863a5e8a23fbc8f22a8e60d49f2fcadc7d4fec4c23952b979685",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1779,
+        2048
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/a222d73452d8339c6780c3de32a2e961d5c0712947093cd11ecd161ff0124fd4.npz",
+      "decoded_size": [
+        445,
+        512
+      ],
+      "image_id": "neural-style-strength-0p25-c158f8ad52",
+      "image_path": "outputs/neural-style-transfer/neural-style-strength-0p25.png",
+      "image_sha256": "c158f8ad522a0190b6968a90176e270c91e4f5c54de5ca015b158d0ec4fdabe6",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        445,
+        512
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/0d4c24366ee3467a2f457c77b467b65dd5f0b54c939185f30ef84f91dc397f5c.npz",
+      "decoded_size": [
+        445,
+        512
+      ],
+      "image_id": "neural-style-strength-0p5-c4a4c516d7",
+      "image_path": "outputs/neural-style-transfer/neural-style-strength-0p5.png",
+      "image_sha256": "c4a4c516d7366180e969c8a10fff0162a8727bb609d56644f243a5329d41c287",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        445,
+        512
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/67331dcedc2f300f90c2a5a597e4a71ff5d93dd85424affcb4db0a05c225327b.npz",
+      "decoded_size": [
+        445,
+        512
+      ],
+      "image_id": "neural-style-strength-1-4c716da10d",
+      "image_path": "outputs/neural-style-transfer/neural-style-strength-1.png",
+      "image_sha256": "4c716da10d51f080055bd12589150fbc21a6cf5fb62c59a7a02737a11063631b",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        445,
+        512
+      ]
+    },
+    {
+      "cache_hit": false,
+      "cache_path": ".cache/cnn-analysis/2b742d5c14834e6b0dbf6da16cbf1e75eadb24bddca2b8cf98772a1a44ca6ed7.npz",
+      "decoded_size": [
+        445,
+        512
+      ],
+      "image_id": "neural-style-strength-1-e731e19ea5",
+      "image_path": "outputs/neural-style-transfer-combined/neural-style-strength-1.png",
+      "image_sha256": "e731e19ea5b71aab988f46b2ccb24490094b96e119ba29b349cc67efefaf02f5",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        445,
+        512
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/c9786e0f22bd84c4573616e60d206e2223d153e2959da1f820376198249d2ffd.npz",
+      "decoded_size": [
+        1169,
+        1346
+      ],
+      "image_id": "entering-las-meninas-final-6b697a5de5",
+      "image_path": "outputs/artwork/entering-las-meninas-final.png",
+      "image_sha256": "6b697a5de56883ceb00a933baf759e456ffa25283268ab9f4c313f8e6e864598",
+      "letterboxed_content_size": [
+        445,
+        512
+      ],
+      "original_size": [
+        1169,
+        1346
+      ]
+    },
+    {
+      "cache_hit": true,
+      "cache_path": ".cache/cnn-analysis/98ecf18ee49026e0049393adb5b1fdf22db0159f37ae7ebe5a910e1386fbba31.npz",
+      "decoded_size": [
+        1000,
+        739
+      ],
+      "image_id": "picasso-fd3932138d",
+      "image_path": "pics/picasso.png",
+      "image_sha256": "fd3932138def185693b78036659f5c01602b3ad492316dd56d0e326141805771",
+      "letterboxed_content_size": [
+        512,
+        378
+      ],
+      "original_size": [
+        1000,
+        739
+      ]
+    }
+  ],
+  "interpretation_limits": [
+    "Gram distance measures CNN texture/channel co-activation, not complete art-historical style.",
+    "Spatial-content distance can still respond to color and texture; it is not a pure geometry metric.",
+    "ImageNet-pretrained VGG19 was trained primarily on photographs, so painting-domain bias is expected."
+  ],
+  "model_signature": "torch=2.11.0.dev20251218;torchvision=0.25.0.dev20251218;VGG19_Weights.IMAGENET1K_V1",
+  "reference_image_id": "working-proxy-d3bb192d6f",
+  "reference_path": "outputs/transformations/working-proxy.png",
+  "runtime": {
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.12.12",
+    "torch": "2.11.0.dev20251218"
+  },
+  "seed": 139
+}

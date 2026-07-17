@@ -1,0 +1,254 @@
+{
+  "source": "data/processed/las-meninas-2048.jpg",
+  "proxy": {
+    "path": "outputs/transformations/working-proxy.png",
+    "width": 1779,
+    "height": 2048,
+    "max_long_side": 2048
+  },
+  "fixed_crops": {
+    "whole-room": "outputs/transformations/crops/whole-room.png",
+    "mirror": "outputs/transformations/crops/mirror.png",
+    "mirror-content": "outputs/transformations/crops/mirror-content.png",
+    "rear-door": "outputs/transformations/crops/rear-door.png",
+    "painter": "outputs/transformations/crops/painter.png",
+    "central-figures": "outputs/transformations/crops/central-figures.png",
+    "canvas": "outputs/transformations/crops/canvas.png"
+  },
+  "levels": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "records": [
+    {
+      "name": "geometry-000",
+      "family": "geometry-only",
+      "intensity_percent": 0,
+      "output_path": "outputs/transformations/geometry/geometry-000.png",
+      "parameters": {
+        "vanishing_point": [
+          0.56,
+          0.53
+        ],
+        "convergence": 0.14,
+        "depth_expansion": 0.08,
+        "safe_trim_and_resize": true
+      }
+    },
+    {
+      "name": "geometry-025",
+      "family": "geometry-only",
+      "intensity_percent": 25,
+      "output_path": "outputs/transformations/geometry/geometry-025.png",
+      "parameters": {
+        "vanishing_point": [
+          0.56,
+          0.53
+        ],
+        "convergence": 0.14,
+        "depth_expansion": 0.08,
+        "safe_trim_and_resize": true
+      }
+    },
+    {
+      "name": "geometry-050",
+      "family": "geometry-only",
+      "intensity_percent": 50,
+      "output_path": "outputs/transformations/geometry/geometry-050.png",
+      "parameters": {
+        "vanishing_point": [
+          0.56,
+          0.53
+        ],
+        "convergence": 0.14,
+        "depth_expansion": 0.08,
+        "safe_trim_and_resize": true
+      }
+    },
+    {
+      "name": "geometry-075",
+      "family": "geometry-only",
+      "intensity_percent": 75,
+      "output_path": "outputs/transformations/geometry/geometry-075.png",
+      "parameters": {
+        "vanishing_point": [
+          0.56,
+          0.53
+        ],
+        "convergence": 0.14,
+        "depth_expansion": 0.08,
+        "safe_trim_and_resize": true
+      }
+    },
+    {
+      "name": "geometry-100",
+      "family": "geometry-only",
+      "intensity_percent": 100,
+      "output_path": "outputs/transformations/geometry/geometry-100.png",
+      "parameters": {
+        "vanishing_point": [
+          0.56,
+          0.53
+        ],
+        "convergence": 0.14,
+        "depth_expansion": 0.08,
+        "safe_trim_and_resize": true
+      }
+    },
+    {
+      "name": "style-baseline-000",
+      "family": "style-only-deterministic-non-neural",
+      "intensity_percent": 0,
+      "output_path": "outputs/transformations/style/style-baseline-000.png",
+      "parameters": {
+        "method": "color-tone-detail-baseline",
+        "uses_cnn": false
+      }
+    },
+    {
+      "name": "style-baseline-025",
+      "family": "style-only-deterministic-non-neural",
+      "intensity_percent": 25,
+      "output_path": "outputs/transformations/style/style-baseline-025.png",
+      "parameters": {
+        "method": "color-tone-detail-baseline",
+        "uses_cnn": false
+      }
+    },
+    {
+      "name": "style-baseline-050",
+      "family": "style-only-deterministic-non-neural",
+      "intensity_percent": 50,
+      "output_path": "outputs/transformations/style/style-baseline-050.png",
+      "parameters": {
+        "method": "color-tone-detail-baseline",
+        "uses_cnn": false
+      }
+    },
+    {
+      "name": "style-baseline-075",
+      "family": "style-only-deterministic-non-neural",
+      "intensity_percent": 75,
+      "output_path": "outputs/transformations/style/style-baseline-075.png",
+      "parameters": {
+        "method": "color-tone-detail-baseline",
+        "uses_cnn": false
+      }
+    },
+    {
+      "name": "style-baseline-100",
+      "family": "style-only-deterministic-non-neural",
+      "intensity_percent": 100,
+      "output_path": "outputs/transformations/style/style-baseline-100.png",
+      "parameters": {
+        "method": "color-tone-detail-baseline",
+        "uses_cnn": false
+      }
+    },
+    {
+      "name": "topology-original",
+      "family": "topology-original",
+      "intensity_percent": 0,
+      "output_path": "outputs/transformations/topology/topology-original.png",
+      "parameters": {
+        "mirror_content_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        },
+        "control_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        }
+      }
+    },
+    {
+      "name": "topology-mirror-deletion",
+      "family": "topology-breaking",
+      "intensity_percent": 100,
+      "output_path": "outputs/transformations/topology/topology-mirror-deletion.png",
+      "parameters": {
+        "mirror_content_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        },
+        "control_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        }
+      }
+    },
+    {
+      "name": "topology-matched-control",
+      "family": "matched-control",
+      "intensity_percent": 100,
+      "output_path": "outputs/transformations/topology/topology-matched-control.png",
+      "parameters": {
+        "mirror_content_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        },
+        "control_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        }
+      }
+    },
+    {
+      "name": "topology-sham-warp",
+      "family": "resampling-control",
+      "intensity_percent": 100,
+      "output_path": "outputs/transformations/topology/topology-sham-warp.png",
+      "parameters": {
+        "mirror_content_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        },
+        "control_box": {
+          "left": 0.389,
+          "top": 0.522,
+          "right": 0.455,
+          "bottom": 0.619
+        }
+      }
+    },
+    {
+      "name": "combined-geometry-style-100",
+      "family": "combined-deterministic-non-neural",
+      "intensity_percent": 100,
+      "output_path": "outputs/transformations/combined-geometry-style-100.png",
+      "parameters": {
+        "geometry_amount": 1.0,
+        "style_amount": 1.0,
+        "vanishing_point": [
+          0.56,
+          0.53
+        ],
+        "uses_cnn": false
+      }
+    }
+  ],
+  "matrix_inputs": {
+    "original": "outputs/transformations/working-proxy.png",
+    "style_only": "outputs/transformations/style/style-baseline-100.png",
+    "geometry_only": "outputs/transformations/geometry/geometry-100.png",
+    "combined": "outputs/transformations/combined-geometry-style-100.png"
+  },
+  "method_note": "The style-only sequence is a deterministic color/texture baseline and is not neural style transfer. The combined deterministic condition is likewise a non-neural control."
+}

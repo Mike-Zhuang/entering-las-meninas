@@ -1,0 +1,309 @@
+{
+  "analysis": "CNN edge to Hough lines and RANSAC vanishing point",
+  "backend_detail": "Xie-Tu HED fusion-output;model_sha256=4b6937684bce9be1ef5163c78ec812dff9a23653bfbb451925210a64ecfaaac7;prototxt_sha256=378a9246383da889cf8e0290c47554d75dcf9c5b6bbabd8ab6c481c34aa12b8a",
+  "backend_requested": "hed",
+  "backend_used": "hed",
+  "canny_control": {
+    "estimate_label": "RANSAC dominant line-intersection candidate",
+    "evidence_grade": "medium",
+    "human_validation_required": true,
+    "line_count": 400,
+    "orientation_histogram": [
+      {
+        "end_degrees": 10.0,
+        "length_weight": 11067.878713648379,
+        "proportion": 0.12354212794150891,
+        "start_degrees": 0.0
+      },
+      {
+        "end_degrees": 20.0,
+        "length_weight": 8020.803961135296,
+        "proportion": 0.08953000071625278,
+        "start_degrees": 10.0
+      },
+      {
+        "end_degrees": 30.0,
+        "length_weight": 10210.546208161748,
+        "proportion": 0.11397239151580772,
+        "start_degrees": 20.0
+      },
+      {
+        "end_degrees": 40.0,
+        "length_weight": 4828.481730964148,
+        "proportion": 0.053896588786648894,
+        "start_degrees": 30.0
+      },
+      {
+        "end_degrees": 50.0,
+        "length_weight": 8817.52830646649,
+        "proportion": 0.09842321535580638,
+        "start_degrees": 40.0
+      },
+      {
+        "end_degrees": 60.0,
+        "length_weight": 3497.2471429827274,
+        "proportion": 0.039037051738618725,
+        "start_degrees": 50.0
+      },
+      {
+        "end_degrees": 70.0,
+        "length_weight": 1731.969368954451,
+        "proportion": 0.019332627950312306,
+        "start_degrees": 60.0
+      },
+      {
+        "end_degrees": 80.0,
+        "length_weight": 2723.691104919897,
+        "proportion": 0.03040244690630912,
+        "start_degrees": 70.0
+      },
+      {
+        "end_degrees": 90.0,
+        "length_weight": 4994.1064150655875,
+        "proportion": 0.05574532840902113,
+        "start_degrees": 80.0
+      },
+      {
+        "end_degrees": 100.0,
+        "length_weight": 9486.638484673946,
+        "proportion": 0.10589197223160543,
+        "start_degrees": 90.0
+      },
+      {
+        "end_degrees": 110.0,
+        "length_weight": 444.58481023709464,
+        "proportion": 0.004962554697986687,
+        "start_degrees": 100.0
+      },
+      {
+        "end_degrees": 120.0,
+        "length_weight": 2118.063382573804,
+        "proportion": 0.023642295345672613,
+        "start_degrees": 110.0
+      },
+      {
+        "end_degrees": 130.0,
+        "length_weight": 1587.3046663248679,
+        "proportion": 0.017717848310665082,
+        "start_degrees": 120.0
+      },
+      {
+        "end_degrees": 140.0,
+        "length_weight": 6387.64181682434,
+        "proportion": 0.07130028102002164,
+        "start_degrees": 130.0
+      },
+      {
+        "end_degrees": 150.0,
+        "length_weight": 1446.606664853869,
+        "proportion": 0.01614734587306519,
+        "start_degrees": 140.0
+      },
+      {
+        "end_degrees": 160.0,
+        "length_weight": 2234.080772464702,
+        "proportion": 0.0249373072983846,
+        "start_degrees": 150.0
+      },
+      {
+        "end_degrees": 170.0,
+        "length_weight": 3505.5001207917667,
+        "proportion": 0.03912917331554976,
+        "start_degrees": 160.0
+      },
+      {
+        "end_degrees": 180.0,
+        "length_weight": 6485.217504738408,
+        "proportion": 0.072389442586763,
+        "start_degrees": 170.0
+      }
+    ],
+    "vanishing_point": {
+      "inlier_count": 60,
+      "median_inlier_distance_pixels": 7.667412168001219,
+      "normalized_x": 0.9944243710628591,
+      "normalized_y": 0.9923292877240766,
+      "ransac_iterations": 5000,
+      "total_line_count": 400,
+      "weighted_inlier_ratio": 0.1682725520406039,
+      "x": 1105.7999006218993,
+      "y": 1270.181488286818
+    },
+    "vanishing_roi_normalized": null
+  },
+  "cnn_canny_vanishing_point_distance_normalized": 0.5424388658542719,
+  "config": {
+    "hough_threshold": 45,
+    "inlier_distance_ratio": 0.012,
+    "intersection_bound_ratio": 2.0,
+    "max_line_gap_ratio": 0.012,
+    "max_lines": 400,
+    "max_non_jpeg_pixels": 100000000,
+    "max_side": 1280,
+    "min_line_length_ratio": 0.055,
+    "minimum_pair_angle_degrees": 5.0,
+    "ransac_iterations": 5000,
+    "seed": 139,
+    "vanishing_roi": null
+  },
+  "fallback_reason": null,
+  "format_version": 1,
+  "hed_sources": {
+    "model_sha256": "4b6937684bce9be1ef5163c78ec812dff9a23653bfbb451925210a64ecfaaac7",
+    "model_url": "https://vcl.ucsd.edu/hed/hed_pretrained_bsds.caffemodel",
+    "prototxt_sha256": "378a9246383da889cf8e0290c47554d75dcf9c5b6bbabd8ab6c481c34aa12b8a",
+    "prototxt_url": "https://raw.githubusercontent.com/s9xie/hed/master/examples/hed/deploy.prototxt"
+  },
+  "image_path": "outputs/transformations/topology/topology-sham-warp.png",
+  "image_sha256": "f858a1db097954c65297d9ac51e6ac4a163e561a84ade307ec093384354f0a27",
+  "image_stem": "topology-sham-warp",
+  "interpretation_limits": [
+    "HED was trained on natural-image boundaries, so painting-domain errors are expected.",
+    "Hough detects strong straight evidence but does not understand doors, mirrors, or depicted space.",
+    "The highest-consensus line intersection is an estimated pictorial vanishing point, not manually verified ground truth.",
+    "An optional ROI may encode an independently justified art-historical prior; the ROI must be reported and cannot be presented as an automatic discovery.",
+    "Agreement with Canny is a robustness check, not proof that either method is correct."
+  ],
+  "original_size": [
+    1779,
+    2048
+  ],
+  "primary_geometry": {
+    "estimate_label": "RANSAC dominant line-intersection candidate",
+    "evidence_grade": "medium",
+    "human_validation_required": true,
+    "line_count": 302,
+    "orientation_histogram": [
+      {
+        "end_degrees": 10.0,
+        "length_weight": 5355.204187730154,
+        "proportion": 0.1137259065845546,
+        "start_degrees": 0.0
+      },
+      {
+        "end_degrees": 20.0,
+        "length_weight": 3345.1283695692564,
+        "proportion": 0.07103888911325042,
+        "start_degrees": 10.0
+      },
+      {
+        "end_degrees": 30.0,
+        "length_weight": 1600.4702064931116,
+        "proportion": 0.0339884192673794,
+        "start_degrees": 20.0
+      },
+      {
+        "end_degrees": 40.0,
+        "length_weight": 653.9696591166849,
+        "proportion": 0.013888040447130144,
+        "start_degrees": 30.0
+      },
+      {
+        "end_degrees": 50.0,
+        "length_weight": 1264.483607665814,
+        "proportion": 0.026853232781037177,
+        "start_degrees": 40.0
+      },
+      {
+        "end_degrees": 60.0,
+        "length_weight": 933.0480676675597,
+        "proportion": 0.019814694951423763,
+        "start_degrees": 50.0
+      },
+      {
+        "end_degrees": 70.0,
+        "length_weight": 503.88259267956346,
+        "proportion": 0.010700713297908475,
+        "start_degrees": 60.0
+      },
+      {
+        "end_degrees": 80.0,
+        "length_weight": 3000.1325517523746,
+        "proportion": 0.06371237815798192,
+        "start_degrees": 70.0
+      },
+      {
+        "end_degrees": 90.0,
+        "length_weight": 6097.196527751217,
+        "proportion": 0.12948324254963892,
+        "start_degrees": 80.0
+      },
+      {
+        "end_degrees": 100.0,
+        "length_weight": 7997.1001620050265,
+        "proportion": 0.16983058611570875,
+        "start_degrees": 90.0
+      },
+      {
+        "end_degrees": 110.0,
+        "length_weight": 376.90446306925514,
+        "proportion": 0.008004139572590972,
+        "start_degrees": 100.0
+      },
+      {
+        "end_degrees": 120.0,
+        "length_weight": 1040.7832689339302,
+        "proportion": 0.022102615823453232,
+        "start_degrees": 110.0
+      },
+      {
+        "end_degrees": 130.0,
+        "length_weight": 239.6623771343875,
+        "proportion": 0.0050895951224915375,
+        "start_degrees": 120.0
+      },
+      {
+        "end_degrees": 140.0,
+        "length_weight": 3893.6351789719592,
+        "proportion": 0.08268726552997933,
+        "start_degrees": 130.0
+      },
+      {
+        "end_degrees": 150.0,
+        "length_weight": 264.8773300982939,
+        "proportion": 0.0056250730024717975,
+        "start_degrees": 140.0
+      },
+      {
+        "end_degrees": 160.0,
+        "length_weight": 1748.896671869552,
+        "proportion": 0.03714048102718157,
+        "start_degrees": 150.0
+      },
+      {
+        "end_degrees": 170.0,
+        "length_weight": 2350.7978876082343,
+        "proportion": 0.04992276887926085,
+        "start_degrees": 160.0
+      },
+      {
+        "end_degrees": 180.0,
+        "length_weight": 6422.518891196349,
+        "proportion": 0.13639195777655713,
+        "start_degrees": 170.0
+      }
+    ],
+    "vanishing_point": {
+      "inlier_count": 52,
+      "median_inlier_distance_pixels": 6.20090379505919,
+      "normalized_x": 0.16987020299572722,
+      "normalized_y": 0.9359388068245146,
+      "ransac_iterations": 5000,
+      "total_line_count": 302,
+      "weighted_inlier_ratio": 0.18643450251520205,
+      "x": 188.89566573124867,
+      "y": 1198.0016727353786
+    },
+    "vanishing_roi_normalized": null
+  },
+  "runtime": {
+    "elapsed_seconds": 3.140846500002226,
+    "opencv": "4.11.0",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.12.12"
+  },
+  "working_size": [
+    1112,
+    1280
+  ]
+}

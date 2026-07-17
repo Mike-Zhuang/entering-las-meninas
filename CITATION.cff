@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: >-
+  如果本项目对你的研究或课程工作有帮助，请引用本软件，并另外注明
+  Velázquez 原作及本项目实际使用的论文来源。
+title: "Entering Las Meninas: CNN Analysis of Style, Geometry, and Relational Topology"
+type: software
+authors:
+  - name: "Mike-Zhuang"
+version: 1.0.0
+date-released: 2026-07-17
+repository-code: "https://github.com/Mike-Zhuang/entering-las-meninas"
+url: "https://github.com/Mike-Zhuang/entering-las-meninas"
+abstract: >-
+  A reproducible CNN-based study of Diego Velázquez's Las Meninas. The software
+  compares VGG-19 spatial and Gram representations, CNN-derived edge maps,
+  geometric transformations, and manually defined relational topology while
+  keeping model claims distinct from art-historical interpretation.
+keywords:
+  - Las Meninas
+  - convolutional neural networks
+  - neural style transfer
+  - geometry
+  - relational topology
+  - art and cognition

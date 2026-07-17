@@ -1,0 +1,261 @@
+{
+  "format_version": 1,
+  "project": "Entering Las Meninas: How a Painting Changed the Way I Look at Art",
+  "source_integrity": {
+    "cnn_json": {
+      "path": "outputs/cnn-analysis/cnn-analysis.json",
+      "sha256": "c4c8b0aeedf4b4246bf3afd3e99603216e4786ddd3113e3a09a5895058cbc4dc"
+    },
+    "style_csv": {
+      "path": "outputs/cnn-analysis/style-distances.csv",
+      "sha256": "cce42423d00015b3da5bcbe09be5bf7ab415d44167400ba9c7bb4236065ba157"
+    },
+    "spatial_csv": {
+      "path": "outputs/cnn-analysis/spatial-distances.csv",
+      "sha256": "db94f347c5f2eab75fbe94d515f8909d6ebd5b8be874bbe8a2b1a7c00005368a"
+    },
+    "style_transfer_manifest": {
+      "path": "outputs/neural-style-transfer/manifest.json",
+      "sha256": "37493867e4bd928fd50852fd8ffb5e81e003659386247883f76270f366595a22"
+    },
+    "combined_style_transfer_manifest": {
+      "path": "outputs/neural-style-transfer-combined/manifest.json",
+      "sha256": "a401c9bcf5ae647c72e3148e57bc095cc1862d60eb5c422d76e611afeb04032c"
+    },
+    "topology_csv": {
+      "path": "data/topology-relations.csv",
+      "sha256": "b6ce51412141a1272a73258f57b432010e89e4ff1071e6aacca5d3f4c8b53f17"
+    },
+    "transform_manifest": {
+      "path": "outputs/transformations/transformations-manifest.json",
+      "sha256": "9dc781ad7998fdd70ab921a20cc880b7aa4d9fffd5baded34fa1ff987f6882a0"
+    }
+  },
+  "cnn_reference": {
+    "path": "outputs/transformations/working-proxy.png",
+    "image_id": "working-proxy-d3bb192d6f",
+    "model_signature": "torch=2.11.0.dev20251218;torchvision=0.25.0.dev20251218;VGG19_Weights.IMAGENET1K_V1",
+    "device": "mps"
+  },
+  "record_counts": {
+    "candidate_images": 21,
+    "layer_metric_rows": 210,
+    "categories": {
+      "combined": 2,
+      "deterministic-style": 5,
+      "final-artwork": 1,
+      "geometry": 5,
+      "neural-style": 3,
+      "picasso": 1,
+      "topology": 4
+    },
+    "neural_style_optimization_records": 2004
+  },
+  "category_metrics": {
+    "geometry": {
+      "sample_count": 5,
+      "style_relative_frobenius": {
+        "min": 0.0,
+        "median": 0.10427830291528277,
+        "max": 0.12666356472188006
+      },
+      "spatial_relative_rms": {
+        "min": 0.0,
+        "median": 0.6863037692536622,
+        "max": 0.9188680604193241
+      }
+    },
+    "deterministic-style": {
+      "sample_count": 5,
+      "style_relative_frobenius": {
+        "min": 0.0,
+        "median": 0.15688472619412558,
+        "max": 0.30250781113531083
+      },
+      "spatial_relative_rms": {
+        "min": 0.0,
+        "median": 0.15538923741524294,
+        "max": 0.26925414594201125
+      }
+    },
+    "topology": {
+      "sample_count": 4,
+      "style_relative_frobenius": {
+        "min": 0.0,
+        "median": 0.023416091265500705,
+        "max": 0.03650524076048721
+      },
+      "spatial_relative_rms": {
+        "min": 0.0,
+        "median": 0.07123378682917786,
+        "max": 0.09276891071491822
+      }
+    },
+    "combined": {
+      "sample_count": 2,
+      "style_relative_frobenius": {
+        "min": 0.32099155014780933,
+        "median": 0.44428784272675825,
+        "max": 0.5675841353057072
+      },
+      "spatial_relative_rms": {
+        "min": 0.9083451572053135,
+        "median": 0.9445086921489957,
+        "max": 0.9806722270926779
+      }
+    },
+    "neural-style": {
+      "sample_count": 3,
+      "style_relative_frobenius": {
+        "min": 0.5029598328813889,
+        "median": 0.5303100792936479,
+        "max": 0.5549039397188248
+      },
+      "spatial_relative_rms": {
+        "min": 0.4287778636659952,
+        "median": 0.45336331955234127,
+        "max": 0.4821979120627928
+      }
+    },
+    "final-artwork": {
+      "sample_count": 1,
+      "style_relative_frobenius": {
+        "min": 0.46142832037366854,
+        "median": 0.46142832037366854,
+        "max": 0.46142832037366854
+      },
+      "spatial_relative_rms": {
+        "min": 0.8090895469068382,
+        "median": 0.8090895469068382,
+        "max": 0.8090895469068382
+      }
+    },
+    "picasso": {
+      "sample_count": 1,
+      "style_relative_frobenius": {
+        "min": 1.4196071280384739,
+        "median": 1.4196071280384739,
+        "max": 1.4196071280384739
+      },
+      "spatial_relative_rms": {
+        "min": 1.3785915687017474,
+        "median": 1.3785915687017474,
+        "max": 1.3785915687017474
+      }
+    }
+  },
+  "registered_trajectory_endpoints": {
+    "deterministic_style_100_percent": {
+      "style_relative_frobenius": 0.30250781113531083,
+      "spatial_relative_rms": 0.26925414594201125
+    },
+    "geometry_100_percent": {
+      "style_relative_frobenius": 0.12666356472188006,
+      "spatial_relative_rms": 0.9188680604193241
+    }
+  },
+  "topology_ablation": [
+    {
+      "topology_variant": "original",
+      "relations_preserved": 5,
+      "total_relations": 5,
+      "relation_fraction": 1.0,
+      "style_relative_frobenius": 0.0,
+      "spatial_relative_rms": 0.0
+    },
+    {
+      "topology_variant": "matched-control",
+      "relations_preserved": 5,
+      "total_relations": 5,
+      "relation_fraction": 1.0,
+      "style_relative_frobenius": 0.024935655236508293,
+      "spatial_relative_rms": 0.08429480155559115
+    },
+    {
+      "topology_variant": "mirror-deletion",
+      "relations_preserved": 4,
+      "total_relations": 5,
+      "relation_fraction": 0.8,
+      "style_relative_frobenius": 0.021896527294493113,
+      "spatial_relative_rms": 0.09276891071491822
+    }
+  ],
+  "neural_style_final_losses": [
+    {
+      "candidate_path": "outputs/neural-style-transfer/neural-style-strength-0p25.png",
+      "nst_content_condition": "working-proxy",
+      "neural_style_strength": 0.25,
+      "nst_final_total_loss": 0.5890769958496094,
+      "nst_final_content_loss": 0.229792982339859,
+      "nst_final_style_loss": 1.437092919331917e-06,
+      "nst_final_tv_loss": 0.10794401168823242
+    },
+    {
+      "candidate_path": "outputs/neural-style-transfer/neural-style-strength-0p5.png",
+      "nst_content_condition": "working-proxy",
+      "neural_style_strength": 0.5,
+      "nst_final_total_loss": 0.8133605718612671,
+      "nst_final_content_loss": 0.3516882658004761,
+      "nst_final_style_loss": 9.233235687133856e-07,
+      "nst_final_tv_loss": 0.1050027534365654
+    },
+    {
+      "candidate_path": "outputs/neural-style-transfer/neural-style-strength-1.png",
+      "nst_content_condition": "working-proxy",
+      "neural_style_strength": 1.0,
+      "nst_final_total_loss": 1.169532299041748,
+      "nst_final_content_loss": 0.576397180557251,
+      "nst_final_style_loss": 5.931246960244607e-07,
+      "nst_final_tv_loss": 0.10461539775133133
+    },
+    {
+      "candidate_path": "outputs/neural-style-transfer-combined/neural-style-strength-1.png",
+      "nst_content_condition": "geometry-100",
+      "neural_style_strength": 1.0,
+      "nst_final_total_loss": 1.1978967189788818,
+      "nst_final_content_loss": 0.5906821489334106,
+      "nst_final_style_loss": 6.072042424420943e-07,
+      "nst_final_tv_loss": 0.10238693654537201
+    }
+  ],
+  "chart_contracts": {
+    "style-vs-spatial-scatter.png": {
+      "question": "How do experiment families differ in VGG19 style and spatial-content distance?",
+      "chart": "labeled scatter",
+      "grain": "one point per candidate image",
+      "scales": "raw aggregate relative distances; no rescaling"
+    },
+    "transformation-trajectories.png": {
+      "question": "How do deterministic style and geometry distances change with intensity?",
+      "chart": "two-panel multi-series line",
+      "grain": "five registered intensity levels per family",
+      "scales": "raw aggregate relative distances; zero baseline retained"
+    },
+    "selected-layer-heatmap.png": {
+      "question": "At which VGG19 layers do candidate images diverge from the reference?",
+      "chart": "two-panel annotated heatmap",
+      "grain": "candidate image × CNN layer",
+      "scales": "separate raw scales for different metric definitions"
+    },
+    "topology-ablation-metrics.png": {
+      "question": "Does mirror-relation deletion differ from pixel-matched and resampling controls?",
+      "chart": "manual-audit bars plus grouped CNN-distance bars",
+      "grain": "one bar group per topology control",
+      "scales": "relation fraction and raw CNN distances kept in separate panels"
+    },
+    "neural-style-loss-curves.png": {
+      "question": "How did each neural-style objective evolve during 500 Adam steps?",
+      "chart": "three aligned loss-curve panels",
+      "grain": "one record per optimization step and strength",
+      "scales": "shared linear y-axis; raw weighted objective components"
+    }
+  },
+  "interpretation_limits": [
+    "VGG19 distances are descriptive model outputs, not human aesthetic judgments.",
+    "Style and spatial distances use different definitions and are never merged into one score.",
+    "Topology preservation is a manual audit of five predefined relations, not a CNN prediction.",
+    "The topology audit has no repeated observers or inferential statistics.",
+    "Neural-style objectives differ by style-strength coefficient, so their losses are not model rankings.",
+    "Picasso is included as a numerical comparison only; the source image is not redistributed."
+  ]
+}

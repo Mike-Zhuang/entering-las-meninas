@@ -1,0 +1,2536 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jz99yc",
+    "id": "jz99yc",
+    "slide": 12,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7il832l",
+      "id": "1",
+      "name": "kicker-12",
+      "bbox": [
+        44,
+        30,
+        530,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "AN INSTRUCTIVE FAILURE",
+      "textPreview": "AN INSTRUCTIVE FAILURE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AN INSTRUCTIVE FAILURE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AN INSTRUCTIVE FAILURE",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AN INSTRUCTIVE FAILURE",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n69kzy10",
+      "id": "2",
+      "name": "slide-title-12",
+      "bbox": [
+        44,
+        58,
+        1192,
+        52
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "HED finds edges; vanishing-point candidates follow the crop",
+      "textPreview": "HED finds edges; vanishing-point candidates follow the crop",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HED finds edges; vanishing-point candidates follow the crop"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HED finds edges; vanishing-point candidates follow the crop",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HED finds edges; vanishing-point candidates follow the crop",
+              "anchor": 1,
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3a1kzyh4",
+      "id": "3",
+      "name": "geometry-method-strip",
+      "bbox": [
+        44,
+        122,
+        1192,
+        230
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "alt": "HED probability, Hough line segments, RANSAC candidate, and Canny control",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "cb08bb9e-dd20-43e2-b3bd-339858ef8400",
+        "contentType": "image/png",
+        "byteLength": 1857784
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwbm58j2",
+      "id": "4",
+      "name": "roi-card-1",
+      "bbox": [
+        44,
+        394,
+        374,
+        208
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "fillColor": "#0D1011",
+      "lineColor": "#0D1011",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv2lc3ix",
+      "id": "5",
+      "name": "roi-card-2",
+      "bbox": [
+        453,
+        394,
+        374,
+        208
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "fillColor": "#B83A2D",
+      "lineColor": "#B83A2D",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/but43i1c",
+      "id": "6",
+      "name": "roi-card-3",
+      "bbox": [
+        862,
+        394,
+        374,
+        208
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "fillColor": "#DDEFF1",
+      "lineColor": "#DDEFF1",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9k3adkr",
+      "id": "7",
+      "name": "roi-card-1-label",
+      "bbox": [
+        70,
+        420,
+        320,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "HED · NO ROI · AUTOMATIC",
+      "textPreview": "HED · NO ROI · AUTOMATIC",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HED · NO ROI · AUTOMATIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HED · NO ROI · AUTOMATIC",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HED · NO ROI · AUTOMATIC",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0r2tojy",
+      "id": "8",
+      "name": "roi-card-1-point",
+      "bbox": [
+        70,
+        458,
+        320,
+        46
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "(0.720, 0.697)",
+      "textPreview": "(0.720, 0.697)",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "(0.720, 0.697)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "(0.720, 0.697)",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "(0.720, 0.697)",
+              "anchor": 1,
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szyl0j2d",
+      "id": "9",
+      "name": "roi-card-1-copy",
+      "bbox": [
+        70,
+        522,
+        300,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "57 inliers · ratio 0.173\nmedium evidence grade",
+      "textPreview": "57 inliers · ratio 0.173 | medium evidence grade",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "57 inliers · ratio 0.173"
+          },
+          {
+            "index": 2,
+            "text": "medium evidence grade"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "57 inliers · ratio 0.173\nmedium evidence grade",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "57 inliers · ratio 0.173\nmedium evidence grade",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5cbu5kn",
+      "id": "10",
+      "name": "roi-card-2-label",
+      "bbox": [
+        479,
+        420,
+        320,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "text": "HED · ART-HISTORY ROI",
+      "textPreview": "HED · ART-HISTORY ROI",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HED · ART-HISTORY ROI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HED · ART-HISTORY ROI",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HED · ART-HISTORY ROI",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6lsnals",
+      "id": "11",
+      "name": "roi-card-2-point",
+      "bbox": [
+        479,
+        458,
+        320,
+        46
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "(0.529, 0.439)",
+      "textPreview": "(0.529, 0.439)",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "(0.529, 0.439)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "(0.529, 0.439)",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "(0.529, 0.439)",
+              "anchor": 1,
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7utwf2d",
+      "id": "12",
+      "name": "roi-card-2-copy",
+      "bbox": [
+        479,
+        522,
+        300,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "19 inliers · ratio 0.055\nlow evidence grade",
+      "textPreview": "19 inliers · ratio 0.055 | low evidence grade",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "19 inliers · ratio 0.055"
+          },
+          {
+            "index": 2,
+            "text": "low evidence grade"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "19 inliers · ratio 0.055\nlow evidence grade",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "19 inliers · ratio 0.055\nlow evidence grade",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8napk3y",
+      "id": "13",
+      "name": "roi-card-3-label",
+      "bbox": [
+        888,
+        420,
+        320,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.12"
+      },
+      "geometry": "rect",
+      "text": "HED · REAR-DOOR ROI",
+      "textPreview": "HED · REAR-DOOR ROI",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HED · REAR-DOOR ROI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HED · REAR-DOOR ROI",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HED · REAR-DOOR ROI",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69wbypkj",
+      "id": "14",
+      "name": "roi-card-3-point",
+      "bbox": [
+        888,
+        458,
+        320,
+        46
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.13"
+      },
+      "geometry": "rect",
+      "text": "(0.626, 0.612)",
+      "textPreview": "(0.626, 0.612)",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "(0.626, 0.612)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "(0.626, 0.612)",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "(0.626, 0.612)",
+              "anchor": 1,
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a5cral4",
+      "id": "15",
+      "name": "roi-card-3-copy",
+      "bbox": [
+        888,
+        522,
+        300,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.14"
+      },
+      "geometry": "rect",
+      "text": "30 inliers · ratio 0.106\nlow evidence grade",
+      "textPreview": "30 inliers · ratio 0.106 | low evidence grade",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "30 inliers · ratio 0.106"
+          },
+          {
+            "index": 2,
+            "text": "low evidence grade"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "30 inliers · ratio 0.106\nlow evidence grade",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "30 inliers · ratio 0.106\nlow evidence grade",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bet0f2p",
+      "id": "16",
+      "name": "roi-bottom-line",
+      "bbox": [
+        64,
+        622,
+        1128,
+        34
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.15"
+      },
+      "geometry": "rect",
+      "text": "Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.",
+      "textPreview": "Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.",
+      "resolvedFontSize": 19.22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "center",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcnutkja",
+      "id": "17",
+      "name": "footer-rule-12",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.16"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#CDC3B4",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udwb2pkf",
+      "id": "18",
+      "name": "footer-source-12",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.17"
+      },
+      "geometry": "rect",
+      "text": "HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required",
+      "textPreview": "HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy5cvu10",
+      "id": "19",
+      "name": "footer-page-12",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.18"
+      },
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "12-geometry-roi-dependence",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1236,
+          "height": 704
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "kicker-12",
+            "position": {
+              "left": 44,
+              "top": 30
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 530
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 530,
+              "height": 22
+            },
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "children": [],
+            "text": "AN INSTRUCTIVE FAILURE",
+            "transform": "none",
+            "element": {
+              "aid": "sh/o7il832l",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "slide-title-12",
+            "position": {
+              "left": 44,
+              "top": 58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 52
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 52
+            },
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "children": [],
+            "text": "HED finds edges; vanishing-point candidates follow the crop",
+            "transform": "none",
+            "element": {
+              "aid": "sh/n69kzy10",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "image",
+            "name": "geometry-method-strip",
+            "position": {
+              "left": 44,
+              "top": 122
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 230
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 230
+            },
+            "frame": {
+              "left": 44,
+              "top": 122,
+              "width": 1192,
+              "height": 230
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 122,
+              "width": 1192,
+              "height": 230
+            },
+            "children": [],
+            "source": {
+              "kind": "blob"
+            },
+            "contentType": "image/png",
+            "fit": "contain",
+            "alt": "HED probability, Hough line segments, RANSAC candidate, and Canny control",
+            "geometry": "rect",
+            "element": {
+              "aid": "im/3a1kzyh4",
+              "id": "3",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "shape",
+            "name": "roi-card-1",
+            "position": {
+              "left": 44,
+              "top": 394
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 208
+              }
+            },
+            "intrinsicSize": {
+              "width": 374,
+              "height": 208
+            },
+            "frame": {
+              "left": 44,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/xwbm58j2",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "shape",
+            "name": "roi-card-2",
+            "position": {
+              "left": 453,
+              "top": 394
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 208
+              }
+            },
+            "intrinsicSize": {
+              "width": 374,
+              "height": 208
+            },
+            "frame": {
+              "left": 453,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            },
+            "snappedFrame": {
+              "left": 453,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/cv2lc3ix",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "shape",
+            "name": "roi-card-3",
+            "position": {
+              "left": 862,
+              "top": 394
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 208
+              }
+            },
+            "intrinsicSize": {
+              "width": 374,
+              "height": 208
+            },
+            "frame": {
+              "left": 862,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            },
+            "snappedFrame": {
+              "left": 862,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/but43i1c",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "roi-card-1-label",
+            "position": {
+              "left": 70,
+              "top": 420
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 320
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 320,
+              "height": 22
+            },
+            "frame": {
+              "left": 70,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            },
+            "children": [],
+            "text": "HED · NO ROI · AUTOMATIC",
+            "transform": "none",
+            "element": {
+              "aid": "sh/a9k3adkr",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "roi-card-1-point",
+            "position": {
+              "left": 70,
+              "top": 458
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 320
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 46
+              }
+            },
+            "intrinsicSize": {
+              "width": 320,
+              "height": 46
+            },
+            "frame": {
+              "left": 70,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            },
+            "children": [],
+            "text": "(0.720, 0.697)",
+            "transform": "none",
+            "element": {
+              "aid": "sh/d0r2tojy",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "roi-card-1-copy",
+            "position": {
+              "left": 70,
+              "top": 522
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 54
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 54
+            },
+            "frame": {
+              "left": 70,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            },
+            "children": [],
+            "text": "57 inliers · ratio 0.173\nmedium evidence grade",
+            "transform": "none",
+            "element": {
+              "aid": "sh/szyl0j2d",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "text",
+            "name": "roi-card-2-label",
+            "position": {
+              "left": 479,
+              "top": 420
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 320
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 320,
+              "height": 22
+            },
+            "frame": {
+              "left": 479,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 479,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            },
+            "children": [],
+            "text": "HED · ART-HISTORY ROI",
+            "transform": "none",
+            "element": {
+              "aid": "sh/y5cbu5kn",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "roi-card-2-point",
+            "position": {
+              "left": 479,
+              "top": 458
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 320
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 46
+              }
+            },
+            "intrinsicSize": {
+              "width": 320,
+              "height": 46
+            },
+            "frame": {
+              "left": 479,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            },
+            "snappedFrame": {
+              "left": 479,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            },
+            "children": [],
+            "text": "(0.529, 0.439)",
+            "transform": "none",
+            "element": {
+              "aid": "sh/j6lsnals",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "roi-card-2-copy",
+            "position": {
+              "left": 479,
+              "top": 522
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 54
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 54
+            },
+            "frame": {
+              "left": 479,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            },
+            "snappedFrame": {
+              "left": 479,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            },
+            "children": [],
+            "text": "19 inliers · ratio 0.055\nlow evidence grade",
+            "transform": "none",
+            "element": {
+              "aid": "sh/k7utwf2d",
+              "id": "12",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.12",
+            "kind": "text",
+            "name": "roi-card-3-label",
+            "position": {
+              "left": 888,
+              "top": 420
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 320
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 320,
+              "height": 22
+            },
+            "frame": {
+              "left": 888,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 888,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            },
+            "children": [],
+            "text": "HED · REAR-DOOR ROI",
+            "transform": "none",
+            "element": {
+              "aid": "sh/l8napk3y",
+              "id": "13",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.13",
+            "kind": "text",
+            "name": "roi-card-3-point",
+            "position": {
+              "left": 888,
+              "top": 458
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 320
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 46
+              }
+            },
+            "intrinsicSize": {
+              "width": 320,
+              "height": 46
+            },
+            "frame": {
+              "left": 888,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            },
+            "snappedFrame": {
+              "left": 888,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            },
+            "children": [],
+            "text": "(0.626, 0.612)",
+            "transform": "none",
+            "element": {
+              "aid": "sh/69wbypkj",
+              "id": "14",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.14",
+            "kind": "text",
+            "name": "roi-card-3-copy",
+            "position": {
+              "left": 888,
+              "top": 522
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 54
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 54
+            },
+            "frame": {
+              "left": 888,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            },
+            "snappedFrame": {
+              "left": 888,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            },
+            "children": [],
+            "text": "30 inliers · ratio 0.106\nlow evidence grade",
+            "transform": "none",
+            "element": {
+              "aid": "sh/7a5cral4",
+              "id": "15",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.15",
+            "kind": "text",
+            "name": "roi-bottom-line",
+            "position": {
+              "left": 64,
+              "top": 622
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1128
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 34
+              }
+            },
+            "intrinsicSize": {
+              "width": 1128,
+              "height": 34
+            },
+            "frame": {
+              "left": 64,
+              "top": 622,
+              "width": 1128,
+              "height": 34
+            },
+            "snappedFrame": {
+              "left": 64,
+              "top": 622,
+              "width": 1128,
+              "height": 34
+            },
+            "children": [],
+            "text": "Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/8bet0f2p",
+              "id": "16",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.16",
+            "kind": "shape",
+            "name": "footer-rule-12",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/tcnutkja",
+              "id": "17",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.17",
+            "kind": "text",
+            "name": "footer-source-12",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required",
+            "transform": "none",
+            "element": {
+              "aid": "sh/udwb2pkf",
+              "id": "18",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.18",
+            "kind": "text",
+            "name": "footer-page-12",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "12",
+            "transform": "none",
+            "element": {
+              "aid": "sh/vy5cvu10",
+              "id": "19",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 44,
+              "top": 122,
+              "width": 1192,
+              "height": 230
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 44,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 453,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 862,
+              "top": 394,
+              "width": 374,
+              "height": 208
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 70,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 70,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 70,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 479,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 479,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 479,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            }
+          },
+          {
+            "path": "0.12",
+            "frame": {
+              "left": 888,
+              "top": 420,
+              "width": 320,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.13",
+            "frame": {
+              "left": 888,
+              "top": 458,
+              "width": 320,
+              "height": 46
+            }
+          },
+          {
+            "path": "0.14",
+            "frame": {
+              "left": 888,
+              "top": 522,
+              "width": 300,
+              "height": 54
+            }
+          },
+          {
+            "path": "0.15",
+            "frame": {
+              "left": 64,
+              "top": 622,
+              "width": 1128,
+              "height": 34
+            }
+          },
+          {
+            "path": "0.16",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.17",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.18",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

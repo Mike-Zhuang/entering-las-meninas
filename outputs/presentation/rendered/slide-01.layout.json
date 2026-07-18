@@ -1,0 +1,1310 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ow27df",
+    "id": "ow27df",
+    "slide": 1,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#0D1011",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Georgia",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mtcbuxsv",
+      "id": "1",
+      "name": "cover-painting",
+      "bbox": [
+        694,
+        0,
+        586,
+        720
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "alt": "Public-domain reproduction of Diego Velázquez's Las Meninas",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0.04,
+        "top": 0,
+        "right": 0.04,
+        "bottom": 0
+      },
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "65b22c8c-e7ba-4618-873a-7ab1feea856e",
+        "contentType": "image/jpeg",
+        "byteLength": 229969
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/snidonul",
+      "id": "2",
+      "name": "cover-red-rail",
+      "bbox": [
+        0,
+        0,
+        12,
+        720
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#B83A2D",
+      "lineColor": "#B83A2D",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/torexsb6",
+      "id": "3",
+      "name": "cover-course",
+      "bbox": [
+        54,
+        52,
+        570,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "text": "ART, GEOMETRY, AND COGNITION · FINAL PROJECT",
+      "textPreview": "ART, GEOMETRY, AND COGNITION · FINAL PROJECT",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ART, GEOMETRY, AND COGNITION · FINAL PROJECT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ART, GEOMETRY, AND COGNITION · FINAL PROJECT",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ART, GEOMETRY, AND COGNITION · FINAL PROJECT",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixgvidcj",
+      "id": "4",
+      "name": "cover-title",
+      "bbox": [
+        54,
+        144,
+        590,
+        178
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "Entering\nLas Meninas",
+      "textPreview": "Entering | Las Meninas",
+      "resolvedFontSize": 62,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 62,
+        "typeface": "Georgia",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Entering"
+          },
+          {
+            "index": 2,
+            "text": "Las Meninas"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Entering\nLas Meninas",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 62,
+            "typeface": "Georgia",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Entering\nLas Meninas",
+              "anchor": 1,
+              "fontSize": 62,
+              "typeface": "Georgia",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jy9crit4",
+      "id": "5",
+      "name": "cover-rule",
+      "bbox": [
+        54,
+        348,
+        120,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#B83A2D",
+      "lineWidth": 4
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzidk3up",
+      "id": "6",
+      "name": "cover-subtitle",
+      "bbox": [
+        54,
+        380,
+        520,
+        100
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "How a Painting Changed\nthe Way I Look at Art",
+      "textPreview": "How a Painting Changed | the Way I Look at Art",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "How a Painting Changed"
+          },
+          {
+            "index": 2,
+            "text": "the Way I Look at Art"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "How a Painting Changed\nthe Way I Look at Art",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "How a Painting Changed\nthe Way I Look at Art",
+              "anchor": 1,
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kret8ba",
+      "id": "7",
+      "name": "cover-method",
+      "bbox": [
+        54,
+        540,
+        520,
+        58
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "A controlled CNN study of style, geometry, and relational topology",
+      "textPreview": "A controlled CNN study of style, geometry, and relational topology",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A controlled CNN study of style, geometry, and relational"
+          },
+          {
+            "index": 2,
+            "text": "topology"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A controlled CNN study of style, geometry, and relational topology",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A controlled CNN study of style, geometry, and relational topology",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2tkvuxsn",
+      "id": "8",
+      "name": "footer-rule-1",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#33383B",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3utw32t8",
+      "id": "9",
+      "name": "footer-source-1",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository",
+      "textPreview": "Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jehcruhc",
+      "id": "10",
+      "name": "footer-page-1",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "01-cover-image-field",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1280,
+          "height": 720
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "image",
+            "name": "cover-painting",
+            "position": {
+              "left": 694,
+              "top": 0
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 586
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 720
+              }
+            },
+            "intrinsicSize": {
+              "width": 586,
+              "height": 720
+            },
+            "frame": {
+              "left": 694,
+              "top": 0,
+              "width": 586,
+              "height": 720
+            },
+            "snappedFrame": {
+              "left": 694,
+              "top": 0,
+              "width": 586,
+              "height": 720
+            },
+            "children": [],
+            "source": {
+              "kind": "blob"
+            },
+            "contentType": "image/jpeg",
+            "fit": "cover",
+            "alt": "Public-domain reproduction of Diego Velázquez's Las Meninas",
+            "geometry": "rect",
+            "crop": {
+              "left": 0.04,
+              "top": 0,
+              "right": 0.04,
+              "bottom": 0
+            },
+            "element": {
+              "aid": "im/mtcbuxsv",
+              "id": "1",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "shape",
+            "name": "cover-red-rail",
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 12
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 720
+              }
+            },
+            "intrinsicSize": {
+              "width": 12,
+              "height": 720
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 12,
+              "height": 720
+            },
+            "snappedFrame": {
+              "left": 0,
+              "top": 0,
+              "width": 12,
+              "height": 720
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/snidonul",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "cover-course",
+            "position": {
+              "left": 54,
+              "top": 52
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 570
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 24
+              }
+            },
+            "intrinsicSize": {
+              "width": 570,
+              "height": 24
+            },
+            "frame": {
+              "left": 54,
+              "top": 52,
+              "width": 570,
+              "height": 24
+            },
+            "snappedFrame": {
+              "left": 54,
+              "top": 52,
+              "width": 570,
+              "height": 24
+            },
+            "children": [],
+            "text": "ART, GEOMETRY, AND COGNITION · FINAL PROJECT",
+            "transform": "none",
+            "element": {
+              "aid": "sh/torexsb6",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "cover-title",
+            "position": {
+              "left": 54,
+              "top": 144
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 590
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 178
+              }
+            },
+            "intrinsicSize": {
+              "width": 590,
+              "height": 178
+            },
+            "frame": {
+              "left": 54,
+              "top": 144,
+              "width": 590,
+              "height": 178
+            },
+            "snappedFrame": {
+              "left": 54,
+              "top": 144,
+              "width": 590,
+              "height": 178
+            },
+            "children": [],
+            "text": "Entering\nLas Meninas",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ixgvidcj",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "shape",
+            "name": "cover-rule",
+            "position": {
+              "left": 54,
+              "top": 348
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 120,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 54,
+              "top": 348,
+              "width": 120,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 54,
+              "top": 348,
+              "width": 120,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/jy9crit4",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "cover-subtitle",
+            "position": {
+              "left": 54,
+              "top": 380
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 520
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 100
+              }
+            },
+            "intrinsicSize": {
+              "width": 520,
+              "height": 100
+            },
+            "frame": {
+              "left": 54,
+              "top": 380,
+              "width": 520,
+              "height": 100
+            },
+            "snappedFrame": {
+              "left": 54,
+              "top": 380,
+              "width": 520,
+              "height": 100
+            },
+            "children": [],
+            "text": "How a Painting Changed\nthe Way I Look at Art",
+            "transform": "none",
+            "element": {
+              "aid": "sh/kzidk3up",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "cover-method",
+            "position": {
+              "left": 54,
+              "top": 540
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 520
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 58
+              }
+            },
+            "intrinsicSize": {
+              "width": 520,
+              "height": 58
+            },
+            "frame": {
+              "left": 54,
+              "top": 540,
+              "width": 520,
+              "height": 58
+            },
+            "snappedFrame": {
+              "left": 54,
+              "top": 540,
+              "width": 520,
+              "height": 58
+            },
+            "children": [],
+            "text": "A controlled CNN study of style, geometry, and relational topology",
+            "transform": "none",
+            "element": {
+              "aid": "sh/5kret8ba",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "shape",
+            "name": "footer-rule-1",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/2tkvuxsn",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "footer-source-1",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository",
+            "transform": "none",
+            "element": {
+              "aid": "sh/3utw32t8",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "text",
+            "name": "footer-page-1",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "01",
+            "transform": "none",
+            "element": {
+              "aid": "sh/jehcruhc",
+              "id": "10",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 694,
+              "top": 0,
+              "width": 586,
+              "height": 720
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 12,
+              "height": 720
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 54,
+              "top": 52,
+              "width": 570,
+              "height": 24
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 54,
+              "top": 144,
+              "width": 590,
+              "height": 178
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 54,
+              "top": 348,
+              "width": 120,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 54,
+              "top": 380,
+              "width": 520,
+              "height": 100
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 54,
+              "top": 540,
+              "width": 520,
+              "height": 58
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+* text=auto
+
+*.cff text eol=lf
+# Python's csv.writer emits CRLF by specification. Preserve those bytes so recorded
+# SHA-256 provenance remains stable, while treating the terminal CR as valid EOL.
+*.csv -text whitespace=cr-at-eol
+*.dot text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.png binary
+*.pptx binary
+*.webp binary

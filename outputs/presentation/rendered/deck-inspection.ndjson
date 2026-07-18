@@ -1,0 +1,259 @@
+{"kind":"slide","id":"sl/ow27df","slide":1,"title":"ART, GEOMETRY, AND COGNITION · FINAL PROJECT","textShapes":6}
+{"kind":"shape","id":"sh/snidonul","slide":1,"name":"cover-red-rail","bbox":[0,0,12,720]}
+{"kind":"textbox","id":"sh/torexsb6","slide":1,"name":"cover-course","text":"ART, GEOMETRY, AND COGNITION · FINAL PROJECT","textPreview":"ART, GEOMETRY, AND COGNITION · FINAL PROJECT","textChars":44,"textLines":1,"bbox":[54,52,570,24]}
+{"kind":"textbox","id":"sh/ixgvidcj","slide":1,"name":"cover-title","text":"Entering\nLas Meninas","textPreview":"Entering | Las Meninas","textChars":20,"textLines":2,"bbox":[54,144,590,178]}
+{"kind":"shape","id":"sh/jy9crit4","slide":1,"name":"cover-rule","bbox":[54,348,120,0.03]}
+{"kind":"textbox","id":"sh/kzidk3up","slide":1,"name":"cover-subtitle","text":"How a Painting Changed\nthe Way I Look at Art","textPreview":"How a Painting Changed | the Way I Look at Art","textChars":44,"textLines":2,"bbox":[54,380,520,100]}
+{"kind":"textbox","id":"sh/5kret8ba","slide":1,"name":"cover-method","text":"A controlled CNN study of style, geometry, and relational topology","textPreview":"A controlled CNN study of style, geometry, and relational topology","textChars":66,"textLines":1,"bbox":[54,540,520,58]}
+{"kind":"shape","id":"sh/2tkvuxsn","slide":1,"name":"footer-rule-1","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/3utw32t8","slide":1,"name":"footer-source-1","text":"Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository","textPreview":"Image: Diego Velázquez, Las Meninas (1656), Prado; public-domain reproduction via Wikimedia Commons · AI use disclosed in repository","textChars":132,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/jehcruhc","slide":1,"name":"footer-page-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/mtcbuxsv","slide":1,"name":"cover-painting","geometry":"rect","alt":"Public-domain reproduction of Diego Velázquez's Las Meninas","bbox":[694,0,586,720]}
+{"kind":"slide","id":"sl/yl3kwi","slide":2,"title":"“","textShapes":7}
+{"kind":"shape","id":"sh/kby5wjel","slide":2,"name":"shift-quote-field","bbox":[536,126,700,508]}
+{"kind":"textbox","id":"sh/lc7m5of6","slide":2,"name":"shift-quote-mark","text":"“","textPreview":"“","textChars":1,"textLines":1,"bbox":[576,142,80,84]}
+{"kind":"textbox","id":"sh/mdgnytwr","slide":2,"name":"shift-quote","text":"I began with an image on a screen.\n\nThe project forced me to define the position from which the painting looks back.","textPreview":"I began with an image on a screen. |  | The project forced me to define the position from which the painting looks back.","textChars":116,"textLines":3,"bbox":[586,218,592,250]}
+{"kind":"textbox","id":"sh/7epo7yxc","slide":2,"name":"shift-detail","text":"The mirror, painter, canvas, Infanta, and doorway became relations—not a list of objects.","textPreview":"The mirror, painter, canvas, Infanta, and doorway became relations—not a list of objects.","textChars":89,"textLines":1,"bbox":[586,520,580,66]}
+{"kind":"textbox","id":"sh/8fy50jex","slide":2,"name":"kicker-2","text":"A PERSONAL SHIFT","textPreview":"A PERSONAL SHIFT","textChars":16,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/9g769of2","slide":2,"name":"slide-title-2","text":"The painting changed when I stopped treating it as a surface","textPreview":"The painting changed when I stopped treating it as a surface","textChars":60,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/2hcnmpg7","slide":2,"name":"footer-rule-2","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/nil4vuxs","slide":2,"name":"footer-source-2","text":"Interpretation grounded in this project · Art-historical context: Museo Nacional del Prado","textPreview":"Interpretation grounded in this project · Art-historical context: Museo Nacional del Prado","textChars":90,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/nqxgv6x0","slide":2,"name":"footer-page-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/e54v6lcr","slide":2,"name":"shift-original","geometry":"rect","alt":"Las Meninas cropped to foreground figures, mirror, and rear doorway","bbox":[44,126,446,508]}
+{"kind":"slide","id":"sl/43gqnk","slide":3,"title":"RESEARCH QUESTION","textShapes":6}
+{"kind":"shape","id":"sh/kr6dwz65","slide":3,"name":"thesis-cyan-rail","bbox":[44,164,6,326]}
+{"kind":"textbox","id":"sh/jqxw3upk","slide":3,"name":"thesis-question-label","text":"RESEARCH QUESTION","textPreview":"RESEARCH QUESTION","textChars":17,"textLines":1,"bbox":[76,162,300,24]}
+{"kind":"textbox","id":"sh/ipovupoz","slide":3,"name":"thesis-question","text":"How far can a CNN separate style, geometry, and relational topology in Las Meninas?","textPreview":"How far can a CNN separate style, geometry, and relational topology in Las Meninas?","textChars":83,"textLines":1,"bbox":[76,205,1080,132]}
+{"kind":"textbox","id":"sh/tgfe947m","slide":3,"name":"thesis-label","text":"THESIS","textPreview":"THESIS","textChars":6,"textLines":1,"bbox":[76,392,180,24]}
+{"kind":"textbox","id":"sh/sf6d0z61","slide":3,"name":"thesis-copy","text":"The CNN is useful precisely as an incomplete viewer: it measures visual change, then exposes the relations its distances do not explain.","textPreview":"The CNN is useful precisely as an incomplete viewer: it measures visual change, then exposes the relations its distances do not explain.","textChars":136,"textLines":1,"bbox":[76,430,1080,102]}
+{"kind":"shape","id":"sh/7uxw7upg","slide":3,"name":"footer-rule-3","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/6tovypob","slide":3,"name":"footer-source-3","text":"Project research question and thesis · No human-participant study was conducted","textPreview":"Project research question and thesis · No human-participant study was conducted","textChars":79,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/hkzedo7y","slide":3,"name":"footer-page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"slide","id":"sl/gpbwh2","slide":4,"title":"OPERATIONAL FRAMEWORK","textShapes":16}
+{"kind":"textbox","id":"sh/gfuho7uh","slide":4,"name":"kicker-4","text":"OPERATIONAL FRAMEWORK","textPreview":"OPERATIONAL FRAMEWORK","textChars":21,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/ve1gv2dw","slide":4,"name":"slide-title-4","text":"One painting can be tested at three different layers","textPreview":"One painting can be tested at three different layers","textChars":52,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/udszmxcb","slide":4,"name":"framework-style","bbox":[44,158,374,448]}
+{"kind":"shape","id":"sh/543y1wvy","slide":4,"name":"framework-geometry","bbox":[453,158,374,448]}
+{"kind":"shape","id":"sh/43uhsrud","slide":4,"name":"framework-topology","bbox":[862,158,374,448]}
+{"kind":"textbox","id":"sh/3ilgzmd8","slide":4,"name":"framework-style-index","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,184,80,42]}
+{"kind":"textbox","id":"sh/ihczqhcn","slide":4,"name":"framework-style-title","text":"STYLE","textPreview":"STYLE","textChars":5,"textLines":1,"bbox":[72,246,280,44]}
+{"kind":"textbox","id":"sh/d8ni5wva","slide":4,"name":"framework-style-copy","text":"Color · texture · local mark\n\nVGG19 Gram matrices summarize channel co-activation while weakening exact position.","textPreview":"Color · texture · local mark |  | VGG19 Gram matrices summarize channel co-activation while weakening exact position.","textChars":113,"textLines":3,"bbox":[72,316,300,170]}
+{"kind":"textbox","id":"sh/s7ehwrup","slide":4,"name":"framework-style-test","text":"Test: Does appearance change while composition remains recognizable?","textPreview":"Test: Does appearance change while composition remains recognizable?","textChars":68,"textLines":1,"bbox":[72,520,304,56]}
+{"kind":"textbox","id":"sh/itg76pcb","slide":4,"name":"framework-geometry-index","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[481,184,80,42]}
+{"kind":"textbox","id":"sh/jupofudg","slide":4,"name":"framework-geometry-title","text":"GEOMETRY","textPreview":"GEOMETRY","textChars":8,"textLines":1,"bbox":[481,246,310,44]}
+{"kind":"textbox","id":"sh/kvyp8zu1","slide":4,"name":"framework-geometry-copy","text":"Coordinate · scale · angle\n\nSpatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.","textPreview":"Coordinate · scale · angle |  | Spatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.","textChars":117,"textLines":3,"bbox":[481,316,300,170]}
+{"kind":"textbox","id":"sh/5wr6h4bm","slide":4,"name":"framework-geometry-test","text":"Test: Does structure move when texture is comparatively stable?","textPreview":"Test: Does structure move when texture is comparatively stable?","textChars":63,"textLines":1,"bbox":[481,520,304,56]}
+{"kind":"textbox","id":"sh/6x07a9c7","slide":4,"name":"framework-topology-index","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[890,184,80,42]}
+{"kind":"textbox","id":"sh/7y9ojuts","slide":4,"name":"framework-topology-title","text":"TOPOLOGY","textPreview":"TOPOLOGY","textChars":8,"textLines":1,"bbox":[890,246,310,44]}
+{"kind":"textbox","id":"sh/szipczud","slide":4,"name":"framework-topology-copy","text":"Reflects · contains · occludes\n\nFive qualitative relations are declared, edited, and manually audited—not inferred by VGG.","textPreview":"Reflects · contains · occludes |  | Five qualitative relations are declared, edited, and manually audited—not inferred by VGG.","textChars":122,"textLines":3,"bbox":[890,316,300,170]}
+{"kind":"textbox","id":"sh/t0r6l4by","slide":4,"name":"framework-topology-test","text":"Test: Can meaning change while CNN distance stays small?","textPreview":"Test: Can meaning change while CNN distance stays small?","textChars":56,"textLines":1,"bbox":[890,520,304,56]}
+{"kind":"shape","id":"sh/m1wny5c3","slide":4,"name":"footer-rule-4","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/n25o7ado","slide":4,"name":"footer-source-4","text":"Project definitions · “Relational topology” is an operational scene graph, not a brain measurement","textPreview":"Project definitions · “Relational topology” is an operational scene graph, not a brain measurement","textChars":98,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/r6l4f6tg","slide":4,"name":"footer-page-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"slide","id":"sl/n422i7","slide":5,"title":"CONTROLLED EXPERIMENT","textShapes":13}
+{"kind":"textbox","id":"sh/w7e1gzm5","slide":5,"name":"kicker-5","text":"CONTROLLED EXPERIMENT","textPreview":"CONTROLLED EXPERIMENT","textChars":21,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/v65knulk","slide":5,"name":"slide-title-5","text":"A 2 × 2 design separates style from geometry","textPreview":"A 2 × 2 design separates style from geometry","textChars":44,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/u5wjep4z","slide":5,"name":"matrix-frame","bbox":[44,124,748,526]}
+{"kind":"textbox","id":"sh/4velkzmh","slide":5,"name":"matrix-g0s0","text":"G0S0","textPreview":"G0S0","textChars":4,"textLines":1,"bbox":[850,158,120,38]}
+{"kind":"textbox","id":"sh/ja5krulw","slide":5,"name":"matrix-g0s0-copy","text":"Original working proxy","textPreview":"Original working proxy","textChars":22,"textLines":1,"bbox":[970,164,230,34]}
+{"kind":"shape","id":"sh/i9w3ip4b","slide":5,"name":"matrix-rule-1","bbox":[850,210,350,0.03]}
+{"kind":"textbox","id":"sh/t072x43y","slide":5,"name":"matrix-g0s1","text":"G0S1","textPreview":"G0S1","textChars":4,"textLines":1,"bbox":[850,232,120,38]}
+{"kind":"textbox","id":"sh/szylojmd","slide":5,"name":"matrix-g0s1-copy","text":"Neural style on original geometry","textPreview":"Neural style on original geometry","textChars":33,"textLines":1,"bbox":[970,238,230,46]}
+{"kind":"shape","id":"sh/aponeh0r","slide":5,"name":"matrix-rule-2","bbox":[850,300,350,0.03]}
+{"kind":"textbox","id":"sh/vqh4n2hc","slide":5,"name":"matrix-g1s0","text":"G1S0","textPreview":"G1S0","textChars":4,"textLines":1,"bbox":[850,322,120,38]}
+{"kind":"textbox","id":"sh/wrq5g7ix","slide":5,"name":"matrix-g1s0-copy","text":"Perspective geometry transformed","textPreview":"Perspective geometry transformed","textChars":32,"textLines":1,"bbox":[970,328,230,46]}
+{"kind":"shape","id":"sh/xszmpczi","slide":5,"name":"matrix-rule-3","bbox":[850,390,350,0.03]}
+{"kind":"textbox","id":"sh/it8nih03","slide":5,"name":"matrix-g1s1","text":"G1S1","textPreview":"G1S1","textChars":4,"textLines":1,"bbox":[850,412,120,38]}
+{"kind":"textbox","id":"sh/jeh4rmho","slide":5,"name":"matrix-g1s1-copy","text":"Geometry + neural style","textPreview":"Geometry + neural style","textChars":23,"textLines":1,"bbox":[970,418,230,46]}
+{"kind":"textbox","id":"sh/kfq5kryt","slide":5,"name":"matrix-trajectories","text":"Five registered intensities—0, 25, 50, 75, 100%—turn each endpoint into a trajectory.","textPreview":"Five registered intensities—0, 25, 50, 75, 100%—turn each endpoint into a trajectory.","textChars":85,"textLines":1,"bbox":[850,520,350,90]}
+{"kind":"shape","id":"sh/5gz6twze","slide":5,"name":"footer-rule-5","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/yx4n6x0j","slide":5,"name":"footer-source-5","text":"Project-generated matrix · Same 1,779 × 2,048 working proxy and frozen preprocessing across conditions","textPreview":"Project-generated matrix · Same 1,779 × 2,048 working proxy and frozen preprocessing across conditions","textChars":102,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/zyx4fih4","slide":5,"name":"footer-page-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/k3a5kbah","slide":5,"name":"matrix-figure","geometry":"rect","alt":"Controlled neural transformation matrix crossing geometry and style","bbox":[62,134,712,508]}
+{"kind":"slide","id":"sl/97xe66","slide":6,"title":"METHOD","textShapes":17}
+{"kind":"textbox","id":"sh/f2tsv61o","slide":6,"name":"kicker-6","text":"METHOD","textPreview":"METHOD","textChars":6,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/g32tobit","slide":6,"name":"slide-title-6","text":"The neural networks are instruments inside a larger measurement chain","textPreview":"The neural networks are instruments inside a larger measurement chain","textChars":69,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/h4baxgje","slide":6,"name":"method-main-line","bbox":[88,300,1100,0.03]}
+{"kind":"shape","id":"sh/6x0bi10r","slide":6,"name":"method-node-1","bbox":[82,293,14,14]}
+{"kind":"shape","id":"sh/7ytsr61c","slide":6,"name":"method-node-2","bbox":[420,293,14,14]}
+{"kind":"shape","id":"sh/sz2tkrix","slide":6,"name":"method-node-3","bbox":[762,293,14,14]}
+{"kind":"shape","id":"sh/t0batwji","slide":6,"name":"method-node-4","bbox":[1100,293,14,14]}
+{"kind":"textbox","id":"sh/qt4bul0b","slide":6,"name":"method-label-1","text":"INPUT","textPreview":"INPUT","textChars":5,"textLines":1,"bbox":[82,242,180,28]}
+{"kind":"textbox","id":"sh/rudc3q1g","slide":6,"name":"method-label-2","text":"VGG19","textPreview":"VGG19","textChars":5,"textLines":1,"bbox":[420,242,180,28]}
+{"kind":"textbox","id":"sh/365wnepk","slide":6,"name":"method-label-3","text":"HED","textPreview":"HED","textChars":3,"textLines":1,"bbox":[762,242,180,28]}
+{"kind":"textbox","id":"sh/25wfe9oz","slide":6,"name":"method-label-4","text":"AUDIT","textPreview":"AUDIT","textChars":5,"textLines":1,"bbox":[1100,242,120,28]}
+{"kind":"textbox","id":"sh/p8nepo7q","slide":6,"name":"method-title-1","text":"Fixed image","textPreview":"Fixed image","textChars":11,"textLines":1,"bbox":[82,338,220,36]}
+{"kind":"textbox","id":"sh/47exgj65","slide":6,"name":"method-copy-1","text":"Aspect-preserving\n512 × 512 letterbox\nImageNet normalization","textPreview":"Aspect-preserving | 512 × 512 letterbox | ImageNet normalization","textChars":60,"textLines":3,"bbox":[82,388,250,104]}
+{"kind":"textbox","id":"sh/ra5wrypg","slide":6,"name":"method-title-2","text":"Two descriptors","textPreview":"Two descriptors","textChars":15,"textLines":1,"bbox":[420,338,250,36]}
+{"kind":"textbox","id":"sh/q9wfitov","slide":6,"name":"method-copy-2","text":"Gram correlations → style\nSpatial feature maps → layout\nFrozen ImageNet-1K weights","textPreview":"Gram correlations → style | Spatial feature maps → layout | Frozen ImageNet-1K weights","textChars":82,"textLines":3,"bbox":[420,388,274,104]}
+{"kind":"textbox","id":"sh/dw7yto7m","slide":6,"name":"method-title-3","text":"Boundary evidence","textPreview":"Boundary evidence","textChars":17,"textLines":1,"bbox":[762,338,280,36]}
+{"kind":"textbox","id":"sh/cvyxkj61","slide":6,"name":"method-copy-3","text":"HED probability → threshold\nHough line segments\nRANSAC intersection candidate","textPreview":"HED probability → threshold | Hough line segments | RANSAC intersection candidate","textChars":77,"textLines":3,"bbox":[762,388,292,104]}
+{"kind":"textbox","id":"sh/zypgvyps","slide":6,"name":"method-title-4","text":"Human meaning","textPreview":"Human meaning","textChars":13,"textLines":1,"bbox":[1100,338,132,64]}
+{"kind":"textbox","id":"sh/yxgfmto7","slide":6,"name":"method-copy-4","text":"Five relations\nManual check\nNo observer sample","textPreview":"Five relations | Manual check | No observer sample","textChars":46,"textLines":3,"bbox":[1100,418,132,92]}
+{"kind":"shape","id":"sh/at0zex8f","slide":6,"name":"method-note","bbox":[82,540,1070,70]}
+{"kind":"textbox","id":"sh/vu90n290","slide":6,"name":"method-note-copy","text":"CNN output is never labeled “understanding”: VGG measures representational distance; HED measures boundary probability.","textPreview":"CNN output is never labeled “understanding”: VGG measures representational distance; HED measures boundary probability.","textChars":119,"textLines":1,"bbox":[108,561,1018,34]}
+{"kind":"shape","id":"sh/wv2hg7ql","slide":6,"name":"footer-rule-6","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/xwbipcrq","slide":6,"name":"footer-source-6","text":"Methods: Simonyan & Zisserman (VGG19); Gatys et al. (Gram style); Xie & Tu (HED); OpenCV Hough","textPreview":"Methods: Simonyan & Zisserman (VGG19); Gatys et al. (Gram style); Xie & Tu (HED); OpenCV Hough","textChars":94,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/mp0zqx83","slide":6,"name":"footer-page-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"slide","id":"sl/wejuob","slide":7,"title":"INSIDE VGG19","textShapes":8}
+{"kind":"textbox","id":"sh/e98r2dwn","slide":7,"name":"kicker-7","text":"INSIDE VGG19","textPreview":"INSIDE VGG19","textChars":12,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/1czadsve","slide":7,"name":"slide-title-7","text":"Deep layers trade crisp edges for coarse scene structure","textPreview":"Deep layers trade crisp edges for coarse scene structure","textChars":56,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/0bq94net","slide":7,"name":"activation-frame","bbox":[44,140,1192,350]}
+{"kind":"textbox","id":"sh/mdsr6xwj","slide":7,"name":"activation-shallow","text":"SHALLOW","textPreview":"SHALLOW","textChars":7,"textLines":1,"bbox":[70,528,160,22]}
+{"kind":"textbox","id":"sh/90jahsva","slide":7,"name":"activation-shallow-copy","text":"Frames, seams, faces, and dress boundaries remain locally sharp.","textPreview":"Frames, seams, faces, and dress boundaries remain locally sharp.","textChars":64,"textLines":1,"bbox":[70,558,330,56]}
+{"kind":"shape","id":"sh/oza98nep","slide":7,"name":"activation-arrow","bbox":[432,570,290,0.03]}
+{"kind":"textbox","id":"sh/b21sj2dg","slide":7,"name":"activation-deep","text":"DEEP","textPreview":"DEEP","textChars":4,"textLines":1,"bbox":[770,528,160,22]}
+{"kind":"textbox","id":"sh/a1sraxwv","slide":7,"name":"activation-deep-copy","text":"Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.","textPreview":"Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.","textChars":115,"textLines":1,"bbox":[770,558,410,66]}
+{"kind":"shape","id":"sh/cv2toruh","slide":7,"name":"footer-rule-7","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/xwbuxwv2","slide":7,"name":"footer-source-7","text":"Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy","textPreview":"Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy","textChars":108,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/at0bm1cb","slide":7,"name":"footer-page-7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/2lgjel07","slide":7,"name":"activation-figure","geometry":"rect","alt":"VGG19 activation energy from CNN input through relu5_1","bbox":[54,158,1172,312]}
+{"kind":"slide","id":"sl/jww4re","slide":8,"title":"DETERMINISTIC TRAJECTORIES","textShapes":9}
+{"kind":"textbox","id":"sh/9sbm98ni","slide":8,"name":"kicker-8","text":"DETERMINISTIC TRAJECTORIES","textPreview":"DETERMINISTIC TRAJECTORIES","textChars":26,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/m5knyd47","slide":8,"name":"slide-title-8","text":"The controls separate direction in feature space—not perfectly, but clearly","textPreview":"The controls separate direction in feature space—not perfectly, but clearly","textChars":75,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/03ilw3m1","slide":8,"name":"trajectory-stat-1","bbox":[972,148,264,150]}
+{"kind":"textbox","id":"sh/l4rm58nm","slide":8,"name":"trajectory-stat-1-value","text":"0.303","textPreview":"0.303","textChars":5,"textLines":1,"bbox":[998,170,210,60]}
+{"kind":"textbox","id":"sh/y103ut4v","slide":8,"name":"trajectory-stat-1-copy","text":"style distance\nfor style-100","textPreview":"style distance | for style-100","textChars":28,"textLines":2,"bbox":[998,240,210,44]}
+{"kind":"shape","id":"sh/z2943y5g","slide":8,"name":"trajectory-stat-2","bbox":[972,318,264,150]}
+{"kind":"textbox","id":"sh/czils3m5","slide":8,"name":"trajectory-stat-2-value","text":"0.919","textPreview":"0.919","textChars":5,"textLines":1,"bbox":[998,340,210,60]}
+{"kind":"textbox","id":"sh/d0rm1ona","slide":8,"name":"trajectory-stat-2-copy","text":"spatial relative RMS\nfor geometry-100","textPreview":"spatial relative RMS | for geometry-100","textChars":37,"textLines":2,"bbox":[998,410,210,44]}
+{"kind":"textbox","id":"sh/5ojytwzi","slide":8,"name":"trajectory-meaning","text":"Style changes mostly along the Gram axis; geometry changes dominate the spatial axis.","textPreview":"Style changes mostly along the Gram axis; geometry changes dominate the spatial axis.","textChars":85,"textLines":1,"bbox":[972,510,264,110]}
+{"kind":"shape","id":"sh/4nax0rix","slide":8,"name":"footer-rule-8","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/3mhgrmhc","slide":8,"name":"footer-source-8","text":"Raw VGG19 aggregate distances from identical 0% baseline · Style and spatial metrics are not merged into one score","textPreview":"Raw VGG19 aggregate distances from identical 0% baseline · Style and spatial metrics are not merged into one score","textChars":114,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/il8fyh0r","slide":8,"name":"footer-page-8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/q9knipof","slide":8,"name":"trajectory-chart","geometry":"rect","alt":"Two charts comparing deterministic style and geometry transformations","bbox":[42,128,900,500]}
+{"kind":"slide","id":"sl/deos1l","slide":9,"title":"NEURAL STYLE TRANSFER","textShapes":11}
+{"kind":"textbox","id":"sh/i1g76x4r","slide":9,"name":"kicker-9","text":"NEURAL STYLE TRANSFER","textPreview":"NEURAL STYLE TRANSFER","textChars":21,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/5o7q1cn2","slide":9,"name":"slide-title-9","text":"Optimization changes CNN style as content loss rises","textPreview":"Optimization changes CNN style as content loss rises","textChars":52,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/4nyp87mx","slide":9,"name":"nst-frame","bbox":[44,140,1192,302]}
+{"kind":"textbox","id":"sh/qpg7ah4n","slide":9,"name":"nst-stat-a","text":"0.555","textPreview":"0.555","textChars":5,"textLines":1,"bbox":[70,486,200,60]}
+{"kind":"textbox","id":"sh/dsrq5wne","slide":9,"name":"nst-stat-a-copy","text":"Gram style distance\nat strength 1.0","textPreview":"Gram style distance | at strength 1.0","textChars":35,"textLines":2,"bbox":[70,548,210,50]}
+{"kind":"shape","id":"sh/srypcrmt","slide":9,"name":"nst-divider-a","bbox":[316,482,0.03,122]}
+{"kind":"textbox","id":"sh/fu987m5k","slide":9,"name":"nst-stat-b","text":"0.130","textPreview":"0.130","textChars":5,"textLines":1,"bbox":[354,486,200,60]}
+{"kind":"textbox","id":"sh/et07eh4z","slide":9,"name":"nst-stat-b-copy","text":"spatial cosine distance\nat strength 1.0","textPreview":"spatial cosine distance | at strength 1.0","textChars":39,"textLines":2,"bbox":[354,548,210,50]}
+{"kind":"shape","id":"sh/snyt8f65","slide":9,"name":"nst-divider-b","bbox":[600,482,0.03,122]}
+{"kind":"textbox","id":"sh/do7a1k7q","slide":9,"name":"nst-stat-c","text":"500","textPreview":"500","textChars":3,"textLines":1,"bbox":[638,486,200,60]}
+{"kind":"textbox","id":"sh/qlgb65oz","slide":9,"name":"nst-stat-c-copy","text":"Adam steps\nper registered strength","textPreview":"Adam steps | per registered strength","textChars":34,"textLines":2,"bbox":[638,548,210,50]}
+{"kind":"shape","id":"sh/rmpszapk","slide":9,"name":"nst-meaning","bbox":[910,478,326,134]}
+{"kind":"textbox","id":"sh/0bitcz61","slide":9,"name":"nst-meaning-copy","text":"The donor is an original project-generated cognitive-map image—not a named artist's style.","textPreview":"The donor is an original project-generated cognitive-map image—not a named artist's style.","textChars":90,"textLines":1,"bbox":[936,504,274,86]}
+{"kind":"shape","id":"sh/1cra547m","slide":9,"name":"footer-rule-9","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/e90bapob","slide":9,"name":"footer-source-9","text":"Frozen VGG19 Gatys-style optimization · Seed 139 · AI-generated style reference disclosed in assets/README.md","textPreview":"Frozen VGG19 Gatys-style optimization · Seed 139 · AI-generated style reference disclosed in assets/README.md","textChars":109,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/fa9s3upg","slide":9,"name":"footer-page-9","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/el4ze9kv","slide":9,"name":"nst-sequence","geometry":"rect","alt":"Las Meninas neural style transfer sequence at strengths 0.25, 0.50, and 1.00","bbox":[54,152,1172,276]}
+{"kind":"slide","id":"sl/zbexlt","slide":10,"title":"GEOMETRY INTERVENTION","textShapes":12}
+{"kind":"textbox","id":"sh/5snqx4b6","slide":10,"name":"kicker-10","text":"GEOMETRY INTERVENTION","textPreview":"GEOMETRY INTERVENTION","textChars":21,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/ipw72psv","slide":10,"name":"slide-title-10","text":"Perspective warp dominates spatial-feature change","textPreview":"Perspective warp dominates spatial-feature change","textChars":49,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/gnep0zap","slide":10,"name":"geometry-explainer","bbox":[44,452,440,176]}
+{"kind":"textbox","id":"sh/honqtkba","slide":10,"name":"geometry-explainer-title","text":"Declared intervention","textPreview":"Declared intervention","textChars":21,"textLines":1,"bbox":[70,478,340,36]}
+{"kind":"textbox","id":"sh/ulc7ypsj","slide":10,"name":"geometry-explainer-copy","text":"Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.","textPreview":"Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.","textChars":106,"textLines":1,"bbox":[70,530,356,72]}
+{"kind":"textbox","id":"sh/vm58rut4","slide":10,"name":"geometry-style-value","text":"0.127","textPreview":"0.127","textChars":5,"textLines":1,"bbox":[542,470,190,62]}
+{"kind":"textbox","id":"sh/0jy9cjat","slide":10,"name":"geometry-style-copy","text":"Gram style distance\nat geometry-100","textPreview":"Gram style distance | at geometry-100","textChars":35,"textLines":2,"bbox":[542,542,210,54]}
+{"kind":"textbox","id":"sh/1k7q5ore","slide":10,"name":"geometry-spatial-value","text":"0.353","textPreview":"0.353","textChars":5,"textLines":1,"bbox":[814,470,190,62]}
+{"kind":"textbox","id":"sh/tkfuxobm","slide":10,"name":"geometry-spatial-copy","text":"spatial cosine distance\nat geometry-100","textPreview":"spatial cosine distance | at geometry-100","textChars":39,"textLines":2,"bbox":[814,542,210,54]}
+{"kind":"textbox","id":"sh/8jmtoja1","slide":10,"name":"geometry-ratio-value","text":"10.6×","textPreview":"10.6×","textChars":5,"textLines":1,"bbox":[1070,470,150,62]}
+{"kind":"textbox","id":"sh/7idsvetw","slide":10,"name":"geometry-ratio-copy","text":"larger spatial change than deterministic style-100","textPreview":"larger spatial change than deterministic style-100","textChars":50,"textLines":1,"bbox":[1070,542,150,68]}
+{"kind":"shape","id":"sh/6h4bm9sb","slide":10,"name":"footer-rule-10","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/lgvat4bq","slide":10,"name":"footer-source-10","text":"Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333","textPreview":"Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333","textChars":90,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/kfmtkza5","slide":10,"name":"footer-page-10","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/mtovetc3","slide":10,"name":"geometry-sequence","geometry":"rect","alt":"Las Meninas geometry transformation sequence from 0 to 100 percent","bbox":[44,128,1192,286]}
+{"kind":"slide","id":"sl/eil5fo","slide":11,"title":"TOPOLOGY ABLATION","textShapes":11}
+{"kind":"textbox","id":"sh/cjm9s369","slide":11,"name":"kicker-11","text":"TOPOLOGY ABLATION","textPreview":"TOPOLOGY ABLATION","textChars":17,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/rit8zy5o","slide":11,"name":"slide-title-11","text":"Deleting one tiny mirror relation barely moves VGG","textPreview":"Deleting one tiny mirror relation barely moves VGG","textChars":50,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/qhkrqto3","slide":11,"name":"topology-graph-frame","bbox":[44,126,820,520]}
+{"kind":"textbox","id":"sh/4f29oj6d","slide":11,"name":"topology-control-label","text":"MATCHED CONTROL","textPreview":"MATCHED CONTROL","textChars":15,"textLines":1,"bbox":[906,146,286,24]}
+{"kind":"textbox","id":"sh/3et8ve5s","slide":11,"name":"topology-control-score","text":"5 / 5","textPreview":"5 / 5","textChars":5,"textLines":1,"bbox":[906,184,286,62]}
+{"kind":"textbox","id":"sh/2dkrmto7","slide":11,"name":"topology-control-metrics","text":"Style 0.0249\nSpatial cosine 0.0015","textPreview":"Style 0.0249 | Spatial cosine 0.0015","textChars":34,"textLines":2,"bbox":[906,252,286,66]}
+{"kind":"shape","id":"sh/hcbqtonm","slide":11,"name":"topology-rule","bbox":[906,342,286,0.03]}
+{"kind":"textbox","id":"sh/gbi9kj61","slide":11,"name":"topology-delete-label","text":"MIRROR DELETION","textPreview":"MIRROR DELETION","textChars":15,"textLines":1,"bbox":[906,370,286,24]}
+{"kind":"textbox","id":"sh/ep4ra58z","slide":11,"name":"topology-delete-score","text":"4 / 5","textPreview":"4 / 5","textChars":5,"textLines":1,"bbox":[906,408,286,62]}
+{"kind":"textbox","id":"sh/fqd83ap4","slide":11,"name":"topology-delete-metrics","text":"Style 0.0219\nSpatial cosine 0.0025","textPreview":"Style 0.0219 | Spatial cosine 0.0025","textChars":34,"textLines":2,"bbox":[906,476,286,66]}
+{"kind":"textbox","id":"sh/0r69cfqp","slide":11,"name":"topology-conclusion","text":"The larger semantic loss does not receive the larger style distance.","textPreview":"The larger semantic loss does not receive the larger style distance.","textChars":68,"textLines":1,"bbox":[906,568,286,66]}
+{"kind":"shape","id":"sh/1sfq5k7a","slide":11,"name":"footer-rule-11","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/ql476l8n","slide":11,"name":"footer-source-11","text":"Manual audit of five predefined relations (one author) + frozen VGG19 distances · Descriptive case study, not an inferential test","textPreview":"Manual audit of five predefined relations (one author) + frozen VGG19 distances · Descriptive case study, not an inferential test","textChars":129,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/rmd8zqp8","slide":11,"name":"footer-page-11","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/87at0v2d","slide":11,"name":"topology-graph","geometry":"rect","alt":"Graphviz comparison of relational topology before and after mirror deletion","bbox":[54,138,800,496]}
+{"kind":"slide","id":"sl/jz99yc","slide":12,"title":"AN INSTRUCTIVE FAILURE","textShapes":14}
+{"kind":"textbox","id":"sh/o7il832l","slide":12,"name":"kicker-12","text":"AN INSTRUCTIVE FAILURE","textPreview":"AN INSTRUCTIVE FAILURE","textChars":22,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/n69kzy10","slide":12,"name":"slide-title-12","text":"HED finds edges; vanishing-point candidates follow the crop","textPreview":"HED finds edges; vanishing-point candidates follow the crop","textChars":59,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"shape","id":"sh/xwbm58j2","slide":12,"name":"roi-card-1","bbox":[44,394,374,208]}
+{"kind":"shape","id":"sh/cv2lc3ix","slide":12,"name":"roi-card-2","bbox":[453,394,374,208]}
+{"kind":"shape","id":"sh/but43i1c","slide":12,"name":"roi-card-3","bbox":[862,394,374,208]}
+{"kind":"textbox","id":"sh/a9k3adkr","slide":12,"name":"roi-card-1-label","text":"HED · NO ROI · AUTOMATIC","textPreview":"HED · NO ROI · AUTOMATIC","textChars":24,"textLines":1,"bbox":[70,420,320,22]}
+{"kind":"textbox","id":"sh/d0r2tojy","slide":12,"name":"roi-card-1-point","text":"(0.720, 0.697)","textPreview":"(0.720, 0.697)","textChars":14,"textLines":1,"bbox":[70,458,320,46]}
+{"kind":"textbox","id":"sh/szyl0j2d","slide":12,"name":"roi-card-1-copy","text":"57 inliers · ratio 0.173\nmedium evidence grade","textPreview":"57 inliers · ratio 0.173 | medium evidence grade","textChars":46,"textLines":2,"bbox":[70,522,300,54]}
+{"kind":"textbox","id":"sh/y5cbu5kn","slide":12,"name":"roi-card-2-label","text":"HED · ART-HISTORY ROI","textPreview":"HED · ART-HISTORY ROI","textChars":21,"textLines":1,"bbox":[479,420,320,22]}
+{"kind":"textbox","id":"sh/j6lsnals","slide":12,"name":"roi-card-2-point","text":"(0.529, 0.439)","textPreview":"(0.529, 0.439)","textChars":14,"textLines":1,"bbox":[479,458,320,46]}
+{"kind":"textbox","id":"sh/k7utwf2d","slide":12,"name":"roi-card-2-copy","text":"19 inliers · ratio 0.055\nlow evidence grade","textPreview":"19 inliers · ratio 0.055 | low evidence grade","textChars":43,"textLines":2,"bbox":[479,522,300,54]}
+{"kind":"textbox","id":"sh/l8napk3y","slide":12,"name":"roi-card-3-label","text":"HED · REAR-DOOR ROI","textPreview":"HED · REAR-DOOR ROI","textChars":19,"textLines":1,"bbox":[888,420,320,22]}
+{"kind":"textbox","id":"sh/69wbypkj","slide":12,"name":"roi-card-3-point","text":"(0.626, 0.612)","textPreview":"(0.626, 0.612)","textChars":14,"textLines":1,"bbox":[888,458,320,46]}
+{"kind":"textbox","id":"sh/7a5cral4","slide":12,"name":"roi-card-3-copy","text":"30 inliers · ratio 0.106\nlow evidence grade","textPreview":"30 inliers · ratio 0.106 | low evidence grade","textChars":43,"textLines":2,"bbox":[888,522,300,54]}
+{"kind":"textbox","id":"sh/8bet0f2p","slide":12,"name":"roi-bottom-line","text":"Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.","textPreview":"Changing the analyst's window changes the candidate: this pipeline does not discover one stable historical vanishing point.","textChars":123,"textLines":1,"bbox":[64,622,1128,34]}
+{"kind":"shape","id":"sh/tcnutkja","slide":12,"name":"footer-rule-12","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/udwb2pkf","slide":12,"name":"footer-source-12","text":"HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required","textPreview":"HED → HoughLinesP → 5,000-iteration RANSAC · Coordinates normalized to each full working image · Human validation required","textChars":122,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/vy5cvu10","slide":12,"name":"footer-page-12","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/3a1kzyh4","slide":12,"name":"geometry-method-strip","geometry":"rect","alt":"HED probability, Hough line segments, RANSAC candidate, and Canny control","bbox":[44,122,1192,230]}
+{"kind":"slide","id":"sl/e6ohp5","slide":13,"title":"READY-MADE PROPOSAL","textShapes":6}
+{"kind":"shape","id":"sh/kbmx4vih","slide":13,"name":"ready-made-text-field","bbox":[0,0,510,720]}
+{"kind":"shape","id":"sh/lcvyx0z2","slide":13,"name":"ready-made-red-rail","bbox":[0,0,12,720]}
+{"kind":"textbox","id":"sh/alkfyl0f","slide":13,"name":"ready-made-kicker","text":"READY-MADE PROPOSAL","textPreview":"READY-MADE PROPOSAL","textChars":19,"textLines":1,"bbox":[48,48,370,24]}
+{"kind":"textbox","id":"sh/bmtgrq10","slide":13,"name":"ready-made-title","text":"The Missing\nViewer","textPreview":"The Missing | Viewer","textChars":18,"textLines":2,"bbox":[48,112,410,126]}
+{"kind":"shape","id":"sh/w72x0vil","slide":13,"name":"ready-made-rule","bbox":[48,272,96,0.03]}
+{"kind":"textbox","id":"sh/x8bytgj6","slide":13,"name":"ready-made-copy","text":"An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and figures construct.","textPreview":"An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and...","textChars":156,"textLines":1,"bbox":[48,310,410,176]}
+{"kind":"shape","id":"sh/mh0fu10j","slide":13,"name":"ready-made-disclosure","bbox":[48,520,410,82]}
+{"kind":"textbox","id":"sh/ni9gn61o","slide":13,"name":"ready-made-disclosure-copy","text":"AI-GENERATED CONCEPT MOCKUP\nNot documentary evidence that the installation was built.","textPreview":"AI-GENERATED CONCEPT MOCKUP | Not documentary evidence that the installation was built.","textChars":85,"textLines":2,"bbox":[68,540,370,48]}
+{"kind":"shape","id":"sh/by5gny5s","slide":13,"name":"footer-rule-13","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/qxwfeto7","slide":13,"name":"footer-source-13","text":"Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md","textPreview":"Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md","textChars":122,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/d07yponi","slide":13,"name":"footer-page-13","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/25sfyl8z","slide":13,"name":"ready-made-mockup","geometry":"rect","alt":"AI-generated concept mockup of a mirror aligned with Las Meninas in a gallery","bbox":[0,0,1280,720]}
+{"kind":"slide","id":"sl/9phcyb","slide":14,"title":"FINAL ARTWORK","textShapes":10}
+{"kind":"shape","id":"sh/gjudsru9","slide":14,"name":"artwork-cyan-rail","bbox":[0,0,12,720]}
+{"kind":"textbox","id":"sh/hk3ulwbe","slide":14,"name":"artwork-kicker","text":"FINAL ARTWORK","textPreview":"FINAL ARTWORK","textChars":13,"textLines":1,"bbox":[48,48,300,24]}
+{"kind":"textbox","id":"sh/6tsbmxcr","slide":14,"name":"artwork-title","text":"Entering\nLas Meninas","textPreview":"Entering | Las Meninas","textChars":20,"textLines":2,"bbox":[48,110,350,126]}
+{"kind":"textbox","id":"sh/7u1cf2tc","slide":14,"name":"artwork-statement","text":"The image preserves the five-relation graph while replacing the royal reflection with a contemporary viewer silhouette.","textPreview":"The image preserves the five-relation graph while replacing the royal reflection with a contemporary viewer silhouette.","textChars":119,"textLines":1,"bbox":[48,278,340,130]}
+{"kind":"textbox","id":"sh/8vado7ux","slide":14,"name":"artwork-relations-value","text":"5 / 5","textPreview":"5 / 5","textChars":5,"textLines":1,"bbox":[48,458,150,56]}
+{"kind":"textbox","id":"sh/twjuhcbi","slide":14,"name":"artwork-relations-copy","text":"relations preserved\nmanual audit","textPreview":"relations preserved | manual audit","textChars":32,"textLines":2,"bbox":[48,520,152,48]}
+{"kind":"shape","id":"sh/yp8bixcv","slide":14,"name":"artwork-stat-divider","bbox":[224,452,0.03,124]}
+{"kind":"textbox","id":"sh/jq1cb2tg","slide":14,"name":"artwork-distance-value","text":"0.461","textPreview":"0.461","textChars":5,"textLines":1,"bbox":[254,458,150,56]}
+{"kind":"textbox","id":"sh/3yxov29c","slide":14,"name":"artwork-distance-copy","text":"VGG style distance\nspatial cosine 0.364","textPreview":"VGG style distance | spatial cosine 0.364","textChars":39,"textLines":2,"bbox":[254,520,160,48]}
+{"kind":"textbox","id":"sh/ixo72x8r","slide":14,"name":"artwork-boundary","text":"Generative artwork informed by the experiments—not a direct quantitative pipeline output.","textPreview":"Generative artwork informed by the experiments—not a direct quantitative pipeline output.","textChars":89,"textLines":1,"bbox":[48,610,352,48]}
+{"kind":"shape","id":"sh/5kz6xcri","slide":14,"name":"footer-rule-14","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/4j6po7qx","slide":14,"name":"footer-source-14","text":"AI-assisted artwork · Complete prompt, input description, and disclosure in outputs/artwork/README.md","textPreview":"AI-assisted artwork · Complete prompt, input description, and disclosure in outputs/artwork/README.md","textChars":101,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/rmhoz298","slide":14,"name":"footer-page-14","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"image","id":"im/ixc3mlwf","slide":14,"name":"final-artwork","geometry":"rect","alt":"AI-assisted final artwork Entering Las Meninas","bbox":[446,0,716,720]}
+{"kind":"slide","id":"sl/mwwqgj","slide":15,"title":"PICASSO STRESS TEST · TEXT ONLY","textShapes":14}
+{"kind":"textbox","id":"sh/1kvyhore","slide":15,"name":"kicker-15","text":"PICASSO STRESS TEST · TEXT ONLY","textPreview":"PICASSO STRESS TEST · TEXT ONLY","textChars":31,"textLines":1,"bbox":[44,30,530,22]}
+{"kind":"textbox","id":"sh/ehkf69sn","slide":15,"name":"slide-title-15","text":"Historical relation survives large VGG distance","textPreview":"Historical relation survives large VGG distance","textChars":47,"textLines":1,"bbox":[44,58,1192,52]}
+{"kind":"textbox","id":"sh/fitgfe98","slide":15,"name":"picasso-year","text":"1957","textPreview":"1957","textChars":4,"textLines":1,"bbox":[44,150,280,94]}
+{"kind":"textbox","id":"sh/sf2x4zah","slide":15,"name":"picasso-metadata","text":"Pablo Picasso's Las Meninas\nMuseu Picasso Barcelona · MPB 70.433\nLandscape format; figures and space reorganized","textPreview":"Pablo Picasso's Las Meninas | Museu Picasso Barcelona · MPB 70.433 | Landscape format; figures and space reorganized","textChars":112,"textLines":3,"bbox":[44,270,420,110]}
+{"kind":"shape","id":"sh/tgbyd4r2","slide":15,"name":"picasso-divider","bbox":[500,152,0.03,386]}
+{"kind":"textbox","id":"sh/6dkf29sr","slide":15,"name":"picasso-style-label","text":"VGG GRAM STYLE DISTANCE","textPreview":"VGG GRAM STYLE DISTANCE","textChars":23,"textLines":1,"bbox":[548,164,300,22]}
+{"kind":"textbox","id":"sh/retgbe9w","slide":15,"name":"picasso-style-value","text":"1.4196","textPreview":"1.4196","textChars":6,"textLines":1,"bbox":[548,205,340,92]}
+{"kind":"textbox","id":"sh/cb6hg3q1","slide":15,"name":"picasso-spatial-label","text":"VGG SPATIAL COSINE DISTANCE","textPreview":"VGG SPATIAL COSINE DISTANCE","textChars":27,"textLines":1,"bbox":[548,338,340,22]}
+{"kind":"textbox","id":"sh/xcfyp8rm","slide":15,"name":"picasso-spatial-value","text":"0.7139","textPreview":"0.7139","textChars":6,"textLines":1,"bbox":[548,379,340,92]}
+{"kind":"shape","id":"sh/t87ixo3y","slide":15,"name":"picasso-meaning","bbox":[930,160,306,350]}
+{"kind":"textbox","id":"sh/s7yh4j2d","slide":15,"name":"picasso-meaning-title","text":"What the numbers can say","textPreview":"What the numbers can say","textChars":24,"textLines":1,"bbox":[958,190,250,56]}
+{"kind":"textbox","id":"sh/76p0vels","slide":15,"name":"picasso-meaning-copy","text":"This local reproduction is the most distant comparison in the set.\n\nThe museum's historical interpretation—not VGG—establishes its relationship to Velázquez.","textPreview":"This local reproduction is the most distant comparison in the set. |  | The museum's historical interpretation—not VGG—establishes its re...","textChars":157,"textLines":3,"bbox":[958,270,250,164]}
+{"kind":"textbox","id":"sh/65gz29kn","slide":15,"name":"picasso-rights","text":"NO IMAGE REDISTRIBUTED\nRights status is not treated as public domain.","textPreview":"NO IMAGE REDISTRIBUTED | Rights status is not treated as public domain.","textChars":69,"textLines":2,"bbox":[958,450,250,48]}
+{"kind":"textbox","id":"sh/54nit432","slide":15,"name":"picasso-limit","text":"No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.","textPreview":"No human recognition judgments were collected; this is a numerical comparison, not proof of human–CNN disagreement.","textChars":115,"textLines":1,"bbox":[44,574,1120,54]}
+{"kind":"shape","id":"sh/kjeh0z2h","slide":15,"name":"footer-rule-15","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/ji50rulw","slide":15,"name":"footer-source-15","text":"Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck","textPreview":"Artwork facts: Museu Picasso Barcelona · Local numeric comparison only; source pixels are excluded from the public repository and this deck","textChars":139,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/ihwzy9kb","slide":15,"name":"footer-page-15","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}
+{"kind":"slide","id":"sl/4i46kv","slide":16,"title":"CONCLUSION","textShapes":14}
+{"kind":"shape","id":"sh/yt8f2p4r","slide":16,"name":"closing-red-rail","bbox":[0,0,12,720]}
+{"kind":"textbox","id":"sh/lwjydkni","slide":16,"name":"closing-kicker","text":"CONCLUSION","textPreview":"CONCLUSION","textChars":10,"textLines":1,"bbox":[48,42,220,22]}
+{"kind":"textbox","id":"sh/kvqx4zmx","slide":16,"name":"closing-title","text":"The CNN helped me see more clearly\nby showing me what it could not see.","textPreview":"The CNN helped me see more clearly | by showing me what it could not see.","textChars":71,"textLines":2,"bbox":[48,86,1120,126]}
+{"kind":"shape","id":"sh/bqhg7a50","slide":16,"name":"closing-rule","bbox":[48,238,116,0.03]}
+{"kind":"textbox","id":"sh/a58fy54v","slide":16,"name":"closing-finding-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[48,282,70,36]}
+{"kind":"textbox","id":"sh/xszy9kn6","slide":16,"name":"closing-finding-1-copy","text":"Style and geometry followed different VGG trajectories.","textPreview":"Style and geometry followed different VGG trajectories.","textChars":55,"textLines":1,"bbox":[118,286,440,42]}
+{"kind":"textbox","id":"sh/crqx0fml","slide":16,"name":"closing-finding-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[48,352,70,36]}
+{"kind":"textbox","id":"sh/vm1gje5k","slide":16,"name":"closing-finding-2-copy","text":"Mirror deletion broke a declared relation while CNN distances stayed tiny.","textPreview":"Mirror deletion broke a declared relation while CNN distances stayed tiny.","textChars":74,"textLines":1,"bbox":[118,356,440,58]}
+{"kind":"textbox","id":"sh/ulsza94z","slide":16,"name":"closing-finding-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[48,438,70,36]}
+{"kind":"textbox","id":"sh/0zqp4j6h","slide":16,"name":"closing-finding-3-copy","text":"HED extracted edges, but a stable vanishing point did not survive ROI changes.","textPreview":"HED extracted edges, but a stable vanishing point did not survive ROI changes.","textChars":78,"textLines":1,"bbox":[118,442,440,58]}
+{"kind":"shape","id":"sh/10z6don2","slide":16,"name":"closing-limit-panel","bbox":[640,272,556,246]}
+{"kind":"textbox","id":"sh/exo729ob","slide":16,"name":"closing-limit-title","text":"Evidence boundary","textPreview":"Evidence boundary","textChars":17,"textLines":1,"bbox":[670,298,490,38]}
+{"kind":"textbox","id":"sh/fyxobe5w","slide":16,"name":"closing-limit-copy","text":"One painting · frozen pretrained models · five manually defined relations · one author · no human participants · no inferential statistics","textPreview":"One painting · frozen pretrained models · five manually defined relations · one author · no human participants · no inferential statistics","textChars":138,"textLines":1,"bbox":[670,354,490,108]}
+{"kind":"textbox","id":"sh/sv6p0z6l","slide":16,"name":"closing-source-title","text":"PRIMARY SOURCES","textPreview":"PRIMARY SOURCES","textChars":15,"textLines":1,"bbox":[48,558,260,20]}
+{"kind":"textbox","id":"sh/dwf694n6","slide":16,"name":"closing-sources","text":"Museo Nacional del Prado · Wikimedia Commons · Simonyan & Zisserman (VGG, 2015) · Gatys et al. (CVPR 2016) · Xie & Tu (ICCV 2015) · OpenCV Hough documentation · Museu Picasso Barcelona","textPreview":"Museo Nacional del Prado · Wikimedia Commons · Simonyan & Zisserman (VGG, 2015) · Gatys et al. (CVPR 2016) · Xie & Tu (ICCV 2015) · OpenC...","textChars":184,"textLines":1,"bbox":[48,588,1148,52]}
+{"kind":"shape","id":"sh/q9ony9of","slide":16,"name":"footer-rule-16","bbox":[44,680,1192,0.03]}
+{"kind":"textbox","id":"sh/ruxo7e50","slide":16,"name":"footer-source-16","text":"Full citations, methods, prompts, checksums, and reproducibility notes: README.md and report/final-report.md","textPreview":"Full citations, methods, prompts, checksums, and reproducibility notes: README.md and report/final-report.md","textChars":108,"textLines":1,"bbox":[44,688,1120,16]}
+{"kind":"textbox","id":"sh/4765wz69","slide":16,"name":"footer-page-16","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1178,688,58,16]}

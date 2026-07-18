@@ -1,0 +1,31 @@
+# 项目许可范围
+
+下列 MIT License 只适用于本仓库的源代码、测试、命令行脚本与软件配置，即
+`src/`、`tests/`、`scripts/`、`pyproject.toml` 和 `requirements.txt` 中由本项目编写的内容。
+
+MIT License **不**自动适用于图像、艺术作品、演示文稿、研究报告、课程材料、
+第三方模型权重或本地 `pics/` 研究素材。它们的逐项状态见
+`THIRD-PARTY-NOTICES.md`、`data/README.md`、`assets/README.md` 与
+`outputs/artwork/README.md`。没有在这些文件中明确授予的权利，不应从本软件许可中推定。
+
+MIT License
+
+Copyright (c) 2026 Mike-Zhuang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

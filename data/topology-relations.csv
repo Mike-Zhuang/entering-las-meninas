@@ -1,0 +1,8 @@
+variant,mirror_connects_outside_viewer,painter_faces_outside_position,rear_door_contains_nieto,large_canvas_occludes_left_room,infanta_surrounded_by_attendants,relations_preserved,total_relations,review_method
+original,1,1,1,1,1,5,5,manual visual audit
+matched-control,1,1,1,1,1,5,5,manual visual audit
+mirror-deletion,0,1,1,1,1,4,5,manual visual audit
+geometry-100,1,1,1,1,1,5,5,manual visual audit
+neural-style-1,1,1,1,1,1,5,5,manual visual audit
+combined-neural-geometry,1,1,1,1,1,5,5,manual visual audit
+final-artwork,1,1,1,1,1,5,5,manual visual audit; mirror identity changed from royal couple to contemporary viewer

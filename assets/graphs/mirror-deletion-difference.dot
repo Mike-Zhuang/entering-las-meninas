@@ -1,0 +1,96 @@
+// 镜子消融前后的关系差异。红色虚线代表被删除的关系，而不是“低置信度”。
+digraph MirrorDeletionDifference {
+  graph [
+    bgcolor="#F6F0E4",
+    pad="0.45",
+    nodesep="0.55",
+    ranksep="0.78",
+    rankdir=TB,
+    splines=spline,
+    outputorder=edgesfirst,
+    newrank=true,
+    fontname="Helvetica",
+    labelloc=t,
+    labeljust=l,
+    label="TOPOLOGY ABLATION · WHAT THE MIRROR CONNECTS\nPixel area changes locally; the relational path changes globally\nCyan = retained relation   ·   Cinnabar dashed = removed relation",
+    fontsize=22,
+    fontcolor="#152329"
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    margin="0.16,0.11",
+    penwidth=1.5,
+    color="#152329",
+    fillcolor="#FFF9EF",
+    fontname="Helvetica",
+    fontsize=11,
+    fontcolor="#152329"
+  ];
+
+  edge [
+    color="#4D96A6",
+    fontcolor="#245D68",
+    fontname="Helvetica",
+    fontsize=9.5,
+    penwidth=1.8,
+    arrowsize=0.72
+  ];
+
+  subgraph cluster_original {
+    label="A · ORIGINAL — reflexive loop intact";
+    color="#4D96A6";
+    fontcolor="#245D68";
+    style="rounded";
+    penwidth=2.0;
+    margin=22;
+
+    oViewer [label="VIEWER", fillcolor="#B23A2B", fontcolor="#FFF9EF", color="#B23A2B"];
+    oPainter [label="PAINTER"];
+    oInfanta [label="INFANTA"];
+    oCanvas [label="REVERSE OF\nCANVAS", fillcolor="#152329", fontcolor="#FFF9EF"];
+    oMirror [label="MIRROR", shape=doubleoctagon, fillcolor="#B23A2B", fontcolor="#FFF9EF", color="#B23A2B"];
+    oRoyal [label="ROYAL COUPLE\nIMPLIED IN FRONT", color="#B23A2B", penwidth=2.0];
+
+    oViewer -> oInfanta [label="looks toward", color="#B23A2B", fontcolor="#8E2C22"];
+    oPainter -> oViewer [label="looks toward", color="#B23A2B", fontcolor="#8E2C22"];
+    oInfanta -> oViewer [label="looks toward", color="#B23A2B", fontcolor="#8E2C22"];
+    oCanvas -> oRoyal [label="may depict", style=dashed, color="#7C8384", fontcolor="#616768"];
+    oMirror -> oRoyal [label="contains image of", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+    oRoyal -> oMirror [label="reflected by", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+    oViewer -> oRoyal [label="shares implied zone", style=dashed, dir=both, arrowtail=none];
+
+    {rank=same; oPainter; oInfanta; oCanvas}
+    {rank=same; oViewer; oMirror; oRoyal}
+  }
+
+  subgraph cluster_deleted {
+    label="B · MIRROR REMOVED — local pixels, missing endpoint";
+    color="#B23A2B";
+    fontcolor="#8E2C22";
+    style="rounded";
+    penwidth=2.0;
+    margin=22;
+
+    dViewer [label="VIEWER", fillcolor="#B23A2B", fontcolor="#FFF9EF", color="#B23A2B"];
+    dPainter [label="PAINTER"];
+    dInfanta [label="INFANTA"];
+    dCanvas [label="REVERSE OF\nCANVAS", fillcolor="#152329", fontcolor="#FFF9EF"];
+    dBlank [label="BLANK MIRROR\nREGION", shape=doubleoctagon, style="rounded,filled,dashed", color="#B23A2B", fillcolor="#F0DED7", fontcolor="#8E2C22"];
+    dRoyal [label="ROYAL COUPLE\nNO VISIBLE ANCHOR", style="rounded,filled,dashed", color="#B23A2B", fillcolor="#FFF9EF", fontcolor="#8E2C22"];
+
+    dViewer -> dInfanta [label="looks toward", color="#4D96A6"];
+    dPainter -> dViewer [label="looks toward", color="#4D96A6"];
+    dInfanta -> dViewer [label="looks toward", color="#4D96A6"];
+    dCanvas -> dRoyal [label="still possible, less anchored", style=dashed, color="#7C8384", fontcolor="#616768"];
+    dBlank -> dRoyal [label="contains image of — DELETED", style=dashed, color="#B23A2B", fontcolor="#8E2C22", arrowhead=tee];
+    dRoyal -> dBlank [label="reflected by — DELETED", style=dashed, color="#B23A2B", fontcolor="#8E2C22", arrowhead=tee];
+    dViewer -> dRoyal [label="implied-zone link weakened", style=dashed, color="#B23A2B", fontcolor="#8E2C22", arrowhead=tee];
+
+    {rank=same; dPainter; dInfanta; dCanvas}
+    {rank=same; dViewer; dBlank; dRoyal}
+  }
+
+  oViewer -> dViewer [style=invis, weight=40, minlen=2];
+}

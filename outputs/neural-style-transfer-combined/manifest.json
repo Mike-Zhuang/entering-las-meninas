@@ -1,0 +1,121 @@
+{
+  "format_version": 1,
+  "implementation": {
+    "model_signature": "torchvision=0.25.0.dev20251218;architecture=vgg19;weights=VGG19_Weights.IMAGENET1K_V1",
+    "numpy": "1.26.0",
+    "pillow": "12.0.0",
+    "python": "3.12.12",
+    "script": "src/neural-style-transfer.py",
+    "script_sha256": "e5343ba6fcf530716540abecf064f34bd6bba4674d22b001846e42dc16a8caa6",
+    "torch": "2.11.0.dev20251218"
+  },
+  "inputs": {
+    "content": {
+      "center_crop": false,
+      "decoded_size": [
+        1779,
+        2048
+      ],
+      "original_size": [
+        1779,
+        2048
+      ],
+      "path": "outputs/transformations/geometry/geometry-100.png",
+      "preprocessing": "jpeg-draft-if-available_then-aspect-preserving-lanczos-resize",
+      "sha256": "a19aaa76aa74f173a8375ab16eb7486d74cb58c7bd276f55d0260e63b6af848d",
+      "working_size": [
+        445,
+        512
+      ]
+    },
+    "style": {
+      "center_crop": false,
+      "decoded_size": [
+        1254,
+        1254
+      ],
+      "original_size": [
+        1254,
+        1254
+      ],
+      "path": "assets/style/cognitive-map-style-reference.png",
+      "preprocessing": "jpeg-draft-if-available_then-aspect-preserving-lanczos-resize",
+      "sha256": "d8adc658b8a303847ab5a823f0c2c20852c7520bc4b9f8511314396d37708e4f",
+      "working_size": [
+        512,
+        512
+      ]
+    }
+  },
+  "method": "Gatys neural style transfer with frozen VGG19 features",
+  "outputs": [
+    {
+      "final_loss": {
+        "content_loss": 0.5906821489334106,
+        "step": 500,
+        "style_loss": 6.072042424420943e-07,
+        "style_strength": 1.0,
+        "total_loss": 1.1978967189788818,
+        "tv_loss": 0.10238693654537201,
+        "weighted_content_loss": 0.5906821489334106,
+        "weighted_style_loss": 0.607204258441925,
+        "weighted_tv_loss": 1.023869299388025e-05
+      },
+      "image": "outputs/neural-style-transfer-combined/neural-style-strength-1.png",
+      "image_sha256": "e731e19ea5b71aab988f46b2ccb24490094b96e119ba29b349cc67efefaf02f5",
+      "loss_csv": "outputs/neural-style-transfer-combined/loss-strength-1.csv",
+      "loss_json": "outputs/neural-style-transfer-combined/loss-strength-1.json",
+      "loss_records": 501,
+      "style_strength": 1.0
+    }
+  ],
+  "parameters": {
+    "aspect_ratio_preserved": true,
+    "center_crop": false,
+    "content_layer": "relu4_2",
+    "content_weight": 1.0,
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "initial_noise": 0.02,
+    "learning_rate": 0.02,
+    "long_side": 512,
+    "max_source_pixels": 1000000000,
+    "steps": 500,
+    "style_layers": [
+      "relu1_1",
+      "relu2_1",
+      "relu3_1",
+      "relu4_1",
+      "relu5_1"
+    ],
+    "style_strengths": [
+      1.0
+    ],
+    "style_weight": 1000000.0,
+    "tv_weight": 0.0001,
+    "weights": "default"
+  },
+  "project": "Entering Las Meninas: How a Painting Changed the Way I Look at Art",
+  "reproducibility": {
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "adam_foreach": false,
+    "deterministic_algorithms": true,
+    "deterministic_algorithms_warn_only": true,
+    "device": "mps",
+    "optimizer": "Adam",
+    "seed": 139,
+    "shared_initial_state_across_strengths": true
+  }
+}

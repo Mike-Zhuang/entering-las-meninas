@@ -1,0 +1,1589 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wejuob",
+    "id": "wejuob",
+    "slide": 7,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#0D1011",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e98r2dwn",
+      "id": "1",
+      "name": "kicker-7",
+      "bbox": [
+        44,
+        30,
+        530,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "INSIDE VGG19",
+      "textPreview": "INSIDE VGG19",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INSIDE VGG19"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INSIDE VGG19",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INSIDE VGG19",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1czadsve",
+      "id": "2",
+      "name": "slide-title-7",
+      "bbox": [
+        44,
+        58,
+        1192,
+        52
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "Deep layers trade crisp edges for coarse scene structure",
+      "textPreview": "Deep layers trade crisp edges for coarse scene structure",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deep layers trade crisp edges for coarse scene structure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deep layers trade crisp edges for coarse scene structure",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deep layers trade crisp edges for coarse scene structure",
+              "anchor": 1,
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bq94net",
+      "id": "3",
+      "name": "activation-frame",
+      "bbox": [
+        44,
+        140,
+        1192,
+        350
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "fillColor": "#F4EFE5",
+      "lineColor": "#F4EFE5",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2lgjel07",
+      "id": "4",
+      "name": "activation-figure",
+      "bbox": [
+        54,
+        158,
+        1172,
+        312
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "alt": "VGG19 activation energy from CNN input through relu5_1",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "58daa886-91cb-42c8-8240-7501814e1fcd",
+        "contentType": "image/png",
+        "byteLength": 4465548
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mdsr6xwj",
+      "id": "5",
+      "name": "activation-shallow",
+      "bbox": [
+        70,
+        528,
+        160,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "SHALLOW",
+      "textPreview": "SHALLOW",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SHALLOW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SHALLOW",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SHALLOW",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90jahsva",
+      "id": "6",
+      "name": "activation-shallow-copy",
+      "bbox": [
+        70,
+        558,
+        330,
+        56
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "Frames, seams, faces, and dress boundaries remain locally sharp.",
+      "textPreview": "Frames, seams, faces, and dress boundaries remain locally sharp.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frames, seams, faces, and dress"
+          },
+          {
+            "index": 2,
+            "text": "boundaries remain locally sharp."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frames, seams, faces, and dress boundaries remain locally sharp.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frames, seams, faces, and dress boundaries remain locally sharp.",
+              "anchor": 1,
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza98nep",
+      "id": "7",
+      "name": "activation-arrow",
+      "bbox": [
+        432,
+        570,
+        290,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#D86E5B",
+      "lineWidth": 3
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b21sj2dg",
+      "id": "8",
+      "name": "activation-deep",
+      "bbox": [
+        770,
+        528,
+        160,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "DEEP",
+      "textPreview": "DEEP",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#D86E5B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DEEP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DEEP",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#D86E5B",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DEEP",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#D86E5B",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1sraxwv",
+      "id": "9",
+      "name": "activation-deep-copy",
+      "bbox": [
+        770,
+        558,
+        410,
+        66
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.",
+      "textPreview": "Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.",
+      "resolvedFontSize": 18.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Spatial detail pools into broad figure and doorway"
+          },
+          {
+            "index": 2,
+            "text": "responses—but relations are still not explicit"
+          },
+          {
+            "index": 3,
+            "text": "edges in a graph."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.",
+              "anchor": 1,
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv2toruh",
+      "id": "10",
+      "name": "footer-rule-7",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#33383B",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwbuxwv2",
+      "id": "11",
+      "name": "footer-source-7",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy",
+      "textPreview": "Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at0bm1cb",
+      "id": "12",
+      "name": "footer-page-7",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "07-activation-layers",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1236,
+          "height": 704
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "kicker-7",
+            "position": {
+              "left": 44,
+              "top": 30
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 530
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 530,
+              "height": 22
+            },
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "children": [],
+            "text": "INSIDE VGG19",
+            "transform": "none",
+            "element": {
+              "aid": "sh/e98r2dwn",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "slide-title-7",
+            "position": {
+              "left": 44,
+              "top": 58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 52
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 52
+            },
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "children": [],
+            "text": "Deep layers trade crisp edges for coarse scene structure",
+            "transform": "none",
+            "element": {
+              "aid": "sh/1czadsve",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "activation-frame",
+            "position": {
+              "left": 44,
+              "top": 140
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 350
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 350
+            },
+            "frame": {
+              "left": 44,
+              "top": 140,
+              "width": 1192,
+              "height": 350
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 140,
+              "width": 1192,
+              "height": 350
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/0bq94net",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "image",
+            "name": "activation-figure",
+            "position": {
+              "left": 54,
+              "top": 158
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1172
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 312
+              }
+            },
+            "intrinsicSize": {
+              "width": 1172,
+              "height": 312
+            },
+            "frame": {
+              "left": 54,
+              "top": 158,
+              "width": 1172,
+              "height": 312
+            },
+            "snappedFrame": {
+              "left": 54,
+              "top": 158,
+              "width": 1172,
+              "height": 312
+            },
+            "children": [],
+            "source": {
+              "kind": "blob"
+            },
+            "contentType": "image/png",
+            "fit": "contain",
+            "alt": "VGG19 activation energy from CNN input through relu5_1",
+            "geometry": "rect",
+            "element": {
+              "aid": "im/2lgjel07",
+              "id": "4",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "activation-shallow",
+            "position": {
+              "left": 70,
+              "top": 528
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 160
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 160,
+              "height": 22
+            },
+            "frame": {
+              "left": 70,
+              "top": 528,
+              "width": 160,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 528,
+              "width": 160,
+              "height": 22
+            },
+            "children": [],
+            "text": "SHALLOW",
+            "transform": "none",
+            "element": {
+              "aid": "sh/mdsr6xwj",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "activation-shallow-copy",
+            "position": {
+              "left": 70,
+              "top": 558
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 330
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 56
+              }
+            },
+            "intrinsicSize": {
+              "width": 330,
+              "height": 56
+            },
+            "frame": {
+              "left": 70,
+              "top": 558,
+              "width": 330,
+              "height": 56
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 558,
+              "width": 330,
+              "height": 56
+            },
+            "children": [],
+            "text": "Frames, seams, faces, and dress boundaries remain locally sharp.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/90jahsva",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "shape",
+            "name": "activation-arrow",
+            "position": {
+              "left": 432,
+              "top": 570
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 290
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 290,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 432,
+              "top": 570,
+              "width": 290,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 432,
+              "top": 570,
+              "width": 290,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/oza98nep",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "activation-deep",
+            "position": {
+              "left": 770,
+              "top": 528
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 160
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 160,
+              "height": 22
+            },
+            "frame": {
+              "left": 770,
+              "top": 528,
+              "width": 160,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 770,
+              "top": 528,
+              "width": 160,
+              "height": 22
+            },
+            "children": [],
+            "text": "DEEP",
+            "transform": "none",
+            "element": {
+              "aid": "sh/b21sj2dg",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "activation-deep-copy",
+            "position": {
+              "left": 770,
+              "top": 558
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 410
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 66
+              }
+            },
+            "intrinsicSize": {
+              "width": 410,
+              "height": 66
+            },
+            "frame": {
+              "left": 770,
+              "top": 558,
+              "width": 410,
+              "height": 66
+            },
+            "snappedFrame": {
+              "left": 770,
+              "top": 558,
+              "width": 410,
+              "height": 66
+            },
+            "children": [],
+            "text": "Spatial detail pools into broad figure and doorway responses—but relations are still not explicit edges in a graph.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/a1sraxwv",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "shape",
+            "name": "footer-rule-7",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/cv2toruh",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "footer-source-7",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "Project visualization of frozen Torchvision VGG19 activations · Heatmaps show channel-mean activation energy",
+            "transform": "none",
+            "element": {
+              "aid": "sh/xwbuxwv2",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "footer-page-7",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "07",
+            "transform": "none",
+            "element": {
+              "aid": "sh/at0bm1cb",
+              "id": "12",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 44,
+              "top": 140,
+              "width": 1192,
+              "height": 350
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 54,
+              "top": 158,
+              "width": 1172,
+              "height": 312
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 70,
+              "top": 528,
+              "width": 160,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 70,
+              "top": 558,
+              "width": 330,
+              "height": 56
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 432,
+              "top": 570,
+              "width": 290,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 770,
+              "top": 528,
+              "width": 160,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 770,
+              "top": 558,
+              "width": 410,
+              "height": 66
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1464 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/e6ohp5",
+    "id": "e6ohp5",
+    "slide": 13,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#0D1011",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Georgia",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/25sfyl8z",
+      "id": "1",
+      "name": "ready-made-mockup",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "alt": "AI-generated concept mockup of a mirror aligned with Las Meninas in a gallery",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "4baf8950-44ac-4e17-b87d-16e17aa764b3",
+        "contentType": "image/png",
+        "byteLength": 1816783
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbmx4vih",
+      "id": "2",
+      "name": "ready-made-text-field",
+      "bbox": [
+        0,
+        0,
+        510,
+        720
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#0D1011",
+      "lineColor": "#0D1011",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lcvyx0z2",
+      "id": "3",
+      "name": "ready-made-red-rail",
+      "bbox": [
+        0,
+        0,
+        12,
+        720
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "fillColor": "#B83A2D",
+      "lineColor": "#B83A2D",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alkfyl0f",
+      "id": "4",
+      "name": "ready-made-kicker",
+      "bbox": [
+        48,
+        48,
+        370,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "READY-MADE PROPOSAL",
+      "textPreview": "READY-MADE PROPOSAL",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "READY-MADE PROPOSAL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "READY-MADE PROPOSAL",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "READY-MADE PROPOSAL",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmtgrq10",
+      "id": "5",
+      "name": "ready-made-title",
+      "bbox": [
+        48,
+        112,
+        410,
+        126
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "The Missing\nViewer",
+      "textPreview": "The Missing | Viewer",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Georgia",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The Missing"
+          },
+          {
+            "index": 2,
+            "text": "Viewer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The Missing\nViewer",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 50,
+            "typeface": "Georgia",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The Missing\nViewer",
+              "anchor": 1,
+              "fontSize": 50,
+              "typeface": "Georgia",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w72x0vil",
+      "id": "6",
+      "name": "ready-made-rule",
+      "bbox": [
+        48,
+        272,
+        96,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#B83A2D",
+      "lineWidth": 4
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8bytgj6",
+      "id": "7",
+      "name": "ready-made-copy",
+      "bbox": [
+        48,
+        310,
+        410,
+        176
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and figures construct.",
+      "textPreview": "An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and...",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "An ordinary mirror stands on the"
+          },
+          {
+            "index": 2,
+            "text": "painting's implied viewing axis. A"
+          },
+          {
+            "index": 3,
+            "text": "present-day body occupies the"
+          },
+          {
+            "index": 4,
+            "text": "off-canvas position that the mirror and"
+          },
+          {
+            "index": 5,
+            "text": "figures construct."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and figures construct.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and figures construct.",
+              "anchor": 1,
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mh0fu10j",
+      "id": "8",
+      "name": "ready-made-disclosure",
+      "bbox": [
+        48,
+        520,
+        410,
+        82
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "fillColor": "#B83A2D",
+      "lineColor": "#B83A2D",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ni9gn61o",
+      "id": "9",
+      "name": "ready-made-disclosure-copy",
+      "bbox": [
+        68,
+        540,
+        370,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "AI-GENERATED CONCEPT MOCKUP\nNot documentary evidence that the installation was built.",
+      "textPreview": "AI-GENERATED CONCEPT MOCKUP | Not documentary evidence that the installation was built.",
+      "resolvedFontSize": 13.63,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI-GENERATED CONCEPT MOCKUP"
+          },
+          {
+            "index": 2,
+            "text": "Not documentary evidence that the installation was"
+          },
+          {
+            "index": 3,
+            "text": "built."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI-GENERATED CONCEPT MOCKUP\nNot documentary evidence that the installation was built.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 15,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI-GENERATED CONCEPT MOCKUP\nNot documentary evidence that the installation was built.",
+              "anchor": 1,
+              "fontSize": 15,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/by5gny5s",
+      "id": "10",
+      "name": "footer-rule-13",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#33383B",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxwfeto7",
+      "id": "11",
+      "name": "footer-source-13",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md",
+      "textPreview": "Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d07yponi",
+      "id": "12",
+      "name": "footer-page-13",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#B8AEA0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#B8AEA0",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#B8AEA0",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "13-ready-made",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1280,
+          "height": 720
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "image",
+            "name": "ready-made-mockup",
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1280
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 720
+              }
+            },
+            "intrinsicSize": {
+              "width": 1280,
+              "height": 720
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 720
+            },
+            "snappedFrame": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 720
+            },
+            "children": [],
+            "source": {
+              "kind": "blob"
+            },
+            "contentType": "image/png",
+            "fit": "cover",
+            "alt": "AI-generated concept mockup of a mirror aligned with Las Meninas in a gallery",
+            "geometry": "rect",
+            "element": {
+              "aid": "im/25sfyl8z",
+              "id": "1",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "shape",
+            "name": "ready-made-text-field",
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 510
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 720
+              }
+            },
+            "intrinsicSize": {
+              "width": 510,
+              "height": 720
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 510,
+              "height": 720
+            },
+            "snappedFrame": {
+              "left": 0,
+              "top": 0,
+              "width": 510,
+              "height": 720
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/kbmx4vih",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "ready-made-red-rail",
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 12
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 720
+              }
+            },
+            "intrinsicSize": {
+              "width": 12,
+              "height": 720
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 12,
+              "height": 720
+            },
+            "snappedFrame": {
+              "left": 0,
+              "top": 0,
+              "width": 12,
+              "height": 720
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/lcvyx0z2",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "ready-made-kicker",
+            "position": {
+              "left": 48,
+              "top": 48
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 370
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 24
+              }
+            },
+            "intrinsicSize": {
+              "width": 370,
+              "height": 24
+            },
+            "frame": {
+              "left": 48,
+              "top": 48,
+              "width": 370,
+              "height": 24
+            },
+            "snappedFrame": {
+              "left": 48,
+              "top": 48,
+              "width": 370,
+              "height": 24
+            },
+            "children": [],
+            "text": "READY-MADE PROPOSAL",
+            "transform": "none",
+            "element": {
+              "aid": "sh/alkfyl0f",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "ready-made-title",
+            "position": {
+              "left": 48,
+              "top": 112
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 410
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 126
+              }
+            },
+            "intrinsicSize": {
+              "width": 410,
+              "height": 126
+            },
+            "frame": {
+              "left": 48,
+              "top": 112,
+              "width": 410,
+              "height": 126
+            },
+            "snappedFrame": {
+              "left": 48,
+              "top": 112,
+              "width": 410,
+              "height": 126
+            },
+            "children": [],
+            "text": "The Missing\nViewer",
+            "transform": "none",
+            "element": {
+              "aid": "sh/bmtgrq10",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "shape",
+            "name": "ready-made-rule",
+            "position": {
+              "left": 48,
+              "top": 272
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 96
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 96,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 48,
+              "top": 272,
+              "width": 96,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 48,
+              "top": 272,
+              "width": 96,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/w72x0vil",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "ready-made-copy",
+            "position": {
+              "left": 48,
+              "top": 310
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 410
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 176
+              }
+            },
+            "intrinsicSize": {
+              "width": 410,
+              "height": 176
+            },
+            "frame": {
+              "left": 48,
+              "top": 310,
+              "width": 410,
+              "height": 176
+            },
+            "snappedFrame": {
+              "left": 48,
+              "top": 310,
+              "width": 410,
+              "height": 176
+            },
+            "children": [],
+            "text": "An ordinary mirror stands on the painting's implied viewing axis. A present-day body occupies the off-canvas position that the mirror and figures construct.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/x8bytgj6",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "shape",
+            "name": "ready-made-disclosure",
+            "position": {
+              "left": 48,
+              "top": 520
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 410
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 82
+              }
+            },
+            "intrinsicSize": {
+              "width": 410,
+              "height": 82
+            },
+            "frame": {
+              "left": 48,
+              "top": 520,
+              "width": 410,
+              "height": 82
+            },
+            "snappedFrame": {
+              "left": 48,
+              "top": 520,
+              "width": 410,
+              "height": 82
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/mh0fu10j",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "ready-made-disclosure-copy",
+            "position": {
+              "left": 68,
+              "top": 540
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 370
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 48
+              }
+            },
+            "intrinsicSize": {
+              "width": 370,
+              "height": 48
+            },
+            "frame": {
+              "left": 68,
+              "top": 540,
+              "width": 370,
+              "height": 48
+            },
+            "snappedFrame": {
+              "left": 68,
+              "top": 540,
+              "width": 370,
+              "height": 48
+            },
+            "children": [],
+            "text": "AI-GENERATED CONCEPT MOCKUP\nNot documentary evidence that the installation was built.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ni9gn61o",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "shape",
+            "name": "footer-rule-13",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/by5gny5s",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "footer-source-13",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "Concept and title: project author · Visualization: AI-generated mockup; prompt and disclosure recorded in assets/README.md",
+            "transform": "none",
+            "element": {
+              "aid": "sh/qxwfeto7",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "footer-page-13",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "13",
+            "transform": "none",
+            "element": {
+              "aid": "sh/d07yponi",
+              "id": "12",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 720
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 510,
+              "height": 720
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 12,
+              "height": 720
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 48,
+              "top": 48,
+              "width": 370,
+              "height": 24
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 48,
+              "top": 112,
+              "width": 410,
+              "height": 126
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 48,
+              "top": 272,
+              "width": 96,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 48,
+              "top": 310,
+              "width": 410,
+              "height": 176
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 48,
+              "top": 520,
+              "width": 410,
+              "height": 82
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 68,
+              "top": 540,
+              "width": 370,
+              "height": 48
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

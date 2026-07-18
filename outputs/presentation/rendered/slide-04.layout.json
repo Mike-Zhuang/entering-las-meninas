@@ -1,0 +1,2793 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gpbwh2",
+    "id": "gpbwh2",
+    "slide": 4,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfuho7uh",
+      "id": "1",
+      "name": "kicker-4",
+      "bbox": [
+        44,
+        30,
+        530,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "OPERATIONAL FRAMEWORK",
+      "textPreview": "OPERATIONAL FRAMEWORK",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OPERATIONAL FRAMEWORK"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OPERATIONAL FRAMEWORK",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OPERATIONAL FRAMEWORK",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ve1gv2dw",
+      "id": "2",
+      "name": "slide-title-4",
+      "bbox": [
+        44,
+        58,
+        1192,
+        52
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "One painting can be tested at three different layers",
+      "textPreview": "One painting can be tested at three different layers",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "One painting can be tested at three different layers"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "One painting can be tested at three different layers",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "One painting can be tested at three different layers",
+              "anchor": 1,
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udszmxcb",
+      "id": "3",
+      "name": "framework-style",
+      "bbox": [
+        44,
+        158,
+        374,
+        448
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "fillColor": "#0D1011",
+      "lineColor": "#0D1011",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/543y1wvy",
+      "id": "4",
+      "name": "framework-geometry",
+      "bbox": [
+        453,
+        158,
+        374,
+        448
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "fillColor": "#B83A2D",
+      "lineColor": "#B83A2D",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43uhsrud",
+      "id": "5",
+      "name": "framework-topology",
+      "bbox": [
+        862,
+        158,
+        374,
+        448
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "fillColor": "#D8EEF1",
+      "lineColor": "#D8EEF1",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ilgzmd8",
+      "id": "6",
+      "name": "framework-style-index",
+      "bbox": [
+        72,
+        184,
+        80,
+        42
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "anchor": 1,
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ihczqhcn",
+      "id": "7",
+      "name": "framework-style-title",
+      "bbox": [
+        72,
+        246,
+        280,
+        44
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "STYLE",
+      "textPreview": "STYLE",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "STYLE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "STYLE",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "STYLE",
+              "anchor": 1,
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8ni5wva",
+      "id": "8",
+      "name": "framework-style-copy",
+      "bbox": [
+        72,
+        316,
+        300,
+        170
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "Color · texture · local mark\n\nVGG19 Gram matrices summarize channel co-activation while weakening exact position.",
+      "textPreview": "Color · texture · local mark |  | VGG19 Gram matrices summarize channel co-activation while weakening exact position.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Color · texture · local mark"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "VGG19 Gram matrices"
+          },
+          {
+            "index": 4,
+            "text": "summarize channel co-activation"
+          },
+          {
+            "index": 5,
+            "text": "while weakening exact position."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Color · texture · local mark\n\nVGG19 Gram matrices summarize channel co-activation while weakening exact position.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Color · texture · local mark\n\nVGG19 Gram matrices summarize channel co-activation while weakening exact position.",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s7ehwrup",
+      "id": "9",
+      "name": "framework-style-test",
+      "bbox": [
+        72,
+        520,
+        304,
+        56
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "Test: Does appearance change while composition remains recognizable?",
+      "textPreview": "Test: Does appearance change while composition remains recognizable?",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#A9E8F2",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Test: Does appearance change while"
+          },
+          {
+            "index": 2,
+            "text": "composition remains recognizable?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Test: Does appearance change while composition remains recognizable?",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#A9E8F2",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Test: Does appearance change while composition remains recognizable?",
+              "anchor": 1,
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#A9E8F2",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itg76pcb",
+      "id": "10",
+      "name": "framework-geometry-index",
+      "bbox": [
+        481,
+        184,
+        80,
+        42
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "anchor": 1,
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jupofudg",
+      "id": "11",
+      "name": "framework-geometry-title",
+      "bbox": [
+        481,
+        246,
+        310,
+        44
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "GEOMETRY",
+      "textPreview": "GEOMETRY",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GEOMETRY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GEOMETRY",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GEOMETRY",
+              "anchor": 1,
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvyp8zu1",
+      "id": "12",
+      "name": "framework-geometry-copy",
+      "bbox": [
+        481,
+        316,
+        300,
+        170
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "Coordinate · scale · angle\n\nSpatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.",
+      "textPreview": "Coordinate · scale · angle |  | Spatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Coordinate · scale · angle"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "Spatial VGG maps, HED"
+          },
+          {
+            "index": 4,
+            "text": "boundaries, Hough segments,"
+          },
+          {
+            "index": 5,
+            "text": "and RANSAC test layout and"
+          },
+          {
+            "index": 6,
+            "text": "convergence."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Coordinate · scale · angle\n\nSpatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Coordinate · scale · angle\n\nSpatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wr6h4bm",
+      "id": "13",
+      "name": "framework-geometry-test",
+      "bbox": [
+        481,
+        520,
+        304,
+        56
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.12"
+      },
+      "geometry": "rect",
+      "text": "Test: Does structure move when texture is comparatively stable?",
+      "textPreview": "Test: Does structure move when texture is comparatively stable?",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Test: Does structure move when"
+          },
+          {
+            "index": 2,
+            "text": "texture is comparatively stable?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Test: Does structure move when texture is comparatively stable?",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Test: Does structure move when texture is comparatively stable?",
+              "anchor": 1,
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6x07a9c7",
+      "id": "14",
+      "name": "framework-topology-index",
+      "bbox": [
+        890,
+        184,
+        80,
+        42
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.13"
+      },
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "anchor": 1,
+              "fontSize": 32,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y9ojuts",
+      "id": "15",
+      "name": "framework-topology-title",
+      "bbox": [
+        890,
+        246,
+        310,
+        44
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.14"
+      },
+      "geometry": "rect",
+      "text": "TOPOLOGY",
+      "textPreview": "TOPOLOGY",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TOPOLOGY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TOPOLOGY",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 34,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TOPOLOGY",
+              "anchor": 1,
+              "fontSize": 34,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szipczud",
+      "id": "16",
+      "name": "framework-topology-copy",
+      "bbox": [
+        890,
+        316,
+        300,
+        170
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.15"
+      },
+      "geometry": "rect",
+      "text": "Reflects · contains · occludes\n\nFive qualitative relations are declared, edited, and manually audited—not inferred by VGG.",
+      "textPreview": "Reflects · contains · occludes |  | Five qualitative relations are declared, edited, and manually audited—not inferred by VGG.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reflects · contains · occludes"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "Five qualitative relations are"
+          },
+          {
+            "index": 4,
+            "text": "declared, edited, and manually"
+          },
+          {
+            "index": 5,
+            "text": "audited—not inferred by VGG."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reflects · contains · occludes\n\nFive qualitative relations are declared, edited, and manually audited—not inferred by VGG.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 20,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reflects · contains · occludes\n\nFive qualitative relations are declared, edited, and manually audited—not inferred by VGG.",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0r6l4by",
+      "id": "17",
+      "name": "framework-topology-test",
+      "bbox": [
+        890,
+        520,
+        304,
+        56
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.16"
+      },
+      "geometry": "rect",
+      "text": "Test: Can meaning change while CNN distance stays small?",
+      "textPreview": "Test: Can meaning change while CNN distance stays small?",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Test: Can meaning change while CNN"
+          },
+          {
+            "index": 2,
+            "text": "distance stays small?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Test: Can meaning change while CNN distance stays small?",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Test: Can meaning change while CNN distance stays small?",
+              "anchor": 1,
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1wny5c3",
+      "id": "18",
+      "name": "footer-rule-4",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.17"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#CDC3B4",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n25o7ado",
+      "id": "19",
+      "name": "footer-source-4",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.18"
+      },
+      "geometry": "rect",
+      "text": "Project definitions · “Relational topology” is an operational scene graph, not a brain measurement",
+      "textPreview": "Project definitions · “Relational topology” is an operational scene graph, not a brain measurement",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Project definitions · “Relational topology” is an operational scene graph, not a brain measurement"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Project definitions · “Relational topology” is an operational scene graph, not a brain measurement",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Project definitions · “Relational topology” is an operational scene graph, not a brain measurement",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6l4f6tg",
+      "id": "20",
+      "name": "footer-page-4",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.19"
+      },
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "04-three-layer-framework",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1236,
+          "height": 704
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "kicker-4",
+            "position": {
+              "left": 44,
+              "top": 30
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 530
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 530,
+              "height": 22
+            },
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "children": [],
+            "text": "OPERATIONAL FRAMEWORK",
+            "transform": "none",
+            "element": {
+              "aid": "sh/gfuho7uh",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "slide-title-4",
+            "position": {
+              "left": 44,
+              "top": 58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 52
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 52
+            },
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "children": [],
+            "text": "One painting can be tested at three different layers",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ve1gv2dw",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "framework-style",
+            "position": {
+              "left": 44,
+              "top": 158
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 448
+              }
+            },
+            "intrinsicSize": {
+              "width": 374,
+              "height": 448
+            },
+            "frame": {
+              "left": 44,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/udszmxcb",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "shape",
+            "name": "framework-geometry",
+            "position": {
+              "left": 453,
+              "top": 158
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 448
+              }
+            },
+            "intrinsicSize": {
+              "width": 374,
+              "height": 448
+            },
+            "frame": {
+              "left": 453,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            },
+            "snappedFrame": {
+              "left": 453,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/543y1wvy",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "shape",
+            "name": "framework-topology",
+            "position": {
+              "left": 862,
+              "top": 158
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 448
+              }
+            },
+            "intrinsicSize": {
+              "width": 374,
+              "height": 448
+            },
+            "frame": {
+              "left": 862,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            },
+            "snappedFrame": {
+              "left": 862,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/43uhsrud",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "framework-style-index",
+            "position": {
+              "left": 72,
+              "top": 184
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 80
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 42
+              }
+            },
+            "intrinsicSize": {
+              "width": 80,
+              "height": 42
+            },
+            "frame": {
+              "left": 72,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            },
+            "snappedFrame": {
+              "left": 72,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            },
+            "children": [],
+            "text": "01",
+            "transform": "none",
+            "element": {
+              "aid": "sh/3ilgzmd8",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "framework-style-title",
+            "position": {
+              "left": 72,
+              "top": 246
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 280
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 44
+              }
+            },
+            "intrinsicSize": {
+              "width": 280,
+              "height": 44
+            },
+            "frame": {
+              "left": 72,
+              "top": 246,
+              "width": 280,
+              "height": 44
+            },
+            "snappedFrame": {
+              "left": 72,
+              "top": 246,
+              "width": 280,
+              "height": 44
+            },
+            "children": [],
+            "text": "STYLE",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ihczqhcn",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "framework-style-copy",
+            "position": {
+              "left": 72,
+              "top": 316
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 170
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 170
+            },
+            "frame": {
+              "left": 72,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            },
+            "snappedFrame": {
+              "left": 72,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            },
+            "children": [],
+            "text": "Color · texture · local mark\n\nVGG19 Gram matrices summarize channel co-activation while weakening exact position.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/d8ni5wva",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "framework-style-test",
+            "position": {
+              "left": 72,
+              "top": 520
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 304
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 56
+              }
+            },
+            "intrinsicSize": {
+              "width": 304,
+              "height": 56
+            },
+            "frame": {
+              "left": 72,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            },
+            "snappedFrame": {
+              "left": 72,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            },
+            "children": [],
+            "text": "Test: Does appearance change while composition remains recognizable?",
+            "transform": "none",
+            "element": {
+              "aid": "sh/s7ehwrup",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "text",
+            "name": "framework-geometry-index",
+            "position": {
+              "left": 481,
+              "top": 184
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 80
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 42
+              }
+            },
+            "intrinsicSize": {
+              "width": 80,
+              "height": 42
+            },
+            "frame": {
+              "left": 481,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            },
+            "snappedFrame": {
+              "left": 481,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            },
+            "children": [],
+            "text": "02",
+            "transform": "none",
+            "element": {
+              "aid": "sh/itg76pcb",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "framework-geometry-title",
+            "position": {
+              "left": 481,
+              "top": 246
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 310
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 44
+              }
+            },
+            "intrinsicSize": {
+              "width": 310,
+              "height": 44
+            },
+            "frame": {
+              "left": 481,
+              "top": 246,
+              "width": 310,
+              "height": 44
+            },
+            "snappedFrame": {
+              "left": 481,
+              "top": 246,
+              "width": 310,
+              "height": 44
+            },
+            "children": [],
+            "text": "GEOMETRY",
+            "transform": "none",
+            "element": {
+              "aid": "sh/jupofudg",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "framework-geometry-copy",
+            "position": {
+              "left": 481,
+              "top": 316
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 170
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 170
+            },
+            "frame": {
+              "left": 481,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            },
+            "snappedFrame": {
+              "left": 481,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            },
+            "children": [],
+            "text": "Coordinate · scale · angle\n\nSpatial VGG maps, HED boundaries, Hough segments, and RANSAC test layout and convergence.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/kvyp8zu1",
+              "id": "12",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.12",
+            "kind": "text",
+            "name": "framework-geometry-test",
+            "position": {
+              "left": 481,
+              "top": 520
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 304
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 56
+              }
+            },
+            "intrinsicSize": {
+              "width": 304,
+              "height": 56
+            },
+            "frame": {
+              "left": 481,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            },
+            "snappedFrame": {
+              "left": 481,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            },
+            "children": [],
+            "text": "Test: Does structure move when texture is comparatively stable?",
+            "transform": "none",
+            "element": {
+              "aid": "sh/5wr6h4bm",
+              "id": "13",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.13",
+            "kind": "text",
+            "name": "framework-topology-index",
+            "position": {
+              "left": 890,
+              "top": 184
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 80
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 42
+              }
+            },
+            "intrinsicSize": {
+              "width": 80,
+              "height": 42
+            },
+            "frame": {
+              "left": 890,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            },
+            "snappedFrame": {
+              "left": 890,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            },
+            "children": [],
+            "text": "03",
+            "transform": "none",
+            "element": {
+              "aid": "sh/6x07a9c7",
+              "id": "14",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.14",
+            "kind": "text",
+            "name": "framework-topology-title",
+            "position": {
+              "left": 890,
+              "top": 246
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 310
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 44
+              }
+            },
+            "intrinsicSize": {
+              "width": 310,
+              "height": 44
+            },
+            "frame": {
+              "left": 890,
+              "top": 246,
+              "width": 310,
+              "height": 44
+            },
+            "snappedFrame": {
+              "left": 890,
+              "top": 246,
+              "width": 310,
+              "height": 44
+            },
+            "children": [],
+            "text": "TOPOLOGY",
+            "transform": "none",
+            "element": {
+              "aid": "sh/7y9ojuts",
+              "id": "15",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.15",
+            "kind": "text",
+            "name": "framework-topology-copy",
+            "position": {
+              "left": 890,
+              "top": 316
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 300
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 170
+              }
+            },
+            "intrinsicSize": {
+              "width": 300,
+              "height": 170
+            },
+            "frame": {
+              "left": 890,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            },
+            "snappedFrame": {
+              "left": 890,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            },
+            "children": [],
+            "text": "Reflects · contains · occludes\n\nFive qualitative relations are declared, edited, and manually audited—not inferred by VGG.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/szipczud",
+              "id": "16",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.16",
+            "kind": "text",
+            "name": "framework-topology-test",
+            "position": {
+              "left": 890,
+              "top": 520
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 304
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 56
+              }
+            },
+            "intrinsicSize": {
+              "width": 304,
+              "height": 56
+            },
+            "frame": {
+              "left": 890,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            },
+            "snappedFrame": {
+              "left": 890,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            },
+            "children": [],
+            "text": "Test: Can meaning change while CNN distance stays small?",
+            "transform": "none",
+            "element": {
+              "aid": "sh/t0r6l4by",
+              "id": "17",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.17",
+            "kind": "shape",
+            "name": "footer-rule-4",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/m1wny5c3",
+              "id": "18",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.18",
+            "kind": "text",
+            "name": "footer-source-4",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "Project definitions · “Relational topology” is an operational scene graph, not a brain measurement",
+            "transform": "none",
+            "element": {
+              "aid": "sh/n25o7ado",
+              "id": "19",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.19",
+            "kind": "text",
+            "name": "footer-page-4",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "04",
+            "transform": "none",
+            "element": {
+              "aid": "sh/r6l4f6tg",
+              "id": "20",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 44,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 453,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 862,
+              "top": 158,
+              "width": 374,
+              "height": 448
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 72,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 72,
+              "top": 246,
+              "width": 280,
+              "height": 44
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 72,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 72,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 481,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 481,
+              "top": 246,
+              "width": 310,
+              "height": 44
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 481,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            }
+          },
+          {
+            "path": "0.12",
+            "frame": {
+              "left": 481,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            }
+          },
+          {
+            "path": "0.13",
+            "frame": {
+              "left": 890,
+              "top": 184,
+              "width": 80,
+              "height": 42
+            }
+          },
+          {
+            "path": "0.14",
+            "frame": {
+              "left": 890,
+              "top": 246,
+              "width": 310,
+              "height": 44
+            }
+          },
+          {
+            "path": "0.15",
+            "frame": {
+              "left": 890,
+              "top": 316,
+              "width": 300,
+              "height": 170
+            }
+          },
+          {
+            "path": "0.16",
+            "frame": {
+              "left": 890,
+              "top": 520,
+              "width": 304,
+              "height": 56
+            }
+          },
+          {
+            "path": "0.17",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.18",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.19",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

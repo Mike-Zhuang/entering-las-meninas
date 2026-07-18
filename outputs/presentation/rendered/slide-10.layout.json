@@ -1,0 +1,2107 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/zbexlt",
+    "id": "zbexlt",
+    "slide": 10,
+    "layoutId": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df1f5319-6403-4cea-b04a-ba40bc5ab45e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4505a05d-d0bb-494a-a9b5-d0fa72de7b37",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5snqx4b6",
+      "id": "1",
+      "name": "kicker-10",
+      "bbox": [
+        44,
+        30,
+        530,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "GEOMETRY INTERVENTION",
+      "textPreview": "GEOMETRY INTERVENTION",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GEOMETRY INTERVENTION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GEOMETRY INTERVENTION",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 13,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GEOMETRY INTERVENTION",
+              "anchor": 1,
+              "fontSize": 13,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ipw72psv",
+      "id": "2",
+      "name": "slide-title-10",
+      "bbox": [
+        44,
+        58,
+        1192,
+        52
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "Perspective warp dominates spatial-feature change",
+      "textPreview": "Perspective warp dominates spatial-feature change",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Perspective warp dominates spatial-feature change"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Perspective warp dominates spatial-feature change",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Perspective warp dominates spatial-feature change",
+              "anchor": 1,
+              "fontSize": 38,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mtovetc3",
+      "id": "3",
+      "name": "geometry-sequence",
+      "bbox": [
+        44,
+        128,
+        1192,
+        286
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "alt": "Las Meninas geometry transformation sequence from 0 to 100 percent",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "8add1d63-9780-4bbd-88a2-21ec63973f93",
+        "contentType": "image/png",
+        "byteLength": 4516077
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnep0zap",
+      "id": "4",
+      "name": "geometry-explainer",
+      "bbox": [
+        44,
+        452,
+        440,
+        176
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "fillColor": "#0D1011",
+      "lineColor": "#0D1011",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/honqtkba",
+      "id": "5",
+      "name": "geometry-explainer-title",
+      "bbox": [
+        70,
+        478,
+        340,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "Declared intervention",
+      "textPreview": "Declared intervention",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#F4EFE5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Declared intervention"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Declared intervention",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#F4EFE5",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Declared intervention",
+              "anchor": 1,
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#F4EFE5",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulc7ypsj",
+      "id": "6",
+      "name": "geometry-explainer-copy",
+      "bbox": [
+        70,
+        530,
+        356,
+        72
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.",
+      "textPreview": "Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#E8E0D2",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Perspective homography with fixed pivot,"
+          },
+          {
+            "index": 2,
+            "text": "convergence, safe-interior crop, and"
+          },
+          {
+            "index": 3,
+            "text": "identical output dimensions."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#E8E0D2",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#E8E0D2",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vm58rut4",
+      "id": "7",
+      "name": "geometry-style-value",
+      "bbox": [
+        542,
+        470,
+        190,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "0.127",
+      "textPreview": "0.127",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica Neue",
+        "color": "#B83A2D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.127"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.127",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Helvetica Neue",
+            "color": "#B83A2D",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.127",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Helvetica Neue",
+              "color": "#B83A2D",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0jy9cjat",
+      "id": "8",
+      "name": "geometry-style-copy",
+      "bbox": [
+        542,
+        542,
+        210,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "Gram style distance\nat geometry-100",
+      "textPreview": "Gram style distance | at geometry-100",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Gram style distance"
+          },
+          {
+            "index": 2,
+            "text": "at geometry-100"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Gram style distance\nat geometry-100",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Gram style distance\nat geometry-100",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k7q5ore",
+      "id": "9",
+      "name": "geometry-spatial-value",
+      "bbox": [
+        814,
+        470,
+        190,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "0.353",
+      "textPreview": "0.353",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica Neue",
+        "color": "#69D2E7",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.353"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.353",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Helvetica Neue",
+            "color": "#69D2E7",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.353",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Helvetica Neue",
+              "color": "#69D2E7",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tkfuxobm",
+      "id": "10",
+      "name": "geometry-spatial-copy",
+      "bbox": [
+        814,
+        542,
+        210,
+        54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "text": "spatial cosine distance\nat geometry-100",
+      "textPreview": "spatial cosine distance | at geometry-100",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "spatial cosine distance"
+          },
+          {
+            "index": 2,
+            "text": "at geometry-100"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "spatial cosine distance\nat geometry-100",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "spatial cosine distance\nat geometry-100",
+              "anchor": 1,
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jmtoja1",
+      "id": "11",
+      "name": "geometry-ratio-value",
+      "bbox": [
+        1070,
+        470,
+        150,
+        62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "10.6×",
+      "textPreview": "10.6×",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica Neue",
+        "color": "#0D1011",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10.6×"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10.6×",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 48,
+            "typeface": "Helvetica Neue",
+            "color": "#0D1011",
+            "bold": true,
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10.6×",
+              "anchor": 1,
+              "fontSize": 48,
+              "typeface": "Helvetica Neue",
+              "color": "#0D1011",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7idsvetw",
+      "id": "12",
+      "name": "geometry-ratio-copy",
+      "bbox": [
+        1070,
+        542,
+        150,
+        68
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "larger spatial change than deterministic style-100",
+      "textPreview": "larger spatial change than deterministic style-100",
+      "resolvedFontSize": 16.15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "larger spatial change"
+          },
+          {
+            "index": 2,
+            "text": "than deterministic"
+          },
+          {
+            "index": 3,
+            "text": "style-100"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "larger spatial change than deterministic style-100",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "larger spatial change than deterministic style-100",
+              "anchor": 1,
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6h4bm9sb",
+      "id": "13",
+      "name": "footer-rule-10",
+      "bbox": [
+        44,
+        680,
+        1192,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.12"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#CDC3B4",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgvat4bq",
+      "id": "14",
+      "name": "footer-source-10",
+      "bbox": [
+        44,
+        688,
+        1120,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.13"
+      },
+      "geometry": "rect",
+      "text": "Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333",
+      "textPreview": "Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kfmtkza5",
+      "id": "15",
+      "name": "footer-page-10",
+      "bbox": [
+        1178,
+        688,
+        58,
+        16
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.14"
+      },
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Helvetica Neue",
+        "color": "#6E7377",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 10,
+            "typeface": "Helvetica Neue",
+            "color": "#6E7377",
+            "alignment": "right",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "anchor": 1,
+              "fontSize": 10,
+              "typeface": "Helvetica Neue",
+              "color": "#6E7377",
+              "alignment": "right",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "10-geometry-series",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1236,
+          "height": 704
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "kicker-10",
+            "position": {
+              "left": 44,
+              "top": 30
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 530
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 22
+              }
+            },
+            "intrinsicSize": {
+              "width": 530,
+              "height": 22
+            },
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            },
+            "children": [],
+            "text": "GEOMETRY INTERVENTION",
+            "transform": "none",
+            "element": {
+              "aid": "sh/5snqx4b6",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "slide-title-10",
+            "position": {
+              "left": 44,
+              "top": 58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 52
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 52
+            },
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            },
+            "children": [],
+            "text": "Perspective warp dominates spatial-feature change",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ipw72psv",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "image",
+            "name": "geometry-sequence",
+            "position": {
+              "left": 44,
+              "top": 128
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 286
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 286
+            },
+            "frame": {
+              "left": 44,
+              "top": 128,
+              "width": 1192,
+              "height": 286
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 128,
+              "width": 1192,
+              "height": 286
+            },
+            "children": [],
+            "source": {
+              "kind": "blob"
+            },
+            "contentType": "image/png",
+            "fit": "contain",
+            "alt": "Las Meninas geometry transformation sequence from 0 to 100 percent",
+            "geometry": "rect",
+            "element": {
+              "aid": "im/mtovetc3",
+              "id": "3",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "shape",
+            "name": "geometry-explainer",
+            "position": {
+              "left": 44,
+              "top": 452
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 440
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 176
+              }
+            },
+            "intrinsicSize": {
+              "width": 440,
+              "height": 176
+            },
+            "frame": {
+              "left": 44,
+              "top": 452,
+              "width": 440,
+              "height": 176
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 452,
+              "width": 440,
+              "height": 176
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/gnep0zap",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "geometry-explainer-title",
+            "position": {
+              "left": 70,
+              "top": 478
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 340
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 36
+              }
+            },
+            "intrinsicSize": {
+              "width": 340,
+              "height": 36
+            },
+            "frame": {
+              "left": 70,
+              "top": 478,
+              "width": 340,
+              "height": 36
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 478,
+              "width": 340,
+              "height": 36
+            },
+            "children": [],
+            "text": "Declared intervention",
+            "transform": "none",
+            "element": {
+              "aid": "sh/honqtkba",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "geometry-explainer-copy",
+            "position": {
+              "left": 70,
+              "top": 530
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 356
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 72
+              }
+            },
+            "intrinsicSize": {
+              "width": 356,
+              "height": 72
+            },
+            "frame": {
+              "left": 70,
+              "top": 530,
+              "width": 356,
+              "height": 72
+            },
+            "snappedFrame": {
+              "left": 70,
+              "top": 530,
+              "width": 356,
+              "height": 72
+            },
+            "children": [],
+            "text": "Perspective homography with fixed pivot, convergence, safe-interior crop, and identical output dimensions.",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ulc7ypsj",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "geometry-style-value",
+            "position": {
+              "left": 542,
+              "top": 470
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 190
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 62
+              }
+            },
+            "intrinsicSize": {
+              "width": 190,
+              "height": 62
+            },
+            "frame": {
+              "left": 542,
+              "top": 470,
+              "width": 190,
+              "height": 62
+            },
+            "snappedFrame": {
+              "left": 542,
+              "top": 470,
+              "width": 190,
+              "height": 62
+            },
+            "children": [],
+            "text": "0.127",
+            "transform": "none",
+            "element": {
+              "aid": "sh/vm58rut4",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "geometry-style-copy",
+            "position": {
+              "left": 542,
+              "top": 542
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 210
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 54
+              }
+            },
+            "intrinsicSize": {
+              "width": 210,
+              "height": 54
+            },
+            "frame": {
+              "left": 542,
+              "top": 542,
+              "width": 210,
+              "height": 54
+            },
+            "snappedFrame": {
+              "left": 542,
+              "top": 542,
+              "width": 210,
+              "height": 54
+            },
+            "children": [],
+            "text": "Gram style distance\nat geometry-100",
+            "transform": "none",
+            "element": {
+              "aid": "sh/0jy9cjat",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "geometry-spatial-value",
+            "position": {
+              "left": 814,
+              "top": 470
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 190
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 62
+              }
+            },
+            "intrinsicSize": {
+              "width": 190,
+              "height": 62
+            },
+            "frame": {
+              "left": 814,
+              "top": 470,
+              "width": 190,
+              "height": 62
+            },
+            "snappedFrame": {
+              "left": 814,
+              "top": 470,
+              "width": 190,
+              "height": 62
+            },
+            "children": [],
+            "text": "0.353",
+            "transform": "none",
+            "element": {
+              "aid": "sh/1k7q5ore",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "text",
+            "name": "geometry-spatial-copy",
+            "position": {
+              "left": 814,
+              "top": 542
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 210
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 54
+              }
+            },
+            "intrinsicSize": {
+              "width": 210,
+              "height": 54
+            },
+            "frame": {
+              "left": 814,
+              "top": 542,
+              "width": 210,
+              "height": 54
+            },
+            "snappedFrame": {
+              "left": 814,
+              "top": 542,
+              "width": 210,
+              "height": 54
+            },
+            "children": [],
+            "text": "spatial cosine distance\nat geometry-100",
+            "transform": "none",
+            "element": {
+              "aid": "sh/tkfuxobm",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "geometry-ratio-value",
+            "position": {
+              "left": 1070,
+              "top": 470
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 150
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 62
+              }
+            },
+            "intrinsicSize": {
+              "width": 150,
+              "height": 62
+            },
+            "frame": {
+              "left": 1070,
+              "top": 470,
+              "width": 150,
+              "height": 62
+            },
+            "snappedFrame": {
+              "left": 1070,
+              "top": 470,
+              "width": 150,
+              "height": 62
+            },
+            "children": [],
+            "text": "10.6×",
+            "transform": "none",
+            "element": {
+              "aid": "sh/8jmtoja1",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "geometry-ratio-copy",
+            "position": {
+              "left": 1070,
+              "top": 542
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 150
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 68
+              }
+            },
+            "intrinsicSize": {
+              "width": 150,
+              "height": 68
+            },
+            "frame": {
+              "left": 1070,
+              "top": 542,
+              "width": 150,
+              "height": 68
+            },
+            "snappedFrame": {
+              "left": 1070,
+              "top": 542,
+              "width": 150,
+              "height": 68
+            },
+            "children": [],
+            "text": "larger spatial change than deterministic style-100",
+            "transform": "none",
+            "element": {
+              "aid": "sh/7idsvetw",
+              "id": "12",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.12",
+            "kind": "shape",
+            "name": "footer-rule-10",
+            "position": {
+              "left": 44,
+              "top": 680
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1192
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1192,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/6h4bm9sb",
+              "id": "13",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.13",
+            "kind": "text",
+            "name": "footer-source-10",
+            "position": {
+              "left": 44,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1120
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 1120,
+              "height": 16
+            },
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            },
+            "children": [],
+            "text": "Project geometry trajectory · Endpoint ratio uses spatial cosine distance: 0.3525 ÷ 0.0333",
+            "transform": "none",
+            "element": {
+              "aid": "sh/lgvat4bq",
+              "id": "14",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.14",
+            "kind": "text",
+            "name": "footer-page-10",
+            "position": {
+              "left": 1178,
+              "top": 688
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 58
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 16
+              }
+            },
+            "intrinsicSize": {
+              "width": 58,
+              "height": 16
+            },
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "snappedFrame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            },
+            "children": [],
+            "text": "10",
+            "transform": "none",
+            "element": {
+              "aid": "sh/kfmtkza5",
+              "id": "15",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 44,
+              "top": 30,
+              "width": 530,
+              "height": 22
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 44,
+              "top": 58,
+              "width": 1192,
+              "height": 52
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 44,
+              "top": 128,
+              "width": 1192,
+              "height": 286
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 44,
+              "top": 452,
+              "width": 440,
+              "height": 176
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 70,
+              "top": 478,
+              "width": 340,
+              "height": 36
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 70,
+              "top": 530,
+              "width": 356,
+              "height": 72
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 542,
+              "top": 470,
+              "width": 190,
+              "height": 62
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 542,
+              "top": 542,
+              "width": 210,
+              "height": 54
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 814,
+              "top": 470,
+              "width": 190,
+              "height": 62
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 814,
+              "top": 542,
+              "width": 210,
+              "height": 54
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 1070,
+              "top": 470,
+              "width": 150,
+              "height": 62
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 1070,
+              "top": 542,
+              "width": 150,
+              "height": 68
+            }
+          },
+          {
+            "path": "0.12",
+            "frame": {
+              "left": 44,
+              "top": 680,
+              "width": 1192,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.13",
+            "frame": {
+              "left": 44,
+              "top": 688,
+              "width": 1120,
+              "height": 16
+            }
+          },
+          {
+            "path": "0.14",
+            "frame": {
+              "left": 1178,
+              "top": 688,
+              "width": 58,
+              "height": 16
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

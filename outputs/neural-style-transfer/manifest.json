@@ -1,0 +1,161 @@
+{
+  "format_version": 1,
+  "implementation": {
+    "model_signature": "torchvision=0.25.0.dev20251218;architecture=vgg19;weights=VGG19_Weights.IMAGENET1K_V1",
+    "numpy": "1.26.0",
+    "pillow": "12.0.0",
+    "python": "3.12.12",
+    "script": "src/neural-style-transfer.py",
+    "script_sha256": "e5343ba6fcf530716540abecf064f34bd6bba4674d22b001846e42dc16a8caa6",
+    "torch": "2.11.0.dev20251218"
+  },
+  "inputs": {
+    "content": {
+      "center_crop": false,
+      "decoded_size": [
+        890,
+        1024
+      ],
+      "original_size": [
+        1779,
+        2048
+      ],
+      "path": "data/processed/las-meninas-2048.jpg",
+      "preprocessing": "jpeg-draft-if-available_then-aspect-preserving-lanczos-resize",
+      "sha256": "b422a84456946bf6d82a289496cba2af8ff86adf690114c04e6c2450ab872c31",
+      "working_size": [
+        445,
+        512
+      ]
+    },
+    "style": {
+      "center_crop": false,
+      "decoded_size": [
+        1254,
+        1254
+      ],
+      "original_size": [
+        1254,
+        1254
+      ],
+      "path": "assets/style/cognitive-map-style-reference.png",
+      "preprocessing": "jpeg-draft-if-available_then-aspect-preserving-lanczos-resize",
+      "sha256": "d8adc658b8a303847ab5a823f0c2c20852c7520bc4b9f8511314396d37708e4f",
+      "working_size": [
+        512,
+        512
+      ]
+    }
+  },
+  "method": "Gatys neural style transfer with frozen VGG19 features",
+  "outputs": [
+    {
+      "final_loss": {
+        "content_loss": 0.229792982339859,
+        "step": 500,
+        "style_loss": 1.437092919331917e-06,
+        "style_strength": 0.25,
+        "total_loss": 0.5890769958496094,
+        "tv_loss": 0.10794401168823242,
+        "weighted_content_loss": 0.229792982339859,
+        "weighted_style_loss": 0.359273225069046,
+        "weighted_tv_loss": 1.0794400623126421e-05
+      },
+      "image": "outputs/neural-style-transfer/neural-style-strength-0p25.png",
+      "image_sha256": "c158f8ad522a0190b6968a90176e270c91e4f5c54de5ca015b158d0ec4fdabe6",
+      "loss_csv": "outputs/neural-style-transfer/loss-strength-0p25.csv",
+      "loss_json": "outputs/neural-style-transfer/loss-strength-0p25.json",
+      "loss_records": 501,
+      "style_strength": 0.25
+    },
+    {
+      "final_loss": {
+        "content_loss": 0.3516882658004761,
+        "step": 500,
+        "style_loss": 9.233235687133856e-07,
+        "style_strength": 0.5,
+        "total_loss": 0.8133605718612671,
+        "tv_loss": 0.1050027534365654,
+        "weighted_content_loss": 0.3516882658004761,
+        "weighted_style_loss": 0.46166178584098816,
+        "weighted_tv_loss": 1.0500275493541267e-05
+      },
+      "image": "outputs/neural-style-transfer/neural-style-strength-0p5.png",
+      "image_sha256": "c4a4c516d7366180e969c8a10fff0162a8727bb609d56644f243a5329d41c287",
+      "loss_csv": "outputs/neural-style-transfer/loss-strength-0p5.csv",
+      "loss_json": "outputs/neural-style-transfer/loss-strength-0p5.json",
+      "loss_records": 501,
+      "style_strength": 0.5
+    },
+    {
+      "final_loss": {
+        "content_loss": 0.576397180557251,
+        "step": 500,
+        "style_loss": 5.931246960244607e-07,
+        "style_strength": 1.0,
+        "total_loss": 1.169532299041748,
+        "tv_loss": 0.10461539775133133,
+        "weighted_content_loss": 0.576397180557251,
+        "weighted_style_loss": 0.5931246876716614,
+        "weighted_tv_loss": 1.0461539204698056e-05
+      },
+      "image": "outputs/neural-style-transfer/neural-style-strength-1.png",
+      "image_sha256": "4c716da10d51f080055bd12589150fbc21a6cf5fb62c59a7a02737a11063631b",
+      "loss_csv": "outputs/neural-style-transfer/loss-strength-1.csv",
+      "loss_json": "outputs/neural-style-transfer/loss-strength-1.json",
+      "loss_records": 501,
+      "style_strength": 1.0
+    }
+  ],
+  "parameters": {
+    "aspect_ratio_preserved": true,
+    "center_crop": false,
+    "content_layer": "relu4_2",
+    "content_weight": 1.0,
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "initial_noise": 0.02,
+    "learning_rate": 0.02,
+    "long_side": 512,
+    "max_source_pixels": 1000000000,
+    "steps": 500,
+    "style_layers": [
+      "relu1_1",
+      "relu2_1",
+      "relu3_1",
+      "relu4_1",
+      "relu5_1"
+    ],
+    "style_strengths": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "style_weight": 1000000.0,
+    "tv_weight": 0.0001,
+    "weights": "default"
+  },
+  "project": "Entering Las Meninas: How a Painting Changed the Way I Look at Art",
+  "reproducibility": {
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "adam_foreach": false,
+    "deterministic_algorithms": true,
+    "deterministic_algorithms_warn_only": true,
+    "device": "mps",
+    "optimizer": "Adam",
+    "seed": 139,
+    "shared_initial_state_across_strengths": true
+  }
+}

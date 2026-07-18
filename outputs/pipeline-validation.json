@@ -1,0 +1,904 @@
+{
+  "artifacts": {
+    "outputs/animation/entering-las-meninas-heuristic-parallax.mp4": {
+      "sha256": "df1d8c1da37deb488784849ea3b338a8a2862fa575e1784685f3fee3fecd2dc3",
+      "size_bytes": 3760466
+    },
+    "outputs/artwork/entering-las-meninas-final.png": {
+      "sha256": "6b697a5de56883ceb00a933baf759e456ffa25283268ab9f4c313f8e6e864598",
+      "size_bytes": 2883048
+    },
+    "outputs/cnn-analysis/cnn-analysis.json": {
+      "sha256": "c4c8b0aeedf4b4246bf3afd3e99603216e4786ddd3113e3a09a5895058cbc4dc",
+      "size_bytes": 45837
+    },
+    "outputs/cnn-analysis/spatial-distances.csv": {
+      "sha256": "db94f347c5f2eab75fbe94d515f8909d6ebd5b8be874bbe8a2b1a7c00005368a",
+      "size_bytes": 11087
+    },
+    "outputs/cnn-analysis/style-distances.csv": {
+      "sha256": "cce42423d00015b3da5bcbe09be5bf7ab415d44167400ba9c7bb4236065ba157",
+      "size_bytes": 16219
+    },
+    "outputs/figures/cnn-style-spatial-feature-space.png": {
+      "sha256": "a71c04e4684a1e5d84050f81f3eb6cf5283b837234ed1a9fc1920381564e5d73",
+      "size_bytes": 169182
+    },
+    "outputs/figures/controlled-neural-matrix.png": {
+      "sha256": "5c6342352164ecfd95cfc09998b6508a2c2f7edc20f0d39ce665e8d5bcb0146c",
+      "size_bytes": 5512849
+    },
+    "outputs/figures/geometry-cnn-trajectories.png": {
+      "sha256": "31b1d152a84ac133d9af1525f4c84e6bf2110af1ec6daec3322880fe71aa4689",
+      "size_bytes": 100714
+    },
+    "outputs/figures/geometry-detection-trajectories.png": {
+      "sha256": "62478111bbdbda99db497a661d76dcf09ce4ea0d9bcf5ac8a14425e19988a6a2",
+      "size_bytes": 92478
+    },
+    "outputs/figures/geometry-method.png": {
+      "sha256": "a3ef6d6481d9aaf0fbf863cd8d9b6eeb9482defb45b4ef21dbd426cff2345568",
+      "size_bytes": 1857784
+    },
+    "outputs/figures/geometry-sequence.png": {
+      "sha256": "481d7c44f4055f9d2909afc8a15d6726dd5f2b86f0912a76174ea7d7d31f0cb0",
+      "size_bytes": 4516077
+    },
+    "outputs/figures/neural-style-cnn-trajectories.png": {
+      "sha256": "2a7b648286253ca84177a1c976c287444f6fc0fbd6ba4aadc295177c0d05e783",
+      "size_bytes": 98870
+    },
+    "outputs/figures/neural-style-sequence.png": {
+      "sha256": "b5409aee41130c07770b7e2787008720c6e8ecf01d769c493fd43cddf1d19f03",
+      "size_bytes": 7140143
+    },
+    "outputs/figures/topology-controls.png": {
+      "sha256": "df8441d4d35882640484d8d273e4219d59adbce165ab427df690d49ac65910d0",
+      "size_bytes": 1884994
+    },
+    "outputs/geometry-analysis/art-history-roi/geometry-analysis.json": {
+      "sha256": "86bb7277c75a7d9f19de1606e8ed27d431342da0991c541e8ea24d92e83e5f7e",
+      "size_bytes": 9589
+    },
+    "outputs/geometry-analysis/door-roi/geometry-analysis.json": {
+      "sha256": "b8c82b25f11398800041d74c1546f77a72c57368cf9f2bdc156d2e034775da67",
+      "size_bytes": 9597
+    },
+    "outputs/geometry-analysis/geometry-025/geometry-analysis.json": {
+      "sha256": "3704bfbc519c792beec2995548884e1b5f1162fda79f2eba157f6391bb903b0a",
+      "size_bytes": 9433
+    },
+    "outputs/geometry-analysis/geometry-050/geometry-analysis.json": {
+      "sha256": "e80ca6509490e4ad9a4f46059ad635b7f95e2fcc31855e6cddd01825f00162dc",
+      "size_bytes": 9451
+    },
+    "outputs/geometry-analysis/geometry-075/geometry-analysis.json": {
+      "sha256": "832afb076f853eefd2d11e020788cb3fdbd3ec24324e2e08ddd57db669e65a18",
+      "size_bytes": 9441
+    },
+    "outputs/geometry-analysis/geometry-100/geometry-analysis.json": {
+      "sha256": "e90f29f9599933a5afa1ea8f31ced55befea92d81eac3e8d60bfd5b6ef406d83",
+      "size_bytes": 9461
+    },
+    "outputs/geometry-analysis/original/geometry-analysis.json": {
+      "sha256": "4b55da63bc3ca70139b7975c9956a23d9a3274b9b70be042fe753cc51067696b",
+      "size_bytes": 9448
+    },
+    "outputs/geometry-analysis/topology-matched-control/geometry-analysis.json": {
+      "sha256": "5071561d294cf08eb441dfc0c7ce6b0a6350ee54dd07ff12ec06e20868c1fac8",
+      "size_bytes": 9495
+    },
+    "outputs/geometry-analysis/topology-mirror-deletion/geometry-analysis.json": {
+      "sha256": "1f0858dd82871ee61b54075bd9aa777cb60c7e7516bbd60160b8c92be331723e",
+      "size_bytes": 9448
+    },
+    "outputs/geometry-analysis/topology-original/geometry-analysis.json": {
+      "sha256": "3c1b2c17cabdb81a4a0996e99f093ad281af721ab83e3c1b3027b48959dc4890",
+      "size_bytes": 9466
+    },
+    "outputs/geometry-analysis/topology-sham-warp/geometry-analysis.json": {
+      "sha256": "b85e749af427797ce6533b433148327d4ca20a98686154a81a62b6de4abb35f4",
+      "size_bytes": 9475
+    },
+    "outputs/metrics/image-metrics.csv": {
+      "sha256": "c15a3268183d203edf45cde02339a67a5dc2b1f1d32f42da85acd9d175793b30",
+      "size_bytes": 5725
+    },
+    "outputs/metrics/layer-metrics.csv": {
+      "sha256": "b4ac7b1f9b72d624bec603fadddddf67c94a1dc2ef114fdd464c11c8dfafbd60",
+      "size_bytes": 43072
+    },
+    "outputs/metrics/neural-style-loss-curves.png": {
+      "sha256": "2ffcbacc7b5394718f4eca66b0a82636557f681f1afc31fa1766e0212fd31f9f",
+      "size_bytes": 534104
+    },
+    "outputs/metrics/selected-layer-heatmap.png": {
+      "sha256": "46433b59aaef313665ed87d16df2a0dee15b86dc0d09b3fa97f928f5b4293789",
+      "size_bytes": 584291
+    },
+    "outputs/metrics/style-vs-spatial-scatter.png": {
+      "sha256": "76b4ab43528da1f9adca6cfad40b31116238666d95a77e5f31d50efc056ca32e",
+      "size_bytes": 363462
+    },
+    "outputs/metrics/summary.json": {
+      "sha256": "e9687b733b8010230a4babaf404bc7547fdcd12719eb3b45618ff46f1666ecfe",
+      "size_bytes": 9257
+    },
+    "outputs/metrics/topology-ablation-metrics.png": {
+      "sha256": "345618c1144c6256dbb200866fe62d9dc23859f5d09ab142c07b52e7c0bf247a",
+      "size_bytes": 299410
+    },
+    "outputs/metrics/transformation-trajectories.png": {
+      "sha256": "b6a6ea9ad1ad519e03289c48bdef07db01c06374914e75975a219f81e401731a",
+      "size_bytes": 357365
+    },
+    "outputs/neural-style-transfer-combined/manifest.json": {
+      "sha256": "a401c9bcf5ae647c72e3148e57bc095cc1862d60eb5c422d76e611afeb04032c",
+      "size_bytes": 3314
+    },
+    "outputs/neural-style-transfer-combined/neural-style-strength-1.png": {
+      "sha256": "e731e19ea5b71aab988f46b2ccb24490094b96e119ba29b349cc67efefaf02f5",
+      "size_bytes": 505857
+    },
+    "outputs/neural-style-transfer/manifest.json": {
+      "sha256": "37493867e4bd928fd50852fd8ffb5e81e003659386247883f76270f366595a22",
+      "size_bytes": 4882
+    },
+    "outputs/neural-style-transfer/neural-style-strength-0p25.png": {
+      "sha256": "c158f8ad522a0190b6968a90176e270c91e4f5c54de5ca015b158d0ec4fdabe6",
+      "size_bytes": 511420
+    },
+    "outputs/neural-style-transfer/neural-style-strength-0p5.png": {
+      "sha256": "c4a4c516d7366180e969c8a10fff0162a8727bb609d56644f243a5329d41c287",
+      "size_bytes": 508496
+    },
+    "outputs/neural-style-transfer/neural-style-strength-1.png": {
+      "sha256": "4c716da10d51f080055bd12589150fbc21a6cf5fb62c59a7a02737a11063631b",
+      "size_bytes": 508012
+    },
+    "outputs/tables/analysis-tables.json": {
+      "sha256": "94b99fee3ca67f1bf6eefadf505f7c371b8a9e0c5b3ac2fcff69198e46cc9b8f",
+      "size_bytes": 819
+    },
+    "outputs/tables/cnn-feature-space.csv": {
+      "sha256": "e0a8e3fe9fe7c3870eb3b0fb9fbeaea3be730632635f6c00059046cbdedd4e2e",
+      "size_bytes": 2870
+    },
+    "outputs/tables/geometry-cnn-metrics.csv": {
+      "sha256": "b5bd82357662c0e1749e400f566b53d4d3ee3bc0f2f1a3726f255c84fb7253e1",
+      "size_bytes": 267
+    },
+    "outputs/tables/geometry-detection-metrics.csv": {
+      "sha256": "31cbcd7512fb96770f37280ad0a21705100caae041a482a6c03e18620cc5dbdf",
+      "size_bytes": 390
+    },
+    "outputs/tables/neural-style-cnn-metrics.csv": {
+      "sha256": "7dda47fc5afbd60615e33ad5c48caad88a0853efa10c573d562b407d8ee98f8e",
+      "size_bytes": 209
+    },
+    "outputs/tables/non-neural-style-cnn-metrics.csv": {
+      "sha256": "b90f5e432a867cf4260326575cfada56bf1ac0da95b77c76f44c88eca5016280",
+      "size_bytes": 275
+    },
+    "outputs/transformations/combined-geometry-style-100.png": {
+      "sha256": "27ede2c6e0bc863a5e8a23fbc8f22a8e60d49f2fcadc7d4fec4c23952b979685",
+      "size_bytes": 5346840
+    },
+    "outputs/transformations/geometry/geometry-000.png": {
+      "sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "size_bytes": 3382426
+    },
+    "outputs/transformations/geometry/geometry-025.png": {
+      "sha256": "60ce003390d05a2660706a491caa758189d5db1a3bc83a791645891926c8f8ce",
+      "size_bytes": 3880442
+    },
+    "outputs/transformations/geometry/geometry-050.png": {
+      "sha256": "76769f29ab57c130ce52e40fb91559220464575257fe0b47d8112bb2c0f4c102",
+      "size_bytes": 3839098
+    },
+    "outputs/transformations/geometry/geometry-075.png": {
+      "sha256": "25f54286a0c3495962b2af5cb2b20c07b38b2fdd06f534dd6b1bc99712de32d7",
+      "size_bytes": 3806657
+    },
+    "outputs/transformations/geometry/geometry-100.png": {
+      "sha256": "a19aaa76aa74f173a8375ab16eb7486d74cb58c7bd276f55d0260e63b6af848d",
+      "size_bytes": 3777928
+    },
+    "outputs/transformations/style/style-baseline-000.png": {
+      "sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "size_bytes": 3382426
+    },
+    "outputs/transformations/style/style-baseline-025.png": {
+      "sha256": "b09b9f6f4de29575411239638feac9f590c2e5798ea303cf95213a8811386795",
+      "size_bytes": 4397283
+    },
+    "outputs/transformations/style/style-baseline-050.png": {
+      "sha256": "cf0f55cb68490a78d53abaebfbceb14357607e518edf6dbc3ecfa64e56417465",
+      "size_bytes": 4828332
+    },
+    "outputs/transformations/style/style-baseline-075.png": {
+      "sha256": "d6ba608a2ab54cb8c754499c61e0536b8cf1397f41c8c93902ec90afa7aa7da6",
+      "size_bytes": 5160943
+    },
+    "outputs/transformations/style/style-baseline-100.png": {
+      "sha256": "65957c81fc4ecf9b59eae259649d19edcb9b48ce2efce870a28c790fa71a604c",
+      "size_bytes": 5432470
+    },
+    "outputs/transformations/topology/topology-matched-control.png": {
+      "sha256": "4dd39543b07aaac3130e9536c7cc75d2c455a8fbaebe5130da84d49fcc74a94b",
+      "size_bytes": 3383776
+    },
+    "outputs/transformations/topology/topology-mirror-deletion.png": {
+      "sha256": "35ba0b3128918cb281964834f05a01c381ecd4c282f571fb28464ab6eafb90e2",
+      "size_bytes": 3381755
+    },
+    "outputs/transformations/topology/topology-original.png": {
+      "sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "size_bytes": 3382426
+    },
+    "outputs/transformations/topology/topology-sham-warp.png": {
+      "sha256": "f858a1db097954c65297d9ac51e6ac4a163e561a84ade307ec093384354f0a27",
+      "size_bytes": 2959912
+    },
+    "outputs/transformations/transformations-manifest.json": {
+      "sha256": "9dc781ad7998fdd70ab921a20cc880b7aa4d9fffd5baded34fa1ff987f6882a0",
+      "size_bytes": 7196
+    },
+    "outputs/transformations/working-proxy.png": {
+      "sha256": "d3bb192d6f6392e3fd242765a1300c80f816e3536de9bdaac2b9330bf775c2ec",
+      "size_bytes": 3382426
+    }
+  },
+  "check_count": 129,
+  "checks": [
+    {
+      "detail": "outputs/transformations/transformations-manifest.json · 7196 bytes",
+      "name": "受控变换清单",
+      "passed": true
+    },
+    {
+      "detail": "levels=[0, 25, 50, 75, 100]",
+      "name": "受控强度完整",
+      "passed": true
+    },
+    {
+      "detail": "The style-only sequence is a deterministic color/texture baseline and is not neural style transfer. The combined deterministic condition is likewise a non-neural control.",
+      "name": "非神经基线已披露",
+      "passed": true
+    },
+    {
+      "detail": "records=15，要求 ≥ 15",
+      "name": "受控条件数量",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/geometry/geometry-000.png · 3382426 bytes",
+      "name": "受控条件 geometry-000",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/geometry/geometry-025.png · 3880442 bytes",
+      "name": "受控条件 geometry-025",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/geometry/geometry-050.png · 3839098 bytes",
+      "name": "受控条件 geometry-050",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/geometry/geometry-075.png · 3806657 bytes",
+      "name": "受控条件 geometry-075",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/geometry/geometry-100.png · 3777928 bytes",
+      "name": "受控条件 geometry-100",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/style/style-baseline-000.png · 3382426 bytes",
+      "name": "受控条件 style-baseline-000",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/style/style-baseline-025.png · 4397283 bytes",
+      "name": "受控条件 style-baseline-025",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/style/style-baseline-050.png · 4828332 bytes",
+      "name": "受控条件 style-baseline-050",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/style/style-baseline-075.png · 5160943 bytes",
+      "name": "受控条件 style-baseline-075",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/style/style-baseline-100.png · 5432470 bytes",
+      "name": "受控条件 style-baseline-100",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/topology/topology-original.png · 3382426 bytes",
+      "name": "受控条件 topology-original",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/topology/topology-mirror-deletion.png · 3381755 bytes",
+      "name": "受控条件 topology-mirror-deletion",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/topology/topology-matched-control.png · 3383776 bytes",
+      "name": "受控条件 topology-matched-control",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/topology/topology-sham-warp.png · 2959912 bytes",
+      "name": "受控条件 topology-sham-warp",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/combined-geometry-style-100.png · 5346840 bytes",
+      "name": "受控条件 combined-geometry-style-100",
+      "passed": true
+    },
+    {
+      "detail": "outputs/transformations/working-proxy.png · 3382426 bytes",
+      "name": "统一工作代理图",
+      "passed": true
+    },
+    {
+      "detail": "1779×2048，最短边要求 ≥ 256",
+      "name": "统一工作代理图 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/neural-style-transfer/manifest.json · 4882 bytes",
+      "name": "原作神经风格迁移清单",
+      "passed": true
+    },
+    {
+      "detail": "weights=default，model=torchvision=0.25.0.dev20251218;architecture=vgg19;weights=VGG19_Weights.IMAGENET1K_V1",
+      "name": "原作神经风格迁移使用正式 VGG19 权重",
+      "passed": true
+    },
+    {
+      "detail": "style_strengths=[0.25, 0.5, 1.0]",
+      "name": "原作神经风格迁移强度完整",
+      "passed": true
+    },
+    {
+      "detail": "outputs=3，要求=3",
+      "name": "原作神经风格迁移输出数量",
+      "passed": true
+    },
+    {
+      "detail": "outputs/neural-style-transfer/neural-style-strength-0p25.png · 511420 bytes",
+      "name": "原作神经风格迁移图像 0",
+      "passed": true
+    },
+    {
+      "detail": "445×512，最短边要求 ≥ 256",
+      "name": "原作神经风格迁移图像 0 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "expected=c158f8ad522a0190b6968a90176e270c91e4f5c54de5ca015b158d0ec4fdabe6，actual=c158f8ad522a0190b6968a90176e270c91e4f5c54de5ca015b158d0ec4fdabe6",
+      "name": "原作神经风格迁移图像 0 哈希",
+      "passed": true
+    },
+    {
+      "detail": "outputs/neural-style-transfer/neural-style-strength-0p5.png · 508496 bytes",
+      "name": "原作神经风格迁移图像 1",
+      "passed": true
+    },
+    {
+      "detail": "445×512，最短边要求 ≥ 256",
+      "name": "原作神经风格迁移图像 1 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "expected=c4a4c516d7366180e969c8a10fff0162a8727bb609d56644f243a5329d41c287，actual=c4a4c516d7366180e969c8a10fff0162a8727bb609d56644f243a5329d41c287",
+      "name": "原作神经风格迁移图像 1 哈希",
+      "passed": true
+    },
+    {
+      "detail": "outputs/neural-style-transfer/neural-style-strength-1.png · 508012 bytes",
+      "name": "原作神经风格迁移图像 2",
+      "passed": true
+    },
+    {
+      "detail": "445×512，最短边要求 ≥ 256",
+      "name": "原作神经风格迁移图像 2 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "expected=4c716da10d51f080055bd12589150fbc21a6cf5fb62c59a7a02737a11063631b，actual=4c716da10d51f080055bd12589150fbc21a6cf5fb62c59a7a02737a11063631b",
+      "name": "原作神经风格迁移图像 2 哈希",
+      "passed": true
+    },
+    {
+      "detail": "outputs/neural-style-transfer-combined/manifest.json · 3314 bytes",
+      "name": "几何组合神经风格迁移清单",
+      "passed": true
+    },
+    {
+      "detail": "weights=default，model=torchvision=0.25.0.dev20251218;architecture=vgg19;weights=VGG19_Weights.IMAGENET1K_V1",
+      "name": "几何组合神经风格迁移使用正式 VGG19 权重",
+      "passed": true
+    },
+    {
+      "detail": "style_strengths=[1.0]",
+      "name": "几何组合神经风格迁移强度完整",
+      "passed": true
+    },
+    {
+      "detail": "outputs=1，要求=1",
+      "name": "几何组合神经风格迁移输出数量",
+      "passed": true
+    },
+    {
+      "detail": "outputs/neural-style-transfer-combined/neural-style-strength-1.png · 505857 bytes",
+      "name": "几何组合神经风格迁移图像 0",
+      "passed": true
+    },
+    {
+      "detail": "445×512，最短边要求 ≥ 256",
+      "name": "几何组合神经风格迁移图像 0 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "expected=e731e19ea5b71aab988f46b2ccb24490094b96e119ba29b349cc67efefaf02f5，actual=e731e19ea5b71aab988f46b2ccb24490094b96e119ba29b349cc67efefaf02f5",
+      "name": "几何组合神经风格迁移图像 0 哈希",
+      "passed": true
+    },
+    {
+      "detail": "outputs/cnn-analysis/cnn-analysis.json · 45837 bytes",
+      "name": "CNN 分析清单",
+      "passed": true
+    },
+    {
+      "detail": "weights=default，model=torch=2.11.0.dev20251218;torchvision=0.25.0.dev20251218;VGG19_Weights.IMAGENET1K_V1",
+      "name": "CNN 使用正式 VGG19 权重",
+      "passed": true
+    },
+    {
+      "detail": "comparisons=21，images=22",
+      "name": "CNN 候选条件覆盖",
+      "passed": true
+    },
+    {
+      "detail": "interpretation_limits=3",
+      "name": "CNN 解释限制已披露",
+      "passed": true
+    },
+    {
+      "detail": "outputs/cnn-analysis/style-distances.csv · 16219 bytes",
+      "name": "逐层 style 距离",
+      "passed": true
+    },
+    {
+      "detail": "表头=['candidate_image_id', 'candidate_path', 'layer', 'absolute_frobenius', 'relative_frobenius']，数据行=126，要求 ≥ 20",
+      "name": "逐层 style 距离 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/cnn-analysis/spatial-distances.csv · 11087 bytes",
+      "name": "逐层 spatial 距离",
+      "passed": true
+    },
+    {
+      "detail": "表头=['candidate_image_id', 'candidate_path', 'layer', 'relative_rms', 'mean_cosine_distance']，数据行=84，要求 ≥ 20",
+      "name": "逐层 spatial 距离 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/original/geometry-analysis.json · 9448 bytes",
+      "name": "几何分析 original",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 original 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=334",
+      "name": "几何分析 original 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/geometry-025/geometry-analysis.json · 9433 bytes",
+      "name": "几何分析 geometry-025",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 geometry-025 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=314",
+      "name": "几何分析 geometry-025 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/geometry-050/geometry-analysis.json · 9451 bytes",
+      "name": "几何分析 geometry-050",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 geometry-050 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=274",
+      "name": "几何分析 geometry-050 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/geometry-075/geometry-analysis.json · 9441 bytes",
+      "name": "几何分析 geometry-075",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 geometry-075 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=297",
+      "name": "几何分析 geometry-075 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/geometry-100/geometry-analysis.json · 9461 bytes",
+      "name": "几何分析 geometry-100",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 geometry-100 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=277",
+      "name": "几何分析 geometry-100 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/topology-original/geometry-analysis.json · 9466 bytes",
+      "name": "几何分析 topology-original",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 topology-original 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=334",
+      "name": "几何分析 topology-original 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/topology-mirror-deletion/geometry-analysis.json · 9448 bytes",
+      "name": "几何分析 topology-mirror-deletion",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 topology-mirror-deletion 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=337",
+      "name": "几何分析 topology-mirror-deletion 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/topology-matched-control/geometry-analysis.json · 9495 bytes",
+      "name": "几何分析 topology-matched-control",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 topology-matched-control 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=327",
+      "name": "几何分析 topology-matched-control 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/topology-sham-warp/geometry-analysis.json · 9475 bytes",
+      "name": "几何分析 topology-sham-warp",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 topology-sham-warp 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=302",
+      "name": "几何分析 topology-sham-warp 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/art-history-roi/geometry-analysis.json · 9589 bytes",
+      "name": "几何分析 art-history-roi",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 art-history-roi 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=334",
+      "name": "几何分析 art-history-roi 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/geometry-analysis/door-roi/geometry-analysis.json · 9597 bytes",
+      "name": "几何分析 door-roi",
+      "passed": true
+    },
+    {
+      "detail": "backend_used=hed；正式结果不接受纯 Canny 主后端",
+      "name": "几何分析 door-roi 使用 CNN 边缘",
+      "passed": true
+    },
+    {
+      "detail": "line_count=334",
+      "name": "几何分析 door-roi 检出线段",
+      "passed": true
+    },
+    {
+      "detail": "outputs/tables/cnn-feature-space.csv · 2870 bytes",
+      "name": "汇总表 cnn-feature-space.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['x', 'y', 'label', 'group', 'intensity', 'candidate_path', 'spatial_relative_rms']，数据行=21，要求 ≥ 20",
+      "name": "汇总表 cnn-feature-space.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/tables/geometry-cnn-metrics.csv · 267 bytes",
+      "name": "汇总表 geometry-cnn-metrics.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['intensity', 'style-distance', 'spatial-cosine-distance', 'spatial-relative-rms']，数据行=5，要求 ≥ 5",
+      "name": "汇总表 geometry-cnn-metrics.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/tables/non-neural-style-cnn-metrics.csv · 275 bytes",
+      "name": "汇总表 non-neural-style-cnn-metrics.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['intensity', 'style-distance', 'spatial-cosine-distance', 'spatial-relative-rms']，数据行=5，要求 ≥ 5",
+      "name": "汇总表 non-neural-style-cnn-metrics.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/tables/neural-style-cnn-metrics.csv · 209 bytes",
+      "name": "汇总表 neural-style-cnn-metrics.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['intensity', 'style-distance', 'spatial-cosine-distance', 'spatial-relative-rms']，数据行=4，要求 ≥ 4",
+      "name": "汇总表 neural-style-cnn-metrics.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/tables/geometry-detection-metrics.csv · 390 bytes",
+      "name": "汇总表 geometry-detection-metrics.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['intensity', 'line-count', 'vanishing-x', 'vanishing-y', 'weighted-inlier-ratio', 'cnn-canny-vp-distance']，数据行=5，要求 ≥ 5",
+      "name": "汇总表 geometry-detection-metrics.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/tables/analysis-tables.json · 819 bytes",
+      "name": "汇总表清单",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/image-metrics.csv · 5725 bytes",
+      "name": "定量汇总 image-metrics.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['candidate_image_id', 'sample_name', 'display_label', 'category', 'candidate_path', 'intensity_percent', 'neural_style_strength', 'nst_content_condition', 'style_relative_frobenius', 'style_absolute_frobenius', 'spatial_relative_rms', 'spatial_mean_cosine_distance', 'topology_variant', 'relations_preserved', 'total_relations', 'relation_fraction', 'relation_review_method', 'nst_final_total_loss', 'nst_final_content_loss', 'nst_final_style_loss', 'nst_final_tv_loss']，数据行=21，要求 ≥ 20",
+      "name": "定量汇总 image-metrics.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/layer-metrics.csv · 43072 bytes",
+      "name": "定量汇总 layer-metrics.csv",
+      "passed": true
+    },
+    {
+      "detail": "表头=['candidate_image_id', 'sample_name', 'category', 'candidate_path', 'metric_family', 'layer', 'primary_metric', 'primary_value', 'secondary_metric', 'secondary_value']，数据行=210，要求 ≥ 200",
+      "name": "定量汇总 layer-metrics.csv 数据行",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/summary.json · 9257 bytes",
+      "name": "定量汇总清单",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/controlled-neural-matrix.png · 5512849 bytes",
+      "name": "提交图表 controlled-neural-matrix.png",
+      "passed": true
+    },
+    {
+      "detail": "1796×2186，最短边要求 ≥ 256",
+      "name": "提交图表 controlled-neural-matrix.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/geometry-sequence.png · 4516077 bytes",
+      "name": "提交图表 geometry-sequence.png",
+      "passed": true
+    },
+    {
+      "detail": "4367×1029，最短边要求 ≥ 256",
+      "name": "提交图表 geometry-sequence.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/neural-style-sequence.png · 7140143 bytes",
+      "name": "提交图表 neural-style-sequence.png",
+      "passed": true
+    },
+    {
+      "detail": "4368×1029，最短边要求 ≥ 256",
+      "name": "提交图表 neural-style-sequence.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/topology-controls.png · 1884994 bytes",
+      "name": "提交图表 topology-controls.png",
+      "passed": true
+    },
+    {
+      "detail": "3469×1029，最短边要求 ≥ 256",
+      "name": "提交图表 topology-controls.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/geometry-method.png · 1857784 bytes",
+      "name": "提交图表 geometry-method.png",
+      "passed": true
+    },
+    {
+      "detail": "3469×1029，最短边要求 ≥ 256",
+      "name": "提交图表 geometry-method.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/cnn-style-spatial-feature-space.png · 169182 bytes",
+      "name": "提交图表 cnn-style-spatial-feature-space.png",
+      "passed": true
+    },
+    {
+      "detail": "1517×1136，最短边要求 ≥ 256",
+      "name": "提交图表 cnn-style-spatial-feature-space.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/geometry-cnn-trajectories.png · 100714 bytes",
+      "name": "提交图表 geometry-cnn-trajectories.png",
+      "passed": true
+    },
+    {
+      "detail": "1602×974，最短边要求 ≥ 256",
+      "name": "提交图表 geometry-cnn-trajectories.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/neural-style-cnn-trajectories.png · 98870 bytes",
+      "name": "提交图表 neural-style-cnn-trajectories.png",
+      "passed": true
+    },
+    {
+      "detail": "1602×974，最短边要求 ≥ 256",
+      "name": "提交图表 neural-style-cnn-trajectories.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/figures/geometry-detection-trajectories.png · 92478 bytes",
+      "name": "提交图表 geometry-detection-trajectories.png",
+      "passed": true
+    },
+    {
+      "detail": "1603×974，最短边要求 ≥ 256",
+      "name": "提交图表 geometry-detection-trajectories.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/style-vs-spatial-scatter.png · 363462 bytes",
+      "name": "定量图表 style-vs-spatial-scatter.png",
+      "passed": true
+    },
+    {
+      "detail": "3631×2278，最短边要求 ≥ 256",
+      "name": "定量图表 style-vs-spatial-scatter.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/transformation-trajectories.png · 357365 bytes",
+      "name": "定量图表 transformation-trajectories.png",
+      "passed": true
+    },
+    {
+      "detail": "3926×2017，最短边要求 ≥ 256",
+      "name": "定量图表 transformation-trajectories.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/selected-layer-heatmap.png · 584291 bytes",
+      "name": "定量图表 selected-layer-heatmap.png",
+      "passed": true
+    },
+    {
+      "detail": "4740×3787，最短边要求 ≥ 256",
+      "name": "定量图表 selected-layer-heatmap.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/topology-ablation-metrics.png · 299410 bytes",
+      "name": "定量图表 topology-ablation-metrics.png",
+      "passed": true
+    },
+    {
+      "detail": "3975×2075，最短边要求 ≥ 256",
+      "name": "定量图表 topology-ablation-metrics.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/metrics/neural-style-loss-curves.png · 534104 bytes",
+      "name": "定量图表 neural-style-loss-curves.png",
+      "passed": true
+    },
+    {
+      "detail": "4085×2800，最短边要求 ≥ 256",
+      "name": "定量图表 neural-style-loss-curves.png 图像尺寸",
+      "passed": true
+    },
+    {
+      "detail": "outputs/animation/entering-las-meninas-heuristic-parallax.mp4 · 3760466 bytes",
+      "name": "视差视频",
+      "passed": true
+    },
+    {
+      "detail": "outputs/artwork/entering-las-meninas-final.png · 2883048 bytes",
+      "name": "最终个人作品",
+      "passed": true
+    },
+    {
+      "detail": "1169×1346，最短边要求 ≥ 512",
+      "name": "最终个人作品 图像尺寸",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "output_root": "outputs",
+  "project_root": ".",
+  "status": "passed"
+}

@@ -1,0 +1,22 @@
+x,y,label,group,intensity,candidate_path,spatial_relative_rms
+0,-1.348024701e-17,Geometry 0%,geometry,0,outputs/transformations/geometry/geometry-000.png,0
+0.0885430306,0.09709733112,Geometry 25%,geometry,25,outputs/transformations/geometry/geometry-025.png,0.4699324833
+0.1042783029,0.200191926,Geometry 50%,geometry,50,outputs/transformations/geometry/geometry-050.png,0.6863037693
+0.1184528733,0.286499464,Geometry 75%,geometry,75,outputs/transformations/geometry/geometry-075.png,0.8289016115
+0.1266635647,0.3525459611,Geometry 100%,geometry,100,outputs/transformations/geometry/geometry-100.png,0.9188680604
+0,-1.348024701e-17,Non-neural baseline 0%,non-neural-style-baseline,0,outputs/transformations/style/style-baseline-000.png,0
+0.07952104915,0.005927042892,Non-neural baseline 25%,non-neural-style-baseline,25,outputs/transformations/style/style-baseline-025.png,0.09061713083
+0.1568847262,0.01324580986,Non-neural baseline 50%,non-neural-style-baseline,50,outputs/transformations/style/style-baseline-050.png,0.1553892374
+0.2299874896,0.02290858025,Non-neural baseline 75%,non-neural-style-baseline,75,outputs/transformations/style/style-baseline-075.png,0.2144726686
+0.3025078111,0.03334487753,Non-neural baseline 100%,non-neural-style-baseline,100,outputs/transformations/style/style-baseline-100.png,0.2692541459
+0,-1.348024701e-17,Topology original,topology-control,,outputs/transformations/topology/topology-original.png,0
+0.02189652729,0.002515085244,Mirror deleted,topology-control,,outputs/transformations/topology/topology-mirror-deletion.png,0.09276891071
+0.02493565524,0.00151126256,Matched-patch control,topology-control,,outputs/transformations/topology/topology-matched-control.png,0.08429480156
+0.03650524076,0.003615931122,Sham-warp control,topology-control,,outputs/transformations/topology/topology-sham-warp.png,0.0581727721
+0.3209915501,0.3631478951,Geometry + non-neural baseline,geometry-plus-non-neural-baseline,100,outputs/transformations/combined-geometry-style-100.png,0.9806722271
+0.5029598329,0.1044854751,Neural style 0.25,neural-style,25,outputs/neural-style-transfer/neural-style-strength-0p25.png,0.4287778637
+0.5303100793,0.114818076,Neural style 0.5,neural-style,50,outputs/neural-style-transfer/neural-style-strength-0p5.png,0.4533633196
+0.5549039397,0.1297876482,Neural style 1,neural-style,100,outputs/neural-style-transfer/neural-style-strength-1.png,0.4821979121
+0.5675841353,0.4003645948,Geometry 100% + neural style 1.0,geometry-plus-neural-style,100,outputs/neural-style-transfer-combined/neural-style-strength-1.png,0.9083451572
+0.4614283204,0.3637661388,Final personal artwork,personal-artwork,,outputs/artwork/entering-las-meninas-final.png,0.8090895469
+1.419607128,0.7139354334,Picasso comparison (local; image not redistributed),external-historical-comparison,,pics/picasso.png,1.378591569

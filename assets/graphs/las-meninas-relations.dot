@@ -1,0 +1,99 @@
+// 《宫娥》的关系拓扑：节点位置仅用于清晰表达关系，不代表像素坐标。
+digraph LasMeninasRelations {
+  graph [
+    bgcolor="#F6F0E4",
+    pad="0.45",
+    nodesep="0.55",
+    ranksep="0.90",
+    rankdir=LR,
+    splines=spline,
+    outputorder=edgesfirst,
+    fontname="Helvetica",
+    labelloc=t,
+    labeljust=l,
+    label="LAS MENINAS AS A RELATIONAL SYSTEM\nThe painting links what is visible to what is implied beyond its surface",
+    fontsize=22,
+    fontcolor="#152329"
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    margin="0.18,0.12",
+    penwidth=1.6,
+    color="#152329",
+    fillcolor="#F6F0E4",
+    fontname="Helvetica",
+    fontsize=12,
+    fontcolor="#152329"
+  ];
+
+  edge [
+    color="#4D96A6",
+    fontcolor="#245D68",
+    fontname="Helvetica",
+    fontsize=10,
+    penwidth=1.8,
+    arrowsize=0.75
+  ];
+
+  subgraph cluster_external {
+    label="IMPLIED SPACE · in front of the canvas";
+    color="#B23A2B";
+    fontcolor="#8E2C22";
+    penwidth=1.7;
+    style="rounded,dashed";
+    margin=22;
+
+    viewer [label="VIEWER\nour occupied position", fillcolor="#B23A2B", fontcolor="#FFF9EF", color="#B23A2B", penwidth=2.2];
+    royalCouple [label="ROYAL COUPLE\nimplied physical position", fillcolor="#FFF9EF", color="#B23A2B", penwidth=2.2];
+  }
+
+  subgraph cluster_pictorial {
+    label="PICTORIAL SPACE · inside the room";
+    color="#4D96A6";
+    fontcolor="#245D68";
+    penwidth=1.7;
+    style="rounded";
+    margin=22;
+
+    canvas [label="REVERSE OF CANVAS\nvisible barrier", fillcolor="#152329", fontcolor="#FFF9EF"];
+    hiddenSubject [label="PAINTED SUBJECT\ncontent withheld", style="rounded,filled,dashed", color="#B23A2B", fillcolor="#FFF9EF"];
+    painter [label="VELÁZQUEZ\npainter inside the scene", fillcolor="#E2EDF0"];
+    infanta [label="INFANTA MARGARITA\nattention anchor", fillcolor="#E2EDF0"];
+    attendants [label="ATTENDANTS + DOG\nforeground constellation"];
+    mirror [label="MIRROR\nsmall image / large inference", shape=doubleoctagon, fillcolor="#B23A2B", fontcolor="#FFF9EF", color="#B23A2B", penwidth=2.2];
+    rearDoor [label="OPEN REAR DOOR\ndepth and exit", shape=component, fillcolor="#E2EDF0"];
+    nieto [label="JOSÉ NIETO\nthreshold figure"];
+  }
+
+  viewer -> infanta [label="looks toward", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+  painter -> viewer [label="looks toward", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+  infanta -> viewer [label="looks toward", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+  attendants -> infanta [label="orient around"];
+
+  mirror -> royalCouple [label="contains image of", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+  royalCouple -> mirror [label="reflected by", color="#B23A2B", fontcolor="#8E2C22", penwidth=2.3];
+  viewer -> royalCouple [label="shares implied viewing zone", dir=both, arrowtail=none, style=dashed];
+
+  canvas -> hiddenSubject [label="occludes", color="#B23A2B", fontcolor="#8E2C22"];
+  painter -> canvas [label="works behind"];
+  hiddenSubject -> royalCouple [label="possibly depicts", style=dashed, color="#7C8384", fontcolor="#616768"];
+
+  rearDoor -> nieto [label="frames / contains"];
+  rearDoor -> viewer [label="extends depth away from", style=dashed];
+  mirror -> rearDoor [label="counterpoint: image / opening", dir=both, arrowtail=none, style=dashed];
+
+  subgraph cluster_legend {
+    label="RELATION KEY";
+    color="#C9C1B4";
+    fontcolor="#5E625F";
+    style="rounded";
+    margin=16;
+    legendCritical [label="critical reflexive link", fillcolor="#B23A2B", fontcolor="#FFF9EF", color="#B23A2B"];
+    legendSpatial [label="retained spatial relation", fillcolor="#E2EDF0", color="#4D96A6"];
+    legendInferred [label="inferred / uncertain", style="rounded,filled,dashed", color="#7C8384", fillcolor="#FFF9EF"];
+    legendCritical -> legendSpatial [label="relation", color="#4D96A6"];
+    legendSpatial -> legendInferred [label="inference", style=dashed, color="#7C8384", fontcolor="#616768"];
+  }
+}

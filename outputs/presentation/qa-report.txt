@@ -1,0 +1,29 @@
+Entering Las Meninas — PowerPoint QA record
+Date: 2026-07-17
+
+Deliverable
+- File: outputs/presentation/entering-las-meninas.pptx
+- Slide count: 16
+- Canvas: 1280 × 720 px (16:9)
+- SHA-256: a83cb76286e689777e4fb818de8b128d998697f30822e5b111002a081bbc121f
+- Authoring API: @oai/artifact-tool, plain JavaScript ES module
+- Builder: presentation/build-deck.mjs
+
+Render verification
+- Every slide was exported by artifact-tool at 2× scale into outputs/presentation/rendered/.
+- The final PPTX was independently rendered through LibreOffice at 2560 × 1440 px per slide.
+- All 16 independently rendered slides were inspected individually at original resolution.
+- The final slide-12 labels explicitly identify all three reported candidates as HED outputs.
+- The final render has no unintended overlap, clipped title, broken image, or unresolved placeholder.
+
+Programmatic verification
+- Command: slides_test.py outputs/presentation/entering-las-meninas.pptx
+- Result: Test passed. No overflow detected.
+- All 16 artifact-tool layout JSON files were searched for warning, overflow, overlap,
+  out-of-bounds, and clipping markers; none were present.
+
+Public-release checks
+- No local Picasso image pixels appear in the deck.
+- The Picasso comparison is text and numeric only, with the redistribution limitation stated.
+- The ready-made visualization is labeled as an AI-generated concept mockup.
+- The final artwork is labeled as AI-assisted and separate from the quantitative CNN pipeline.

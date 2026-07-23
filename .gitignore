@@ -33,6 +33,9 @@ dist/
 /pics/
 /data/raw/
 
+# 私人课程提交包含毕加索作品复制图及其嵌入式 PDF，仅用于 bCourses，不进入公开仓库。
+/assignment-1-submission/
+
 # PowerPoint 构建过程使用仓库外临时目录；保留最终 PPTX 与完整渲染 QA，排除临时/中断产物。
 *.pptx~
 *.pptx.inspect.ndjson

@@ -223,6 +223,14 @@ Load the trained model and generate Figures 3, 4, and 8 together with the archit
 python network-visualization.py
 ```
 
+Export every panel, all 800 training patterns, and dedicated input–reconstruction comparison materials:
+
+```bash
+python export-individual-images.py
+```
+
+See [`outputs/individual/README.md`](outputs/individual/README.md) for the categorized directory and comparison methods.
+
 The scripts use the fixed random seed 139. They automatically prefer Apple MPS and fall back to CPU when MPS is unavailable.
 
 ## 13. File Guide
@@ -233,7 +241,9 @@ The scripts use the fixed random seed 139. They automatically prefer Apple MPS a
 | `inputs/las-meninas-reference.jpg` | Reference image of *Las Meninas* |
 | `autoencoder-experiment.py` | Data generation, model training, and main analyses |
 | `network-visualization.py` | Architecture and forward-pass visualizations |
+| `export-individual-images.py` | Categorized panels, all training patterns, and reconstruction comparisons |
 | `model/geometric-autoencoder.pt` | Model weights, configuration, and training history |
 | `outputs/metrics.json` | Reconstruction and red-dominance measurements |
 | `outputs/network-architecture.json` | Per-layer shapes, kernels, strides, and parameter counts |
 | `outputs/01`–`08` | All figures used in this document |
+| `outputs/individual/` | Panels organized by resolution, feature stage, and comparison use |

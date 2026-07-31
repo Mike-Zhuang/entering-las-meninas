@@ -221,6 +221,14 @@ python autoencoder-experiment.py
 python network-visualization.py
 ```
 
+把组合图中的面板、全部 800 张训练图案和专门的输入—重建比较材料分别导出：
+
+```bash
+python export-individual-images.py
+```
+
+分类目录和比较方法见 [`outputs/individual/README.md`](outputs/individual/README.md)。
+
 脚本使用固定随机种子 139，并自动优先选择 Apple MPS；MPS 不可用时会回退到 CPU。
 
 ## 13. 文件索引
@@ -231,7 +239,9 @@ python network-visualization.py
 | `inputs/las-meninas-reference.jpg`  | 《宫娥》参考图                 |
 | `autoencoder-experiment.py`         | 数据生成、模型训练和主要分析   |
 | `network-visualization.py`          | 网络结构与逐层传播可视化       |
+| `export-individual-images.py`       | 分类单图、全部训练图案和重建比较材料 |
 | `model/geometric-autoencoder.pt`    | 模型权重、配置和训练历史       |
 | `outputs/metrics.json`              | 重建与红色优势指标             |
 | `outputs/network-architecture.json` | 每层尺寸、卷积核、步长和参数量 |
 | `outputs/01`—`08`                   | 本文使用的全部输出图片         |
+| `outputs/individual/`               | 按分辨率、特征阶段和比较用途分类的单图 |

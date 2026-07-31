@@ -1,0 +1,13 @@
+{
+  "selectionRule": "Eight channels with the highest spatial variance.",
+  "displayOrderOneBased": [
+    7,
+    5,
+    4,
+    12,
+    6,
+    11,
+    10,
+    9
+  ]
+}

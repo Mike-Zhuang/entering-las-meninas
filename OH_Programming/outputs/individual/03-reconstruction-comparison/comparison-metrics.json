@@ -1,0 +1,7 @@
+{
+  "meanSquaredError": 0.00388379767537117,
+  "meanAbsoluteError": 0.04864537715911865,
+  "redDominanceEnergyInput": 7.964704513549805,
+  "redDominanceEnergyOutput": 110.66191101074219,
+  "redEnergyOutputToInputRatio": 13.894038482216217
+}

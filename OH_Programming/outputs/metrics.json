@@ -1,0 +1,36 @@
+{
+  "experiment": "What Survives the Bottleneck?",
+  "device": "mps",
+  "trainableParameters": 27983,
+  "bottleneckShapeForOwnWork": [
+    1,
+    32,
+    16,
+    16
+  ],
+  "config": {
+    "imageSize": 128,
+    "trainSamples": 800,
+    "epochs": 18,
+    "batchSize": 32,
+    "learningRate": 0.001,
+    "seed": 139
+  },
+  "finalTrainingLoss": 0.021438976128896076,
+  "finalValidationLoss": 0.020588380098342896,
+  "ownWork": {
+    "meanSquaredError": 0.00388379767537117,
+    "meanAbsoluteError": 0.04864537715911865,
+    "redDominanceEnergyInput": 7.964704513549805,
+    "redDominanceEnergyOutput": 110.66191101074219,
+    "redEnergyOutputToInputRatio": 13.894038482216217
+  },
+  "lasMeninasReference": {
+    "meanSquaredError": 0.03657294437289238,
+    "meanAbsoluteError": 0.17253300547599792,
+    "redDominanceEnergyInput": 870.5469970703125,
+    "redDominanceEnergyOutput": 1246.1748046875,
+    "redEnergyOutputToInputRatio": 1.431484812286187
+  },
+  "interpretationLimit": "Reconstruction errors describe this model's visual compression, not artistic quality, meaning, or authorship."
+}

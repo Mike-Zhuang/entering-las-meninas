@@ -1,0 +1,172 @@
+{
+  "model": "GeometricAutoencoder",
+  "inputShapeConvention": "NCHW",
+  "layers": [
+    {
+      "name": "encoder.conv1",
+      "type": "Conv2d",
+      "kernelSize": [
+        5,
+        5
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "inputShape": [
+        1,
+        3,
+        128,
+        128
+      ],
+      "outputShape": [
+        1,
+        12,
+        64,
+        64
+      ],
+      "activation": "ReLU",
+      "parameters": 912
+    },
+    {
+      "name": "encoder.conv2",
+      "type": "Conv2d",
+      "kernelSize": [
+        3,
+        3
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "inputShape": [
+        1,
+        12,
+        64,
+        64
+      ],
+      "outputShape": [
+        1,
+        24,
+        32,
+        32
+      ],
+      "activation": "ReLU",
+      "parameters": 2616
+    },
+    {
+      "name": "encoder.conv3",
+      "type": "Conv2d",
+      "kernelSize": [
+        3,
+        3
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "inputShape": [
+        1,
+        24,
+        32,
+        32
+      ],
+      "outputShape": [
+        1,
+        32,
+        16,
+        16
+      ],
+      "activation": "ReLU",
+      "parameters": 6944
+    },
+    {
+      "name": "decoder.tconv1",
+      "type": "ConvTranspose2d",
+      "kernelSize": [
+        4,
+        4
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "inputShape": [
+        1,
+        32,
+        16,
+        16
+      ],
+      "outputShape": [
+        1,
+        24,
+        32,
+        32
+      ],
+      "activation": "ReLU",
+      "parameters": 12312
+    },
+    {
+      "name": "decoder.tconv2",
+      "type": "ConvTranspose2d",
+      "kernelSize": [
+        4,
+        4
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "inputShape": [
+        1,
+        24,
+        32,
+        32
+      ],
+      "outputShape": [
+        1,
+        12,
+        64,
+        64
+      ],
+      "activation": "ReLU",
+      "parameters": 4620
+    },
+    {
+      "name": "decoder.tconv3",
+      "type": "ConvTranspose2d",
+      "kernelSize": [
+        4,
+        4
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "inputShape": [
+        1,
+        12,
+        64,
+        64
+      ],
+      "outputShape": [
+        1,
+        3,
+        128,
+        128
+      ],
+      "activation": "Sigmoid",
+      "parameters": 579
+    }
+  ],
+  "totalTrainableParameters": 27983,
+  "trainingConfig": {
+    "imageSize": 128,
+    "trainSamples": 800,
+    "epochs": 18,
+    "batchSize": 32,
+    "learningRate": 0.001,
+    "seed": 139
+  },
+  "note": "Shapes were recorded from a real forward pass. Activations are ReLU except for the final Sigmoid output."
+}

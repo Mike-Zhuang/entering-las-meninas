@@ -2,7 +2,7 @@
 
 ## 什么能穿过瓶颈？几何自编码器如何观看《被系住的观看者》
 
-[English](README-en.md) · [双语入口](README.md)
+[English](submission/README-en.md) · [双语入口](README.md)
 
 ## 项目概述
 

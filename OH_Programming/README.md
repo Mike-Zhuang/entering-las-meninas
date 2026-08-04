@@ -7,7 +7,7 @@
 This directory contains two equivalent, fully illustrated versions of the project documentation. Both include the method, major figures, interpretation, limitations, and reproduction instructions.
 
 - [中文版 / Chinese version](README-zh.md)
-- [English version / 英文版](README-en.md)
+- [English version / 英文版](submission/README-en.md)
 
 ![论文式神经网络结构图 / Paper-style neural-network architecture](outputs/07-paper-style-architecture.png)
 

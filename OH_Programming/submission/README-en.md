@@ -2,7 +2,16 @@
 
 ## What Survives the Bottleneck? A Geometric Autoencoder Reads *The Tethered Viewer*
 
-[中文](README-zh.md) · [Bilingual index](README.md)
+**COGSCI 139 — Art, Geometry, and Cognition · Second Delivery**
+
+## Files to Submit
+
+The two required, fully executed Python notebooks are:
+
+1. [`01-all-layer-outputs.ipynb`](01-all-layer-outputs.ipynb) — follows the selected image through all 12 leaf layers and examines every intermediate output.
+2. [`02-autoencoder-reconstruction.ipynb`](02-autoencoder-reconstruction.ipynb) — passes the selected image through the encoder, bottleneck, and decoder, then compares the reconstruction with the input.
+
+Both notebooks have been executed from top to bottom. Their code-cell outputs and figures are embedded, their final validation cells pass, and neither notebook contains an error output. The notebook code remains readable because the artwork and trained checkpoint are stored separately in the neighboring `assets/` folder.
 
 ## Project Overview
 
@@ -16,7 +25,7 @@ The central question is:
 
 > When *The Tethered Viewer* is reduced to 128 × 128 pixels and passed through a convolutional autoencoder trained only on simple geometric patterns, which visual relationships can be reconstructed, and which forms of personal meaning disappear?
 
-![My work, The Tethered Viewer](My_Own_Work.png)
+![My work, The Tethered Viewer](assets/my-own-work-128.png)
 
 *Figure 0 | The Tethered Viewer. The room, mirror, doorway, figures, and red tether reorganize the relationships of looking that I experienced in Las Meninas.*
 
@@ -59,7 +68,7 @@ The formal run used the following settings:
 
 The original work measures 2420 × 2436 pixels. I first reduced it to 256, 128, 64, and 32 pixels, then enlarged each version with nearest-neighbor interpolation so that the pixel structure would remain visible.
 
-![Resolution ladder](outputs/01-resolution-ladder.png)
+![Resolution ladder](figures/01-resolution-ladder.png)
 
 *Figure 1 | Resolution ladder. This separates information lost through ordinary downsampling from information lost inside the neural-network bottleneck.*
 
@@ -76,7 +85,7 @@ The training set contains neither photographs nor either of the two artworks. In
 - grids, arcs, and radial connections;
 - occasional red polylines and nodes.
 
-![Synthetic geometric training patterns](outputs/02-geometric-training-patterns.png)
+![Synthetic geometric training patterns](figures/02-geometric-training-patterns.png)
 
 *Figure 2 | Samples from the synthetic training set. The model learns reconstruction only from these frames, directions, curves, and red connections.*
 
@@ -88,7 +97,7 @@ This design makes the later results easier to interpret. If the model reconstruc
 
 The model consists of a three-layer convolutional encoder and a three-layer transposed-convolution decoder. Spatial resolution falls from 128 to 64, 32, and 16 before returning to 128. At the same time, the channel count increases from 3 to 32, allowing different channels to record different visual responses.
 
-![Paper-style autoencoder architecture](outputs/07-paper-style-architecture.png)
+![Paper-style autoencoder architecture](figures/07-paper-style-architecture.png)
 
 *Figure 3 | Presentation-ready architecture. The kernel sizes, strides, activations, and parameter counts come from the real model rather than manual estimates.*
 
@@ -108,13 +117,13 @@ The decoder uses three transposed convolutions to reverse the spatial compressio
 
 The `torchview` figure below records the real structure by running a forward pass. Because the graph is extremely wide, the image links to an SVG version that can be enlarged without becoming blurry.
 
-[![Automatically traced torchview graph](outputs/06-torchview-network.png)](outputs/06-torchview-network.svg)
+[![Automatically traced torchview graph](figures/06-torchview-network.png)](figures/06-torchview-network.svg)
 
 *Figure 4 | Automatically traced architecture. The dashed groups identify the sequential encoder and decoder modules.*
 
 ## 4. Did the Training Actually Converge?
 
-![Training loss](outputs/training-loss.png)
+![Training loss](figures/training-loss.png)
 
 *Figure 5 | Training and validation losses across 18 epochs. Both curves continue downward and become close near the end.*
 
@@ -122,7 +131,7 @@ The training loss falls from 0.138695 to 0.021439, while the final validation lo
 
 ## 5. What Happened When My Work Passed Through the Bottleneck?
 
-![Autoencoder reconstruction and differences](outputs/03-autoencoder-reconstruction.png)
+![Autoencoder reconstruction and differences](figures/03-autoencoder-reconstruction.png)
 
 *Figure 6 | From left to right: 128 × 128 input, encoder–decoder reconstruction, absolute difference, and red-dominance input minus output.*
 
@@ -134,7 +143,7 @@ The fourth panel isolates red dominance. Warm colors indicate places where the i
 
 ## 6. How Does a CNN Separate Visual Patterns?
 
-![Encoder feature maps](outputs/04-feature-maps.png)
+![Encoder feature maps](figures/04-feature-maps.png)
 
 *Figure 7 | The input, eight high-variance early feature channels, and the channel-mean representation of the 16 × 16 × 32 bottleneck.*
 
@@ -146,7 +155,7 @@ These channels do not have natural-language names, however. Calling one a “mir
 
 ## 7. One Real Forward Pass
 
-![Actual layer-by-layer forward pass](outputs/08-actual-forward-pass.png)
+![Actual layer-by-layer forward pass](figures/08-actual-forward-pass.png)
 
 *Figure 8 | My work passes through three encoding scales, the bottleneck, and two intermediate decoding scales before becoming the reconstruction.*
 
@@ -156,7 +165,7 @@ At the 64 × 64 and 32 × 32 encoder stages, the room, central rectangle, and fo
 
 ## 8. Why Pass *Las Meninas* Through the Same Network?
 
-![Comparison between my work and Las Meninas](outputs/05-las-meninas-comparison.png)
+![Comparison between my work and Las Meninas](figures/05-las-meninas-comparison.png)
 
 *Figure 9 | The same geometric autoencoder processes my work and Las Meninas. Each row shows the input, reconstruction, early response, and channel-mean bottleneck.*
 
@@ -197,53 +206,26 @@ This echoes what *Las Meninas* changed in my own looking. Velázquez’s paintin
 
 These limitations are not flaws to hide. They are part of the conclusion: a small neural network can clarify formal structure while also exposing the distance between seeing structure and understanding meaning.
 
-## 12. Reproducing the Experiment
+## 12. Rerunning the Submission Notebooks
 
-Install the dependencies from this directory:
+Install the notebook dependencies from this folder:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-The automatically traced architecture requires Graphviz’s `dot` command. On macOS, install it if necessary:
+Open either `.ipynb` file in Jupyter and run all cells from top to bottom. Keep the `assets/` folder beside the notebooks. Each notebook locates the artwork and checkpoint there, uses CPU inference for portability, and ends with explicit assertions. The submitted versions already contain their successful outputs.
 
-```bash
-brew install graphviz
-```
-
-Retrain the model and generate Figures 1, 2, 5, 6, 7, and 9:
-
-```bash
-python autoencoder-experiment.py
-```
-
-Load the trained model and generate Figures 3, 4, and 8 together with the architecture JSON:
-
-```bash
-python network-visualization.py
-```
-
-Export every panel, all 800 training patterns, and dedicated input–reconstruction comparison materials:
-
-```bash
-python export-individual-images.py
-```
-
-See [`outputs/individual/README.md`](outputs/individual/README.md) for the categorized directory and comparison methods.
-
-The scripts use the fixed random seed 139. They automatically prefer Apple MPS and fall back to CPU when MPS is unavailable.
+The notebooks do not retrain the model. They load the included checkpoint so that the assignment remains short and focused on understanding the forward pass and reconstruction. The checkpoint records the fixed random seed 139, 800 synthetic training images, and 18 completed training epochs.
 
 ## 13. File Guide
 
 | File | Contents |
 | --- | --- |
-| `My_Own_Work.png` | Full-resolution image of my work |
-| `inputs/las-meninas-reference.jpg` | Reference image of *Las Meninas* |
-| `autoencoder-experiment.py` | Data generation, model training, and main analyses |
-| `network-visualization.py` | Architecture and forward-pass visualizations |
-| `export-individual-images.py` | Categorized panels, all training patterns, and reconstruction comparisons |
-| `model/geometric-autoencoder.pt` | Model weights, configuration, and training history |
-| `outputs/metrics.json` | Reconstruction and red-dominance measurements |
-| `outputs/network-architecture.json` | Per-layer shapes, kernels, strides, and parameter counts |
-| `outputs/01`–`08` | All figures used in this document |
-| `outputs/individual/` | Panels organized by resolution, feature stage, and comparison use |
+| `01-all-layer-outputs.ipynb` | Required notebook: output of every network layer |
+| `02-autoencoder-reconstruction.ipynb` | Required notebook: encoder–decoder reconstruction |
+| `assets/my-own-work-128.png` | Selected artwork at the network input resolution |
+| `assets/geometric-autoencoder.pt` | Trained weights, configuration, and loss history |
+| `requirements.txt` | Minimal Python dependencies for rerunning both notebooks |
+| `figures/` | Supplementary figures used in this illustrated explanation |
+| `README-en.md` | Submission guide and complete English interpretation |

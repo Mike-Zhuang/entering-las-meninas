@@ -233,15 +233,15 @@ python export-individual-images.py
 
 ## 13. 文件索引
 
-| 文件                                | 内容                           |
-| ----------------------------------- | ------------------------------ |
-| `My_Own_Work.png`                   | 我的作品原图                   |
-| `inputs/las-meninas-reference.jpg`  | 《宫娥》参考图                 |
-| `autoencoder-experiment.py`         | 数据生成、模型训练和主要分析   |
-| `network-visualization.py`          | 网络结构与逐层传播可视化       |
-| `export-individual-images.py`       | 分类单图、全部训练图案和重建比较材料 |
-| `model/geometric-autoencoder.pt`    | 模型权重、配置和训练历史       |
-| `outputs/metrics.json`              | 重建与红色优势指标             |
-| `outputs/network-architecture.json` | 每层尺寸、卷积核、步长和参数量 |
-| `outputs/01`—`08`                   | 本文使用的全部输出图片         |
+| 文件                                | 内容                                   |
+| ----------------------------------- | -------------------------------------- |
+| `My_Own_Work.png`                   | 我的作品原图                           |
+| `inputs/las-meninas-reference.jpg`  | 《宫娥》参考图                         |
+| `autoencoder-experiment.py`         | 数据生成、模型训练和主要分析           |
+| `network-visualization.py`          | 网络结构与逐层传播可视化               |
+| `export-individual-images.py`       | 分类单图、全部训练图案和重建比较材料   |
+| `model/geometric-autoencoder.pt`    | 模型权重、配置和训练历史               |
+| `outputs/metrics.json`              | 重建与红色优势指标                     |
+| `outputs/network-architecture.json` | 每层尺寸、卷积核、步长和参数量         |
+| `outputs/01`—`08`                   | 本文使用的全部输出图片                 |
 | `outputs/individual/`               | 按分辨率、特征阶段和比较用途分类的单图 |

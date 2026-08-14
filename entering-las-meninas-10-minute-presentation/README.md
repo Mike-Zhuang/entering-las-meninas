@@ -1,22 +1,22 @@
-# Entering Las Meninas — 10 分钟课堂演示源工程
+# *Entering Las Meninas* — Presentation Source
 
-这是一个自包含的 PPTD 演示工程。它沿用通用 UC Berkeley 模板中的 Berkeley Blue、California Gold、白色版式和通用 UC Berkeley wordmark，并明确排除 Haas、Engineering 或其他具体学院标记。
+This directory contains the editable source and supporting assets for the ten-slide project presentation. The canonical export is [`../entering-las-meninas-10-minute-presentation.pptx`](../entering-las-meninas-10-minute-presentation.pptx).
 
-老师应首先打开仓库根目录的最终版本：[`../entering-las-meninas-10-minute-presentation.pptx`](../entering-las-meninas-10-minute-presentation.pptx)。本目录用于保存可编辑源文件、媒体、讲稿、QA 和历史导出。
+The visual system uses Berkeley Blue, California Gold, white layouts, and a general UC Berkeley wordmark. It does not use school-specific Haas, Engineering, or other college branding.
 
-## 文件
+## Contents
 
-- `entering-las-meninas-10-minute-presentation.pptd`：演示 manifest。
-- `pages/`：10 个可编辑页面文件，均含完整英文 speaker notes。
-- `media/`：项目图片、Berkeley 模板背景、四秒 MP4 与最终页使用的循环 GIF。
-- `entering-las-meninas-10-minute-presentation.pptx`：源工程生成时的导出快照。
-- `speaker-notes/presentation-script-zh.docx` 与 `.pdf`：中文讲稿归档。
-- `archive/earlier-editable-export.pptx`：更早的可编辑导出，保留用于追溯。
-- `qa/`：用于视觉质量检查的渲染总览。
+- `entering-las-meninas-10-minute-presentation.pptd` — presentation manifest.
+- `pages/` — ten editable page files with complete English speaker notes.
+- `media/` — project images, template backgrounds, the four-second MP4, and the closing-slide GIF.
+- `entering-las-meninas-10-minute-presentation.pptx` — export snapshot produced from the source project.
+- `speaker-notes/` — archived Chinese script in DOCX and PDF formats.
+- `archive/` — an earlier editable export retained for version history.
+- `qa/` — rendered slides and contact sheets used for visual quality assurance.
 
-## 演示节奏
+## Sequence
 
-整套演示约 9.5–10 分钟：
+The presentation runs approximately 9.5–10 minutes:
 
 1. Opening question and project arc
 2. Why *Las Meninas*
@@ -29,4 +29,4 @@
 9. Final style-transfer composition
 10. Four-second parallax loop and conclusion
 
-每页观众画面只保留面向课堂的信息。完整英文讲稿仅保存在 PowerPoint speaker notes 中，不出现在观众可见画面上。
+Audience-facing slides remain concise. The complete English script is stored in the PowerPoint speaker notes rather than on the visible slide canvas.

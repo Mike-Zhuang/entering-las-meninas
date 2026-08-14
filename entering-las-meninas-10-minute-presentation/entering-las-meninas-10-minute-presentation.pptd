@@ -1,0 +1,58 @@
+version: v2
+title: "Entering Las Meninas: How a Painting Changed the Way I Look at Art"
+size: [960, 540]
+theme:
+  colors:
+    berkeleyBlue: "#003262"
+    foundersRock: "#3B7EA1"
+    californiaGold: "#FDB515"
+    medalist: "#C4820E"
+    ink: "#1B2A34"
+    muted: "#5B6770"
+    mist: "#EEF2F5"
+    white: "#FFFFFF"
+  textStyles:
+    title:
+      fontFamily: Arial
+      fontSize: 42
+      bold: true
+      color: "$berkeleyBlue"
+      lineHeight: 1.05
+    titleOnBlue:
+      fontFamily: Arial
+      fontSize: 42
+      bold: true
+      color: "$white"
+      lineHeight: 1.05
+    body:
+      fontFamily: Arial
+      fontSize: 20
+      color: "$ink"
+      lineHeight: 1.28
+    bodyOnBlue:
+      fontFamily: Arial
+      fontSize: 20
+      color: "$white"
+      lineHeight: 1.28
+    label:
+      fontFamily: Arial
+      fontSize: 13
+      bold: true
+      color: "$medalist"
+      letterSpacing: 1.2
+    cue:
+      fontFamily: Arial
+      fontSize: 14
+      color: "$berkeleyBlue"
+      lineHeight: 1.1
+pages:
+  - pages/01-cover.page
+  - pages/02-why-las-meninas.page
+  - pages/03-ready-made-tether.page
+  - pages/04-tethered-viewer.page
+  - pages/05-experiment-design.page
+  - pages/06-early-feature-maps.page
+  - pages/07-bottleneck.page
+  - pages/08-decoder-reconstruction.page
+  - pages/09-final-artwork.page
+  - pages/10-parallax-conclusion.page

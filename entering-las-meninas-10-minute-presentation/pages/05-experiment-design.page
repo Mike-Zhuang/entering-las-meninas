@@ -1,0 +1,107 @@
+pageType: content
+background:
+  type: image
+  src: media/template-white.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 60 seconds.
+
+  For the neural experiment I intentionally used a small convolutional autoencoder rather than a very large model. It saw my drawing at 128 by 128 pixels. I trained it on 800 synthetic images containing perspective lines, nested rectangles, grids, arcs, radial connections, and occasional red paths. It never saw paintings, faces, or handwriting. With only 27,983 parameters, the network learned a limited geometric vocabulary. This makes the results easier to interpret: whatever survives should reflect recurring structure, not knowledge of Las Meninas.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [54, 42, 400, 22]
+    content: {style: "$label", text: "04 / NEURAL EXPERIMENT"}
+  - elementId: title
+    elementType: text
+    bounds: [54, 68, 850, 50]
+    content: {style: "$title", text: "A deliberately small neural experiment"}
+  - elementId: training-label
+    elementType: text
+    bounds: [58, 118, 280, 25]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      text: "GEOMETRIC TRAINING VOCABULARY"
+  - elementId: training-patterns
+    elementType: image
+    bounds: [54, 150, 300, 230]
+    src: media/training-patterns.png
+    fit: {mode: contain}
+    border: {style: solid, width: 1, color: "#B9C4CC"}
+  - elementId: architecture-label
+    elementType: text
+    bounds: [390, 118, 500, 25]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      text: "ENCODER → BOTTLENECK → DECODER"
+  - elementId: architecture
+    elementType: image
+    bounds: [380, 146, 535, 238]
+    src: media/autoencoder-architecture.png
+    fit: {mode: contain}
+  - elementId: metric-1
+    elementType: shape
+    bounds: [54, 397, 190, 52]
+    shapeName: rect
+    fill: {type: solid, color: "$berkeleyBlue"}
+  - elementId: metric-1-text
+    elementType: text
+    bounds: [62, 402, 174, 40]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "800\nsynthetic patterns"
+  - elementId: metric-2
+    elementType: shape
+    bounds: [260, 397, 190, 52]
+    shapeName: rect
+    fill: {type: solid, color: "$foundersRock"}
+  - elementId: metric-2-text
+    elementType: text
+    bounds: [268, 402, 174, 40]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "27,983\nparameters"
+  - elementId: metric-3
+    elementType: shape
+    bounds: [466, 397, 190, 52]
+    shapeName: rect
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: metric-3-text
+    elementType: text
+    bounds: [474, 402, 174, 40]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "128 × 128\ninput"
+  - elementId: metric-4
+    elementType: shape
+    bounds: [672, 397, 243, 52]
+    shapeName: rect
+    fill: {type: solid, color: "$ink"}
+  - elementId: metric-4-text
+    elementType: text
+    bounds: [680, 402, 227, 40]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "18 epochs\nMSE objective"

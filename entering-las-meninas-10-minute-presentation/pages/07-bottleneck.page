@@ -1,0 +1,114 @@
+pageType: content
+background:
+  type: image
+  src: media/template-blue.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 75 seconds.
+
+  The bottleneck is the narrowest representation in the network: thirty-two channels at 16 by 16 pixels. The original input contains 49,152 values; the bottleneck contains 8,192. The network must decide what is useful enough to carry forward. Coarse relationships survive—the room frame, openings, diagonals, and approximate figures. Handwriting, faces, and the exact shape of the red tether do not. This is the most important idea in the experiment. The bottleneck is not an interpretation of my story. It is a constrained geometric summary. In a broader cognitive sense, every system of seeing preserves some relationships and discards others.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [54, 42, 460, 22]
+    content:
+      fontFamily: Arial
+      fontSize: 13
+      bold: true
+      color: "$californiaGold"
+      letterSpacing: 1.2
+      text: "06 / THE BOTTLENECK"
+  - elementId: title
+    elementType: text
+    bounds: [54, 68, 800, 52]
+    content: {style: "$titleOnBlue", text: "What survives compression?"}
+  - elementId: input-card
+    elementType: shape
+    bounds: [80, 144, 204, 204]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: input-image
+    elementType: image
+    bounds: [92, 156, 180, 180]
+    src: media/stage-00-input.png
+    fit: {mode: fill}
+  - elementId: input-label
+    elementType: text
+    bounds: [80, 352, 204, 30]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "INPUT · 49,152 VALUES"
+  - elementId: arrow-1
+    elementType: shape
+    bounds: [306, 228, 62, 34]
+    shapeName: rightArrow
+    adjustments: [45000, 50000]
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: bottleneck-card
+    elementType: shape
+    bounds: [389, 127, 226, 226]
+    shapeName: rect
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: bottleneck-image
+    elementType: image
+    bounds: [402, 140, 200, 200]
+    src: media/stage-03-bottleneck.png
+    fit: {mode: fill}
+  - elementId: bottleneck-label
+    elementType: text
+    bounds: [372, 357, 260, 47]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      bold: true
+      color: "$californiaGold"
+      align: [center, middle]
+      text: "BOTTLENECK · 32 × 16 × 16\n8,192 VALUES"
+  - elementId: arrow-2
+    elementType: shape
+    bounds: [637, 228, 62, 34]
+    shapeName: rightArrow
+    adjustments: [45000, 50000]
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: output-card
+    elementType: shape
+    bounds: [720, 144, 204, 204]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: output-image
+    elementType: image
+    bounds: [732, 156, 180, 180]
+    src: media/stage-06-output.png
+    fit: {mode: fill}
+  - elementId: output-label
+    elementType: text
+    bounds: [720, 352, 204, 30]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "RECONSTRUCTION"
+  - elementId: preserved
+    elementType: text
+    bounds: [82, 400, 390, 58]
+    content:
+      fontFamily: Arial
+      fontSize: 16
+      color: "$white"
+      lineHeight: 1.2
+      text: "<strong><span style=\"color:#FDB515;\">PRESERVED</span></strong>  frames · openings · diagonals · approximate figures"
+  - elementId: lost
+    elementType: text
+    bounds: [520, 400, 394, 58]
+    content:
+      fontFamily: Arial
+      fontSize: 16
+      color: "$white"
+      lineHeight: 1.2
+      text: "<strong><span style=\"color:#FDB515;\">DISCARDED</span></strong>  handwriting · faces · exact red tether"

@@ -1,0 +1,155 @@
+pageType: content
+background:
+  type: image
+  src: media/template-blue.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 65 seconds.
+
+  This is the first convolutional stage. The input is transformed into twelve feature maps at 64 by 64 pixels. Different channels respond strongly to different local patterns—edges, diagonals, repeated frames, and color contrast. This resembles the course discussion of receptive fields: each filter combines information from a small neighborhood and produces a weighted response. But it is important not to anthropomorphize the maps. There is no “mirror channel” or “cable channel.” The network is separating visual tendencies, not recognizing the personal meaning of the drawing.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [54, 42, 420, 22]
+    content:
+      fontFamily: Arial
+      fontSize: 13
+      bold: true
+      color: "$californiaGold"
+      letterSpacing: 1.2
+      text: "05 / ENCODER — EARLY RESPONSES"
+  - elementId: title
+    elementType: text
+    bounds: [54, 70, 730, 44]
+    content:
+      fontFamily: Arial
+      fontSize: 34
+      bold: true
+      color: "$white"
+      wrap: false
+      text: "Early maps separate visual tendencies"
+  - elementId: tensor-label
+    elementType: text
+    bounds: [786, 76, 122, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 16
+      bold: true
+      color: "$californiaGold"
+      align: [right, middle]
+      text: "12 × 64 × 64"
+  - elementId: card-input
+    elementType: shape
+    bounds: [46, 138, 160, 196]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: input
+    elementType: image
+    bounds: [56, 148, 140, 140]
+    src: media/stage-00-input.png
+    fit: {mode: fill}
+  - elementId: input-label
+    elementType: text
+    bounds: [56, 296, 140, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "INPUT"
+  - elementId: card-map-1
+    elementType: shape
+    bounds: [223, 138, 160, 196]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: map-1
+    elementType: image
+    bounds: [233, 148, 140, 140]
+    src: media/early-map-01.png
+    fit: {mode: fill}
+  - elementId: map-1-label
+    elementType: text
+    bounds: [233, 296, 140, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "LOCAL EDGES"
+  - elementId: card-map-2
+    elementType: shape
+    bounds: [400, 138, 160, 196]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: map-2
+    elementType: image
+    bounds: [410, 148, 140, 140]
+    src: media/early-map-03.png
+    fit: {mode: fill}
+  - elementId: map-2-label
+    elementType: text
+    bounds: [410, 296, 140, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "DIAGONALS"
+  - elementId: card-map-3
+    elementType: shape
+    bounds: [577, 138, 160, 196]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: map-3
+    elementType: image
+    bounds: [587, 148, 140, 140]
+    src: media/early-map-06.png
+    fit: {mode: fill}
+  - elementId: map-3-label
+    elementType: text
+    bounds: [587, 296, 140, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "FRAMES"
+  - elementId: card-map-4
+    elementType: shape
+    bounds: [754, 138, 160, 196]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: map-4
+    elementType: image
+    bounds: [764, 148, 140, 140]
+    src: media/early-map-10.png
+    fit: {mode: fill}
+  - elementId: map-4-label
+    elementType: text
+    bounds: [764, 296, 140, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "CONTRAST"
+  - elementId: claim-box
+    elementType: shape
+    bounds: [124, 365, 712, 76]
+    shapeName: rect
+    fill: {type: solid, color: "$foundersRock"}
+  - elementId: claim-text
+    elementType: text
+    bounds: [146, 377, 668, 52]
+    content:
+      fontFamily: Arial
+      fontSize: 23
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "12 channels ≠ 12 meanings\nThe filters respond to structure, not to my story."

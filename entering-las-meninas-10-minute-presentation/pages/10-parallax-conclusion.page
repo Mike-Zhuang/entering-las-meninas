@@ -1,0 +1,102 @@
+pageType: final
+background:
+  type: image
+  src: media/template-blue-abstract.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 70 seconds.
+
+  I ended with a four-second looping parallax study. The code assigns a simple vertical depth proxy, so lower and slightly more central regions move more strongly than distant regions. The virtual camera follows a smooth sine-and-cosine loop, and each frame remaps the image with reflected borders. This is a heuristic 2.5D effect, not CNN depth estimation. It feels like entering the picture because differential motion separates the image into depth layers: foreground figures drift, while the central doorway remains comparatively stable and acts like a visual anchor. I want to end with one sentence: every way of seeing has a bottleneck. The network preserves geometry; I preserve the history and meaning attached to the line.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [500, 44, 405, 22]
+    content:
+      fontFamily: Arial
+      fontSize: 13
+      bold: true
+      color: "$californiaGold"
+      letterSpacing: 1.2
+      text: "09 / FOUR-SECOND PARALLAX STUDY"
+  - elementId: video-card
+    elementType: shape
+    bounds: [54, 76, 386, 386]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: parallax-gif
+    elementType: image
+    bounds: [66, 88, 362, 362]
+    src: media/parallax-loop.gif
+    fit: {mode: contain}
+  - elementId: loop-label
+    elementType: shape
+    bounds: [76, 100, 102, 28]
+    shapeName: roundRect
+    adjustments: [14000]
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: loop-text
+    elementType: text
+    bounds: [84, 104, 86, 20]
+    content:
+      fontFamily: Arial
+      fontSize: 13
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "4 s LOOP"
+  - elementId: title
+    elementType: text
+    bounds: [500, 75, 405, 95]
+    content:
+      fontFamily: Arial
+      fontSize: 42
+      bold: true
+      color: "$white"
+      lineHeight: 1.02
+      text: "A four-second\nstep inward"
+  - elementId: how-title
+    elementType: text
+    bounds: [500, 184, 390, 24]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$californiaGold"
+      text: "HOW IT WAS MADE"
+  - elementId: how-text
+    elementType: text
+    bounds: [500, 212, 392, 88]
+    content:
+      fontFamily: Arial
+      fontSize: 18
+      color: "$white"
+      lineHeight: 1.22
+      text: "• heuristic vertical depth field\n• smooth sine/cosine camera loop\n• depth-weighted pixel remapping"
+  - elementId: why-title
+    elementType: text
+    bounds: [500, 310, 390, 24]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$californiaGold"
+      text: "WHY IT FEELS IMMERSIVE"
+  - elementId: why-text
+    elementType: text
+    bounds: [500, 338, 392, 66]
+    content:
+      fontFamily: Arial
+      fontSize: 18
+      color: "$white"
+      lineHeight: 1.22
+      text: "Foreground drift + a stable doorway\ncreate parallax and layered depth."
+  - elementId: final-quote
+    elementType: text
+    bounds: [500, 418, 392, 46]
+    content:
+      fontFamily: Arial
+      fontSize: 23
+      bold: true
+      color: "$californiaGold"
+      align: [left, middle]
+      text: "Every way of seeing has a bottleneck."

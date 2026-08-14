@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "las-meninas-cnn"
 version = "1.0.0"
 description = "CNN-based study of style, geometry, and relational topology in Las Meninas"
-readme = "README.md"
+readme = "EXTENDED-CNN-STUDY.md"
 requires-python = ">=3.11,<3.14"
 dependencies = [
   "matplotlib>=3.9,<4",

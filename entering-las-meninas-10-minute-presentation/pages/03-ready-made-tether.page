@@ -1,0 +1,64 @@
+pageType: content
+background:
+  type: image
+  src: media/template-blue-abstract.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 60 seconds.
+
+  My ready-made is called Tether. It is an ordinary nylon-braided charging cable that came with the Mac I began using at university. Within one year, both connectors had frayed. When I was younger, I could not understand why my mother's cables broke while mine stayed new. Now the positions have reversed because so much of my reading, work, and attention happens through a screen. By selecting and naming the cable, I treated its damage as evidence: the object had recorded my habits. Like a ready-made, its meaning came from recontextualization rather than fabrication.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [54, 44, 400, 22]
+    content:
+      fontFamily: Arial
+      fontSize: 13
+      bold: true
+      color: "$californiaGold"
+      letterSpacing: 1.2
+      text: "02 / READY-MADE"
+  - elementId: title
+    elementType: text
+    bounds: [54, 72, 850, 55]
+    content: {style: "$titleOnBlue", text: "Tether: a ready-made self-portrait"}
+  - elementId: photo-card
+    elementType: shape
+    bounds: [48, 135, 480, 306]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+  - elementId: tether-overall
+    elementType: image
+    bounds: [60, 147, 276, 282]
+    src: media/tether-overall.jpg
+    fit: {mode: cover}
+  - elementId: tether-detail
+    elementType: image
+    bounds: [348, 147, 168, 282]
+    src: media/tether-detail.jpg
+    fit: {mode: cover}
+  - elementId: story
+    elementType: text
+    bounds: [565, 145, 335, 242]
+    content:
+      style: "$bodyOnBlue"
+      text: |
+        <p><strong>An ordinary object</strong></p>
+        <p>• Came with my first university Mac</p>
+        <p>• Both ends frayed within one year</p>
+        <p>• Its wear records where I stood: before a screen</p>
+  - elementId: ready-made-line
+    elementType: shape
+    bounds: [565, 398, 335, 43]
+    shapeName: rect
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: ready-made-text
+    elementType: text
+    bounds: [580, 406, 305, 26]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$berkeleyBlue"
+      align: [left, middle]
+      text: "SELECTION + CONTEXT = MEANING"

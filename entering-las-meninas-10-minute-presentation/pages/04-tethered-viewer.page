@@ -1,0 +1,45 @@
+pageType: content
+background:
+  type: image
+  src: media/template-white.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 55 seconds.
+
+  I turned the ready-made into a drawing called The Tethered Viewer. The room borrows the perspective structure of Las Meninas, but I placed my own hands and the damaged connector in the foreground. The red cable runs toward the mirror and doorway. It becomes more than an object: it is a line that joins childhood to university, physical wear to digital dependence, and the viewer's body to the architecture of the painting. The drawing makes visible the position that Las Meninas made me feel.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [575, 46, 320, 22]
+    content: {style: "$label", text: "03 / MY DRAWING"}
+  - elementId: title
+    elementType: text
+    bounds: [575, 74, 330, 96]
+    content:
+      style: "$title"
+      text: "The Tethered\nViewer"
+  - elementId: drawing
+    elementType: image
+    bounds: [48, 66, 485, 394]
+    src: media/the-tethered-viewer.png
+    fit: {mode: contain}
+    border: {style: solid, width: 2, color: "$berkeleyBlue"}
+  - elementId: drawing-list
+    elementType: text
+    bounds: [575, 184, 325, 173]
+    content:
+      style: "$body"
+      text: |
+        <p>• A room derived from Las Meninas</p>
+        <p>• My hands occupy the foreground</p>
+        <p>• The red tether crosses the picture's depth</p>
+  - elementId: relation-label
+    elementType: text
+    bounds: [575, 370, 325, 72]
+    content:
+      fontFamily: Arial
+      fontSize: 20
+      bold: true
+      color: "$berkeleyBlue"
+      lineHeight: 1.22
+      text: "childhood → university\nviewer → painting\nobject → digital life"

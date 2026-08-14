@@ -1,0 +1,58 @@
+pageType: content
+background:
+  type: image
+  src: media/template-white.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 55 seconds.
+
+  I chose Las Meninas because it disrupted the fast, classificatory way I had learned to look at art. As a child, I entered pictures slowly through books and illustrations. Later I began to identify the subject, period, and style, then move on. Las Meninas resisted that habit. The painter, the enormous canvas, the mirror, the rear doorway, and several outward gazes all make my own position part of the composition. I was no longer only looking at a painting; the painting seemed to organize the place from which I looked.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [405, 48, 370, 22]
+    content: {style: "$label", text: "01 / THE PAINTING"}
+  - elementId: title
+    elementType: text
+    bounds: [405, 75, 500, 55]
+    content: {style: "$title", text: "Why Las Meninas?"}
+  - elementId: painting
+    elementType: image
+    bounds: [60, 82, 298, 372]
+    src: media/las-meninas.jpg
+    fit: {mode: contain}
+    border: {style: solid, width: 2, color: "$berkeleyBlue"}
+  - elementId: quote
+    elementType: text
+    bounds: [405, 140, 490, 72]
+    content:
+      fontFamily: Arial
+      fontSize: 27
+      bold: true
+      color: "$berkeleyBlue"
+      lineHeight: 1.1
+      text: "“It did not let me remain outside the scene.”"
+  - elementId: relationship-list
+    elementType: text
+    bounds: [405, 232, 480, 154]
+    content:
+      style: "$body"
+      text: |
+        <p>• The painter and the large canvas block a complete view.</p>
+        <p>• The mirror and rear doorway open the room beyond itself.</p>
+        <p>• Outward gazes make the viewer part of the composition.</p>
+  - elementId: insight-bar
+    elementType: shape
+    bounds: [405, 397, 470, 46]
+    shapeName: rect
+    fill: {type: solid, color: "$berkeleyBlue"}
+  - elementId: insight-text
+    elementType: text
+    bounds: [422, 405, 438, 30]
+    content:
+      fontFamily: Arial
+      fontSize: 19
+      bold: true
+      color: "$white"
+      align: [left, middle]
+      text: "LOOKING BECAME PARTICIPATION."

@@ -1,0 +1,81 @@
+pageType: content
+background:
+  type: image
+  src: media/template-white.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 60 seconds.
+
+  The final image returns to Las Meninas through a style-transfer workflow. The content image supplies the figures and room; the project-generated cognitive-map image supplies layered planes, nodes, lines, and a stronger sense of convergence. In the final composition, the painter, large canvas, mirror, doorway, Infanta, attendants, and dog remain recognizable, while the geometry of looking becomes visible on the surface. I also inserted a contemporary viewer into the mirrored position. The transformation is not meant to imitate Velázquez. It makes the relation between room, painting, and viewer more explicit.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [54, 42, 420, 22]
+    content: {style: "$label", text: "08 / FINAL ARTWORK"}
+  - elementId: title
+    elementType: text
+    bounds: [54, 68, 850, 52]
+    content: {style: "$title", text: "Making the geometry of looking visible"}
+  - elementId: original-label
+    elementType: text
+    bounds: [46, 124, 208, 24]
+    content:
+      fontFamily: Arial
+      fontSize: 14
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "CONTENT · LAS MENINAS"
+  - elementId: original
+    elementType: image
+    bounds: [46, 153, 208, 256]
+    src: media/las-meninas.jpg
+    fit: {mode: contain}
+    border: {style: solid, width: 1, color: "$berkeleyBlue"}
+  - elementId: style-label
+    elementType: text
+    bounds: [274, 124, 208, 24]
+    content:
+      fontFamily: Arial
+      fontSize: 14
+      bold: true
+      color: "$berkeleyBlue"
+      align: [center, middle]
+      text: "STYLE · COGNITIVE MAP"
+  - elementId: style-reference
+    elementType: image
+    bounds: [274, 153, 208, 256]
+    src: media/cognitive-map-style-reference.png
+    fit: {mode: cover}
+    border: {style: solid, width: 1, color: "$berkeleyBlue"}
+  - elementId: arrow
+    elementType: shape
+    bounds: [498, 258, 54, 34]
+    shapeName: rightArrow
+    adjustments: [45000, 50000]
+    fill: {type: solid, color: "$californiaGold"}
+  - elementId: final-label
+    elementType: text
+    bounds: [568, 124, 334, 24]
+    content:
+      fontFamily: Arial
+      fontSize: 14
+      bold: true
+      color: "$medalist"
+      align: [center, middle]
+      text: "FINAL STYLE-TRANSFER COMPOSITION"
+  - elementId: final
+    elementType: image
+    bounds: [568, 153, 334, 284]
+    src: media/entering-las-meninas-final.png
+    fit: {mode: contain}
+    border: {style: solid, width: 2, color: "$californiaGold"}
+  - elementId: transformation-note
+    elementType: text
+    bounds: [46, 419, 506, 40]
+    content:
+      fontFamily: Arial
+      fontSize: 16
+      color: "$muted"
+      align: [center, middle]
+      text: "figures + room  →  planes + nodes + convergence"

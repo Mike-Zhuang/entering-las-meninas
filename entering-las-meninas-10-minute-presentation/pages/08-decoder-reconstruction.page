@@ -1,0 +1,85 @@
+pageType: content
+background:
+  type: image
+  src: media/template-white.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 75 seconds.
+
+  Here is one actual forward pass from left to right. The encoder reduces spatial resolution from 128 to 64, then 32, then 16 pixels. The decoder expands the bottleneck back to the original size. Notice that expansion is not the same as recovery. The room frame, central rectangle, major directions, and approximate figures reappear, but handwriting and faces remain blurred. The red tether becomes weaker and more diffuse because the network has learned a broad prior for geometric red paths, not this particular autobiographical line. Quantitatively, the reconstruction MSE is 0.003884 and the MAE is 0.048645.
+elements:
+  - elementId: section-label
+    elementType: text
+    bounds: [54, 42, 440, 22]
+    content: {style: "$label", text: "07 / DECODER AND RECONSTRUCTION"}
+  - elementId: title
+    elementType: text
+    bounds: [54, 68, 850, 52]
+    content: {style: "$title", text: "Decoder: expansion is not recovery"}
+  - elementId: forward-pass-label
+    elementType: text
+    bounds: [54, 118, 850, 26]
+    content:
+      fontFamily: Arial
+      fontSize: 14
+      bold: true
+      color: "$foundersRock"
+      align: [center, middle]
+      wrap: false
+      text: "128² INPUT  →  64²  →  32²  →  16² BOTTLENECK  →  32²  →  64²  →  128² OUTPUT"
+  - elementId: forward-pass
+    elementType: image
+    bounds: [48, 150, 864, 214]
+    src: media/forward-pass.png
+    fit: {mode: contain}
+  - elementId: recovered-title
+    elementType: text
+    bounds: [54, 376, 300, 22]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$foundersRock"
+      text: "RECOVERED"
+  - elementId: recovered-text
+    elementType: text
+    bounds: [54, 401, 310, 57]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      color: "$ink"
+      lineHeight: 1.18
+      text: "Room frame · central rectangle\napproximate figures · major directions"
+  - elementId: lost-title
+    elementType: text
+    bounds: [386, 376, 300, 22]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$medalist"
+      text: "NOT RECOVERED"
+  - elementId: lost-text
+    elementType: text
+    bounds: [386, 401, 302, 57]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      color: "$ink"
+      lineHeight: 1.18
+      text: "Handwriting · faces · fine detail\nexact shape of the red tether"
+  - elementId: metrics-box
+    elementType: shape
+    bounds: [716, 382, 196, 68]
+    shapeName: rect
+    fill: {type: solid, color: "$berkeleyBlue"}
+  - elementId: metrics-text
+    elementType: text
+    bounds: [728, 391, 172, 50]
+    content:
+      fontFamily: Arial
+      fontSize: 18
+      bold: true
+      color: "$white"
+      align: [center, middle]
+      text: "MSE  0.003884\nMAE  0.048645"

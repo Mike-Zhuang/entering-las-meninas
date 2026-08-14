@@ -1,0 +1,47 @@
+pageType: cover
+background:
+  type: image
+  src: media/template-blue-book-white.png
+  fit: {mode: fill}
+notes: |
+  Timing: about 35 seconds.
+
+  I want to begin with a question: where am I standing when I look at a painting? My project began with Velázquez's Las Meninas, but it eventually connected a seventeenth-century room, a worn charging cable, my own drawing, a small convolutional autoencoder, and a four-second moving image. The common thread is the position of the viewer—how a work of art can make that position visible, and how a neural network reveals a very different kind of looking.
+elements:
+  - elementId: course-label
+    elementType: text
+    bounds: [60, 58, 560, 30]
+    content:
+      fontFamily: Arial
+      fontSize: 15
+      bold: true
+      color: "$californiaGold"
+      letterSpacing: 1.5
+      text: "ART, GEOMETRY, AND COGNITION"
+  - elementId: cover-title
+    elementType: text
+    bounds: [60, 125, 625, 145]
+    content:
+      fontFamily: Arial
+      fontSize: 58
+      bold: true
+      color: "$white"
+      lineHeight: 0.98
+      text: "Entering\nLas Meninas"
+  - elementId: cover-subtitle
+    elementType: text
+    bounds: [62, 285, 590, 72]
+    content:
+      fontFamily: Arial
+      fontSize: 27
+      color: "$californiaGold"
+      lineHeight: 1.12
+      text: "How a Painting Changed the Way I Look at Art"
+  - elementId: cover-name
+    elementType: text
+    bounds: [62, 382, 460, 28]
+    content:
+      fontFamily: Arial
+      fontSize: 17
+      color: "$white"
+      text: "Zhuang Chengbo  ·  Final Project  ·  Summer 2026"
